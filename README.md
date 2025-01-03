@@ -1,3 +1,21 @@
+# 512 Colorado's Fork of the Cessna 310 Family
+Let's take the 310 to the level of the 172p!
+
+## Currently Working
+Paintable Exterior with a decent paintjob
+Paintkit Materials
+
+## To Implement
+KNS-80
+
+NAV/COMM radios
+
+King KFC-200 w/ Autopilot
+
+FG1000 w/ Autopilot
+
+
+
 # Cessna 310 family
 The Cessna 310 family modelled for FlightGear
 
