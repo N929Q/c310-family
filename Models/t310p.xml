@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList include="c310a.xml">	
+	<model>
+		<usage>interior</usage>
+		<path>Interior/interior-t310.xml</path>
+	</model>
+</PropertyList>

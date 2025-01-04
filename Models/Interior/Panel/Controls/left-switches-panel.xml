@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
 	<path>left-switches-panel.ac</path>
+
+	<animation>
+		<type>material</type>
+		<object-name>LeftSwitchesPanel</object-name>
+		<emission>
+			<red>0.95</red>
+			<green>1</green>
+			<blue>1</blue>
+			<factor>
+				<expression>
+					<sum>
+						<product>
+							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
+							<value>0.25</value>
+						</product>
+						<product>
+							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
+							<value>0.52</value>
+						</product>
+					</sum>
+				</expression>
+			</factor>
+		</emission>
+	</animation>
+
 	
 	<model>
 		<name>AlternatorsBatterySwitchBar</name>
@@ -176,8 +201,10 @@
 		</overlay>
 	</model>
 	
+controls/switches/radio
+	
 	<model>
-		<name>ADFSwitch</name>
+		<name>RadioSwitch</name>
 		<path>switches/two-position.xml</path>
 		<offsets>
 			<x-m>0</x-m>
@@ -186,9 +213,9 @@
 		</offsets>
 		<overlay>
 			<params>
-				<property>instrumentation/adf/power-btn</property>
+				<property>controls/switches/radio</property>
 				<tooltip-id>adf-power-switch</tooltip-id>
-				<label>ADF: %s</label>
+				<label>Radio: %s</label>
 				<measure-text>ADF: off</measure-text>
 			</params>
 		</overlay>
@@ -204,9 +231,9 @@
 		</offsets>
 		<overlay>
 			<params>
-				<property>autopilot/power</property>
+				<property>controls/switches/nav</property>
 				<tooltip-id>adf-power-switch</tooltip-id>
-				<label>Autopilot: %s</label>
+				<label>Autopilot (INOP): %s</label>
 				<measure-text>Autopilot: off</measure-text>
 			</params>
 		</overlay>
@@ -217,7 +244,7 @@
 		<path>switches/three-position.xml</path>
 		<offsets>
 			<x-m>0</x-m>
-			<y-m>0.051</y-m>
+			<y-m>0.074</y-m>
 			<z-m>0.0725</z-m>
 		</offsets>
 		<overlay>
@@ -239,7 +266,7 @@
 		</condition>
 		<offsets>
 			<x-m>0</x-m>
-			<y-m>0.074</y-m>
+			<y-m>0.095</y-m>
 			<z-m>0.0725</z-m>
 		</offsets>
 		<overlay>
@@ -266,7 +293,7 @@
 		<path>switches/two-position.xml</path>
 		<offsets>
 			<x-m>0</x-m>
-			<y-m>0.095</y-m>
+			<y-m>0.051</y-m>
 			<z-m>0.0725</z-m>
 		</offsets>
 		<overlay>
@@ -302,8 +329,8 @@
 		<path>switches/three-position.xml</path>
 		<offsets>
 			<x-m>0</x-m>
-			<y-m>0.145</y-m>
-			<z-m>0.08</z-m>
+			<y-m>0.1444</y-m>
+			<z-m>0.0725</z-m>
 			<roll-deg>-90</roll-deg>
 		</offsets>
 		<overlay>
@@ -377,9 +404,9 @@
 		<name>VacuumGaugeSourceSelector</name>
 		<path>vacuum-gauge-source-selector/vacuum-gauge-source-selector.xml</path>
 		<offsets>
-			<x-m>0</x-m>
-			<y-m>0.205</y-m>
-			<z-m>0.105</z-m>
+			<x-m>-0.027</x-m>
+			<y-m>0.204</y-m>
+			<z-m>0.111</z-m>
 		</offsets>
 	</model>
 	
@@ -403,13 +430,5 @@
 			</params>
 		</overlay>
 	</model>
-	
-	<animation>
-		<type>select</type>
-		<object-name>BeaconLightSwitchLabel</object-name>
-		<condition>
-			<property>sim/equipment/rotating-beacon</property>
-		</condition>
-	</animation>
 </PropertyList>
 

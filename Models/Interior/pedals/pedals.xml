@@ -57,7 +57,7 @@
 			<object-name>LeftBrakeAxis</object-name>
 		</axis>
 		<property>controls/gear/brake-left</property>
-		<factor>10</factor>
+		<factor>15</factor>
 	</animation>
 	<animation>
 		<type>rotate</type>
@@ -66,6 +66,6 @@
 			<object-name>RightBrakeAxis</object-name>
 		</axis>
 		<property>controls/gear/brake-right</property>
-		<factor>-10</factor>
+		<factor>15</factor>
 	</animation>
 </PropertyList>

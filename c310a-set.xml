@@ -161,7 +161,7 @@
 		
 		<systems>
 			<path>Systems/systems.xml</path>
-			
+
 			<property-rule n="100">
 				<name>Time properties</name>
 				<path>Systems/time.xml</path>

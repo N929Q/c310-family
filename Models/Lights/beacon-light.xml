@@ -78,7 +78,7 @@
 		<direction>
 			<x>-1</x>
 			<y>0</y>
-			<z>0</z>
+			<z>.6</z>
 		</direction>
 		<ambient>
 			<r>0.5</r>
@@ -103,8 +103,8 @@
 			<l>0.15</l>
 			<q>0.25</q>
 		</attenuation>
-		<spot-exponent>3</spot-exponent>
-		<spot-cutoff>70</spot-cutoff>
+		<spot-exponent>2</spot-exponent>
+		<spot-cutoff>50</spot-cutoff>
 		<range-m>10</range-m>
 		<dim-factor>
 			<property>sim/model/lights/beacon/brightness-norm</property>
@@ -122,7 +122,7 @@
 		<direction>
 			<x>1</x>
 			<y>0</y>
-			<z>0</z>
+			<z>0.6</z>
 		</direction>
 		<ambient>
 			<r>0.5</r>
@@ -147,8 +147,8 @@
 			<l>0.15</l>
 			<q>0.25</q>
 		</attenuation>
-		<spot-exponent>3</spot-exponent>
-		<spot-cutoff>70</spot-cutoff>
+		<spot-exponent>2</spot-exponent>
+		<spot-cutoff>50</spot-cutoff>
 		<range-m>10</range-m>
 		<dim-factor>
 			<property>sim/model/lights/beacon/brightness-norm</property>

@@ -16,11 +16,11 @@
 					<sum>
 						<product>
 							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
-							<value>0.34</value>
+							<value>0.38</value>
 						</product>
 						<product>
 							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
-							<value>0.66</value>
+							<value>0.62</value>
 						</product>
 					</sum>
 				</expression>
@@ -34,7 +34,7 @@
 		<axis>
 			<object-name>LeftNeedleAxis</object-name>
 		</axis>
-		<property>instrumentation/fuel-quantity/indicated-fuel-level-gal_us[0]</property>
+		<property>/fuel/gal-left-sel</property>
 		<factor>-1.78</factor>
 	</animation>
 	
@@ -44,7 +44,7 @@
 		<axis>
 			<object-name>RightNeedleAxis</object-name>
 		</axis>
-		<property>instrumentation/fuel-quantity/indicated-fuel-level-gal_us[0]</property>
+		<property>/fuel/gal-right-sel</property>
 		<factor>1.78</factor>
 	</animation>
 	

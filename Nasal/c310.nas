@@ -14,6 +14,34 @@ parts.manager.createCategory("instruments", "Instruments")
 				.createCategory("fuel-system", "Fuel system")
 				.createPart("fuel-boost-pump", "Fuel boost pump", ["1C6-10"]);
 
+setlistener("/sim/signals/fdm-initialized", func {
+  aircraft.data.add(
+    "instrumentation/comm[0]/volume",
+    "instrumentation/comm[0]/frequencies/selected-mhz",
+    "instrumentation/comm[0]/frequencies/standby-mhz",
+    "instrumentation/comm[0]/test-btn",
+    "instrumentation/nav[0]/volume",
+    "instrumentation/nav[0]/audio-btn",
+    "instrumentation/nav[0]/power-btn",
+    "instrumentation/nav[0]/frequencies/selected-mhz",
+    "instrumentation/nav[0]/frequencies/standby-mhz",
+    "instrumentation/comm[1]/volume",
+    "instrumentation/comm[1]/frequencies/selected-mhz",
+    "instrumentation/comm[1]/frequencies/standby-mhz",
+    "instrumentation/comm[1]/test-btn",
+    "instrumentation/nav[1]/audio-btn",
+    "instrumentation/nav[1]/power-btn",
+    "instrumentation/nav[1]/frequencies/selected-mhz",
+    "instrumentation/nav[1]/frequencies/standby-mhz",
+    "consumables/fuel/tank/level-norm",
+    "consumables/fuel/tank[1]/level-norm",
+    "consumables/fuel/tank[2]/level-norm",
+    "consumables/fuel/tank[3]/level-norm",
+    "controls/lighting/instruments-norm",
+    "controls/lighting/panel-norm",
+    "controls/lighting/dome-norm",
+  );
+});
 
 var maxStartingTime = 6;
 

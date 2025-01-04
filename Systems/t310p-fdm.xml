@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://jsbsim.sourceforge.net/JSBSim.xsl"?>
+<fdm_config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="c310" version="2.0" release="ALPHA" xsi:noNamespaceSchemaLocation="http://jsbsim.sourceforge.net/JSBSim.xsd">
+	<fileheader>
+		<author> AeromatiC++ version 3.3.20 </author>
+		<filecreationdate> 21 May 2022 </filecreationdate>
+		<version>$Revision: 1.80 $</version>
+		<description> Models a c310. </description>
+	</fileheader>
+	<metrics>
+		<wingarea unit="FT2">179</wingarea>
+		<wingspan unit="FT">36.93</wingspan>
+		<wing_incidence unit="DEG">2.5</wing_incidence>
+		<chord unit="FT">5.13</chord>
+		<htailarea unit="FT2">22.1</htailarea>
+		<htailarm unit="FT">19</htailarm>
+		<vtailarea unit="FT2">11.7</vtailarea>
+		<vtailarm unit="FT">20.1</vtailarm>
+		<location name="AERORP" unit="IN">
+			<x>37.44</x>
+			<y>0</y>
+			<z>-13.44</z>
+		</location>
+		<location name="EYEPOINT" unit="IN">
+			<x>52</x>
+			<y>-12</y>
+			<z>7</z>
+		</location>
+		<location name="VRP" unit="IN">
+			<x>0</x>
+			<y>0</y>
+			<z>0</z>
+		</location>
+	</metrics>
+	
+	<mass_balance> <!-- * -->
+		<ixx unit="SLUG*FT2">4000</ixx>
+		<iyy unit="SLUG*FT2">3500</iyy>
+		<izz unit="SLUG*FT2">6000</izz>
+		<emptywt unit="LBS">3411</emptywt>
+		<location name="CG" unit="IN">
+			<x>35.74</x>
+			<y>0</y>
+			<z>-13.44</z>
+		</location>
+		
+		<pointmass name="Pilot">
+			<weight unit="LBS">180</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>37.05</x>
+				<y>-10.5</y>
+				<z>0</z>
+			</location>
+		</pointmass>		
+
+		<pointmass name="Copilot">
+			<weight unit="LBS">140</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>37.05</x>
+				<y>10.5</y>
+				<z>0</z>
+			</location>
+		</pointmass>
+			
+		<pointmass name="Left forward passenger">
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>70.9</x>
+				<y>-10.5</y>
+				<z>0</z>
+			</location>
+		</pointmass>
+		
+		<pointmass name="Center forward passenger">
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>70.9</x>
+				<y>0</y>
+				<z>0</z>
+			</location>
+		</pointmass>
+		
+		<pointmass name="Right forward passenger">
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>70.9</x>
+				<y>10.5</y>
+				<z>0</z>
+			</location>
+		</pointmass>
+				
+		<pointmass name="Left rear passenger">
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>105</x>
+				<y>-10.5</y>
+				<z>0</z>
+			</location>
+		</pointmass>
+			
+		<pointmass name="Right rear passenger">
+			<weight unit="LBS">0</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>105</x>
+				<y>10.5</y>
+				<z>0</z>
+			</location>
+		</pointmass>			
+		
+		<pointmass name="Forward baggage">
+			<weight unit="LBS">10</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>95</x>
+				<y>0</y>
+				<z>-12</z>
+			</location>
+		</pointmass>
+		
+		<pointmass name="Rear baggage">
+			<weight unit="LBS">10</weight>
+			<location name="POINTMASS" unit="IN">
+				<x>122.5</x>
+				<y>0</y>
+				<z>-12</z>
+			</location>
+		</pointmass>
+	</mass_balance>
+	
+	<propulsion>
+		<engine file="Continental-TSIO-520-NB">
+			<feed>12</feed>
+			
+			<thruster file="McCrakken-T310P-325-3">
+				<sense>1</sense>
+				<location unit="IN">
+					<x>-23</x>
+					<y>-76.7</y>
+					<z>-18</z>
+				</location>
+				<orient unit="DEG">
+					<pitch>0</pitch>
+					<roll>0</roll>
+					<yaw>0</yaw>
+				</orient>
+			</thruster>
+		</engine>
+		
+		<engine file="Continental-TSIO-520-NB">
+			<feed>13</feed>
+			
+			<thruster file="McCrakken-T310P-325-3">
+				<sense>-1</sense>
+				<location unit="IN">
+					<x>-23</x>
+					<y>76.7</y>
+					<z>-18</z>
+				</location>
+				<orient unit="DEG">
+					<pitch>0</pitch>
+					<roll>0</roll>
+					<yaw>0</yaw>
+				</orient>
+			</thruster>
+		</engine>
+		
+		<!-- main tanks left, right -->
+		<tank type="FUEL" number="0">
+			<location unit="IN">
+				<x>35</x>
+				<y>-214.4</y>
+				<z>-13</z>
+			</location>
+			<capacity unit="LBS">341.7</capacity>
+			<contents unit="LBS">100</contents>
+			<unusable unit="LBS">3.35</unusable>
+		</tank>
+		
+		<tank type="FUEL" number="1">
+			<location unit="IN">
+				<x>35</x>
+				<y>214.4</y>
+				<z>-13</z>
+			</location>
+			<capacity unit="LBS">341.7</capacity>
+			<contents unit="LBS">100</contents>
+			<unusable unit="LBS">3.35</unusable>
+		</tank>
+		
+		<!-- auxiliary tanks left, right - optional -->
+		<tank type="FUEL" number="2">
+			<location unit="IN">
+				<x>46.25</x>
+				<y>-120</y>
+				<z>-20</z>
+			</location>
+			<capacity unit="LBS">195.3</capacity>
+			<contents unit="LBS">0</contents>
+			<unusable unit="LBS">3.35</unusable>
+		</tank>
+		
+		<tank type="FUEL" number="3">
+			<location unit="IN">
+				<x>46.25</x>
+				<y>120</y>
+				<z>-20</z>
+			</location>
+			<capacity unit="LBS">195.3</capacity>
+			<contents unit="LBS">0</contents>
+			<unusable unit="LBS">3.35</unusable>
+		</tank>
+		
+		<!-- crossfeed lines left to right, right to left -->
+		<tank type="FUEL" number="4">
+			<location unit="IN">
+				<x>35</x>
+				<y>0</y>
+				<z>-30</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<tank type="FUEL" number="5">
+			<location unit="IN">
+				<x>35</x>
+				<y>0</y>
+				<z>-30</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<!-- fuel selector left, right -->
+		<tank type="FUEL" number="6">
+			<location unit="IN">
+				<x>35</x>
+				<y>-70</y>
+				<z>-22</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<tank type="FUEL" number="7">
+			<location unit="IN">
+				<x>35</x>
+				<y>70</y>
+				<z>-22</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<!-- fuel strainer left, right -->
+		<tank type="FUEL" number="8">
+			<location unit="IN">
+				<x>20</x>
+				<y>-70</y>
+				<z>-15</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<tank type="FUEL" number="9">
+			<location unit="IN">
+				<x>20</x>
+				<y>70</y>
+				<z>-15</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<!-- carburetor left, right -->
+		<tank type="FUEL" number="10">
+			<location unit="IN">
+				<x>20</x>
+				<y>-70</y>
+				<z>-18</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<tank type="FUEL" number="11">
+			<location unit="IN">
+				<x>20</x>
+				<y>70</y>
+				<z>-18</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<!-- intake manifold left, right -->
+		<tank type="FUEL" number="12">
+			<location unit="IN">
+				<x>20</x>
+				<y>-70</y>
+				<z>-18</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<tank type="FUEL" number="13">
+			<location unit="IN">
+				<x>20</x>
+				<y>70</y>
+				<z>-18</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<!-- cylinders left, right -->
+		<tank type="FUEL" number="14">
+			<location unit="IN">
+				<x>20</x>
+				<y>70</y>
+				<z>-20</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+		
+		<tank type="FUEL" number="15">
+			<location unit="IN">
+				<x>20</x>
+				<y>70</y>
+				<z>-20</z>
+			</location>
+			<capacity unit="LBS">0.1</capacity>
+			<contents unit="LBS">0</contents>
+		</tank>
+	</propulsion>
+	
+	<ground_reactions>
+		<contact type="BOGEY" name="NOSE">
+			<location unit="IN">
+				<x>-51.3</x>
+				<y>0</y>
+				<z>-71.6</z>
+			</location>
+			<static_friction>1.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<rolling_friction> 0.02 </rolling_friction>
+			<spring_coeff unit="LBS/FT">8000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">700</damping_coeff>
+			<max_steer unit="DEG">55</max_steer>
+			<brake_group>NONE</brake_group>
+			<retractable>1</retractable>
+		</contact>
+		
+		<contact type="BOGEY" name="LEFT_MAIN">
+			<location unit="IN">
+				<x>55.7</x>
+				<y>-74.5</y>
+				<z>-67.9</z>
+			</location>
+			<static_friction>0.8</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<rolling_friction>0.02</rolling_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+			<max_steer unit="DEG">0</max_steer>
+			<brake_group>LEFT</brake_group>
+			<retractable>1</retractable>
+		</contact>
+		
+		<contact type="BOGEY" name="RIGHT_MAIN">
+			<location unit="IN">
+				<x>55.7</x>
+				<y>74.5</y>
+				<z>-67.9</z>
+			</location>
+			<static_friction>0.8</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<rolling_friction>0.02</rolling_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+			<max_steer unit="DEG">0</max_steer>
+			<brake_group>RIGHT</brake_group>
+			<retractable>1</retractable>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Left wing tip tank front tip">
+			<location unit="IN">
+				<x>-6.9</x>
+				<y>-214.4</y>
+				<z>-14.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">5400</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Left wing tip tank rear tip">
+			<location unit="IN">
+				<x>87.4</x>
+				<y>-214.4</y>
+				<z>-9.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">5400</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Right wing tip tank front tip">
+			<location unit="IN">
+				<x>-6.9</x>
+				<y>214.4</y>
+				<z>-14.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">5400</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Right wing tip tank rear tip">
+			<location unit="IN">
+				<x>87.4</x>
+				<y>214.4</y>
+				<z>-9.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">5400</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Tail stinger tip">
+			<location unit="IN">
+				<x>260.5</x>
+				<y>0</y>
+				<z>-6.7</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">5400</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+		</contact>
+	</ground_reactions>
+	
+	<system file="gear"/>
+	<system file="fuel"/>
+	<system file="engines"/>
+	<system file="oil"/>
+	<system file="propellers"/>
+	<system file="flaps"/>
+			
+	<flight_control file="Systems/310p-fdm-fcs.xml"/>
+	
+	<aerodynamics file="Systems/310-fdm-aerodynamics.xml"/>
+	
+	<external_reactions/>
+</fdm_config>

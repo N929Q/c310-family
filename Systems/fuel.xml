@@ -34,7 +34,26 @@
 	
 	<property>propulsion/engine[0]/carburetor-ice-norm</property>
 	<property>propulsion/engine[1]/carburetor-ice-norm</property>
-	
+	<channel>
+        <switch name="/fuel/gal-left-sel">
+            <default value="0"/>
+            <test logic="AND" value="/consumables/fuel/tank[0]/level-gal_us">
+                /controls/fuel/selector[0] EQ 1 
+            </test>
+            <test logic="AND" value="/consumables/fuel/tank[2]/level-gal_us">
+                /controls/fuel/selector[0] EQ 2 
+            </test>
+        </switch>
+        <switch name="/fuel/gal-right-sel">
+            <default value="0"/>
+            <test logic="AND" value="/consumables/fuel/tank[1]/level-gal_us">
+                /controls/fuel/selector[1] EQ 1 
+            </test>
+            <test logic="AND" value="/consumables/fuel/tank[3]/level-gal_us">
+                /controls/fuel/selector[1] EQ 2 
+            </test>
+        </switch>
+    </channel>
 	<channel execrate="4">
 		<switch>
 			<default value="1"/>

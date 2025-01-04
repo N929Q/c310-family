@@ -11,7 +11,7 @@
 			<z>0</z>
 		</axis>
 		<property>controls/flight/elevator</property>
-		<factor>0.15</factor>
+		<factor>0.10</factor>
 	</animation>
 	
 	<animation>

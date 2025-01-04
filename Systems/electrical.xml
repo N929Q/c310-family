@@ -523,6 +523,36 @@
 		</input>
 		<output>consumers/nav-lights/amps</output>
 	</filter>
+
+	<filter>
+		<name>com volts</name>
+		<type>gain</type>
+		<gain>/controls/switches/radio</gain>
+		<input>
+			<property>bus/volts</property>
+		</input>
+		<output>
+
+			<property>/systems/electrical/outputs/comm[0]</property>
+      <property>/systems/electrical/outputs/comm[1]</property>
+      <property>/systems/electrical/outputs/fg1000-mfd</property>
+		</output>
+	</filter>
+    
+	<filter>
+		<name>nav volts</name>
+		<type>gain</type>
+		<gain>/controls/switches/nav</gain>
+		<input>
+			<property>bus/volts</property>
+		</input>
+		<output>
+			<property>/systems/electrical/outputs/nav</property>
+			<property>/systems/electrical/outputs/nav[1]</property>
+		<property>/systems/electrical/outputs/KNS80</property>
+      <property>/systems/electrical/outputs/fg1000-pfd</property>
+		</output>
+	</filter>
 	
 	<filter>
 		<name>Left landing light volts</name>

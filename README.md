@@ -1,20 +1,38 @@
 # 512 Colorado's Fork of the Cessna 310 Family
 Let's take the 310 to the level of the 172p!
 
-## Currently Working:
+### Currently Working:
 * Paintable Exterior with a decent paintjob
 * Paintkit Materials
+* T310P variant *There are switches for radio and avionics- they need to be turned on* 
+	* 63gal Aux Tanks
+	* KNS-80 (Enables GPS through Route Manager)
+	* King KFC-200 Avionics
+	* Autopilot
 
-## Known Issues / Things I've Broken:
+### Known Issues / Things I've Broken:
 * Prop Feather animation broken- I duplicated the axises in Blender but have since learned it's not so simple...
+* Fuel flow gauge needs to be adapted for other engines. IDK if it was factory on the A, but seems it was there in 1955...
+* CHT gauges
 
-## To Implement:
+### Fixed Issues / Modifications:
+* Parking brake handle modified, activate by clicking bracket (This was done because the rod on the handle was clickable behind the switches)
+* Both fuel gauges were reading left tank- now reads selected tank, will show empty when fuel is off or on crossfeed.
+* Autopilot and ADF switches purposed for radios and avionics power
+* Toe brakes animation right pedal was reversed
+* Added save states for radios and fuel
+* Changed angle of rotating beacon animated light to keep it off the panel (Beige panel)
+* Yoke animation was passing through panel at full forward deflection.
+
+### To Implement:
 * Multiple Panel Options
 * KNS-80
 * NAV/COMM radios
 * King KFC-200 w/ Autopilot
 * FG1000 w/ Autopilot
 * T310P Variant
+* Textures for panel (To allow the classic and modern panels to coexist better)
+* Checklists
 * I'm just getting started
 
 

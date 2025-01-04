@@ -151,6 +151,7 @@
 	</model>
 	
 	<!-- smoke etc. -->
+<!--
 	<model>
 		<name>LeftEngineExhaustOutboard</name>
 		<path>Effects/engine-exhaust.xml</path>
@@ -245,6 +246,7 @@
 			</params>
 		</overlay>
 	</model>
+-->
 	<model>
 		<name>LeftEngineFire</name>
 		<path>Effects/engine-fire.xml</path>

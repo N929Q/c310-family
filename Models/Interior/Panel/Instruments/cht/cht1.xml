@@ -3,7 +3,7 @@
 	<path>cht.ac</path>
 	
 	<params>
-		<indicated-cht-degf-prop>instrumentation/cht[0]/indicated-cht-degf</indicated-cht-degf-prop>
+		<indicated-cht-degf-prop>instrumentation/cht[1]/indicated-cht-degf</indicated-cht-degf-prop>
 	</params>
 	
 	<animation>

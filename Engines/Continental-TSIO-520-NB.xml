@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<piston_engine name="Continental-TSIO-520-NB">
+	<minmp unit="INHG">8.2</minmp>
+	<maxmp unit="INHG">29.8</maxmp>
+	<air-intake-impedance-factor>0.001</air-intake-impedance-factor>
+	<ram-air-factor>0.1</ram-air-factor>
+	<maxhp>325</maxhp>
+	<cycles>4</cycles>
+	<cooling-factor>2.5</cooling-factor>
+	<idlerpm>500</idlerpm>
+	<maxrpm>2625</maxrpm>
+	<sparkfaildrop>0.1</sparkfaildrop>
+	<man-press-lag>1</man-press-lag>
+	<static-friction unit="HP">2</static-friction>
+	<starter-torque>25</starter-torque>
+	<starter-rpm>925</starter-rpm>
+	<bsfc unit="LBS/HP*HR">0.5742</bsfc>
+	<volumetric-efficiency>0.99</volumetric-efficiency>
+	<stroke unit="IN">4</stroke>
+	<bore unit="IN">5.25</bore>
+	<displacement unit="IN3">520</displacement>
+	<cylinders>6</cylinders>
+	<compression-ratio>7.5</compression-ratio>
+	<oil-pressure-relief-valve-psi>55</oil-pressure-relief-valve-psi>
+	<oil-pressure-rpm-max>2000</oil-pressure-rpm-max>
+	<design-oil-temp-degK>340</design-oil-temp-degK>
+	<cylinder-head-mass unit="LBS">23.3</cylinder-head-mass>
+
+	<numboostspeeds>1</numboostspeeds>
+	<boostoverride>0</boostoverride>
+	<takeoffboost unit="INHG"> 11 </takeoffboost> 
+	<ratedboost1 unit="INHG">5</ratedboost1>
+	<ratedaltitude1>22000</ratedaltitude1>
+	<ratedpower1>325</ratedpower1>
+	<ratedrpm1>2700</ratedrpm1>
+
+</piston_engine>

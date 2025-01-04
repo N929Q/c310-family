@@ -57,6 +57,12 @@
 		<number>0</number>
 		<suction>/systems/vacuum/directional-gyro-suction-inhg</suction>
 	</heading-indicator-dg>
+	
+  <heading-indicator>
+    <name>heading-indicator</name>
+    <number>0</number>
+    <suction>/systems/vacuum/directional-gyro-suction-inhg</suction>
+  </heading-indicator>
 
 	<magnetic-compass>
 		<name>magnetic-compass</name>
@@ -163,4 +169,9 @@
 		<name>turn-indicator</name>
 		<number>0</number>
 	</turn-indicator>
+
+    <master-reference-gyro>
+        <name>master-reference-gyro</name>
+        <number>0</number>
+    </master-reference-gyro>
 </PropertyList>
