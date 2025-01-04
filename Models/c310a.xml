@@ -491,6 +491,7 @@
 		<property>engines/engine[1]/thruster/rpm</property>
 	</animation>
 	
+<!-- Prop feather animation currently broken.
 	<animation>
 		<type>rotate</type>
 		<object-name>LeftPropellerBlade1</object-name>
@@ -528,6 +529,7 @@
 		</axis>
 		<property>engines/engine[1]/thruster/pitch</property>
 	</animation>
+-->
 	
 	<!-- nose gear -->
 	<animation>

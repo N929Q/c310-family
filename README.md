@@ -1,19 +1,21 @@
 # 512 Colorado's Fork of the Cessna 310 Family
 Let's take the 310 to the level of the 172p!
 
-## Currently Working
-Paintable Exterior with a decent paintjob
-Paintkit Materials
+## Currently Working:
+* Paintable Exterior with a decent paintjob
+* Paintkit Materials
 
-## To Implement
-KNS-80
+## Known Issues / Things I've Broken:
+* Prop Feather animation broken- I duplicated the axises in Blender but have since learned it's not so simple...
 
-NAV/COMM radios
-
-King KFC-200 w/ Autopilot
-
-FG1000 w/ Autopilot
-
+## To Implement:
+* Multiple Panel Options
+* KNS-80
+* NAV/COMM radios
+* King KFC-200 w/ Autopilot
+* FG1000 w/ Autopilot
+* T310P Variant
+* I'm just getting started
 
 
 # Cessna 310 family

@@ -16,6 +16,14 @@
 				<description>FDM</description>
 				<nick>Ysop</nick>
 			</author>
+			<author n="3">
+				<description>T310P, Exterior unwrap, Autopilot, Panel, fixed some things, broke some things.</description>
+				<nick>512 Colorado</nick>
+			</author>
+			<author n="4">
+				<description>Test Pilot, Panel Contributor, Bug Finder</description>
+				<nick>N929Q</nick>
+			</author>
 		</authors>
 		<aircraft-version>1.0.0</aircraft-version>
 		<status>early-production</status>
@@ -53,6 +61,21 @@
 		</realism>
 		
 		<previews>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Previews/preview1.png</path>
+			</preview>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Previews/preview2.png</path>
+			</preview>
+			<preview>
+				<type>exterior</type>
+				<splash type="bool">true</splash>
+				<path>Previews/preview3.png</path>
+			</preview>
 			<preview>
 				<type>exterior</type>
 				<splash type="bool">true</splash>
