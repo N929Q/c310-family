@@ -551,6 +551,9 @@
 			<property>/systems/electrical/outputs/nav[1]</property>
 		<property>/systems/electrical/outputs/KNS80</property>
       <property>/systems/electrical/outputs/fg1000-pfd</property>
+      <property>/systems/electrical/outputs/adf</property>
+      <property>/systems/electrical/outputs/gps</property>
+      <property>/systems/electrical/outputs/transponder</property>
 		</output>
 	</filter>
 	

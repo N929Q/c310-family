@@ -191,7 +191,42 @@
 			<heading-deg>-90</heading-deg>
 		</offsets>
 	</model>
-	
+	<model>
+		<name>kx170b</name>
+		<path>Instruments/kx170b/kx170b.xml</path>
+		<offsets>
+			<x-m>0.5</x-m>
+			<y-m>0.055</y-m>
+			<z-m>0.101783</z-m>
+		</offsets>
+	</model>
+	<model>
+		<name>kx170b-1</name>
+		<path>Instruments/kx170b/kx170b-1.xml</path>
+		<offsets>
+			<x-m>0.5</x-m>
+			<y-m>0.055</y-m>
+			<z-m>0.038</z-m>
+		</offsets>
+	</model>
+	<model>
+		<name>ADF</name>
+		<path>Instruments/arc/r-546e.xml</path>
+		<offsets>
+			<x-m>0.514</x-m>
+			<y-m>0.055</y-m>
+			<z-m>-0.025</z-m>
+		</offsets>
+	</model>
+	<model>
+		<name>XPDR</name>
+		<path>Instruments/arc/rt-359a.xml</path>
+		<offsets>
+			<x-m>0.514</x-m>
+			<y-m>0.055</y-m>
+			<z-m>-0.078</z-m>
+		</offsets>
+	</model>
 	<model>
 		<name>ParkingBrakeHandle</name>
 		<path>Controls/parking-brake/parking-brake.xml</path>
@@ -201,6 +236,16 @@
 			<z-m>-0.34</z-m>
 			<pitch-deg>-15</pitch-deg>
 			<heading-deg>-10</heading-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Instruments/adf/adf.xml</path>
+		<offsets>
+			<x-m>0.52</x-m>
+			<y-m>-0.48</y-m>
+			<z-m>0.02</z-m>
+			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -354,9 +399,9 @@
 	<model>
 		<path>Instruments/rpm/rpm.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.05</y-m>
-			<z-m>0.03</z-m>
+			<x-m>0.512</x-m>
+			<y-m>0.18</y-m>
+			<z-m>0.12</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
@@ -364,9 +409,9 @@
 	<model>
 		<path>Instruments/manifold-pressure/manifold-pressure.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.05</y-m>
-			<z-m>-0.06</z-m>
+			<x-m>0.52</x-m>
+			<y-m>0.18</y-m>
+			<z-m>0.03</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
@@ -374,9 +419,9 @@
 	<model>
 		<path>Instruments/cht/cht.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.14</y-m>
-			<z-m>0.03</z-m>
+			<x-m>0.53</x-m>
+			<y-m>0.27</y-m>
+			<z-m>-0.05</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 		<overlay>
@@ -387,9 +432,9 @@
 	<model>
 		<path>Instruments/cht/cht.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.23</y-m>
-			<z-m>0.03</z-m>
+			<x-m>0.53</x-m>
+			<y-m>0.34</y-m>
+			<z-m>-0.05</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 		<overlay>
@@ -400,9 +445,9 @@
 	<model>
 		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.4</y-m>
-			<z-m>-0.005</z-m>
+			<x-m>0.52</x-m>
+			<y-m>0.42</y-m>
+			<z-m>0.014</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
@@ -410,9 +455,9 @@
 	<model>
 		<path>Instruments/stall-warning/stall-warning.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.4</y-m>
-			<z-m>0.08</z-m>
+			<x-m>0.515</x-m>
+			<y-m>0.45</y-m>
+			<z-m>0.075</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
@@ -420,9 +465,9 @@
 	<model>
 		<path>Instruments/engine-combo/engine-combo.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.14</y-m>
-			<z-m>0.12</z-m>
+			<x-m>0.515</x-m>
+			<y-m>0.27</y-m>
+			<z-m>0.11</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 		<overlay>
@@ -437,9 +482,9 @@
 	<model>
 		<path>Instruments/engine-combo/engine-combo.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.23</y-m>
-			<z-m>0.12</z-m>
+			<x-m>0.515</x-m>
+			<y-m>0.36</y-m>
+			<z-m>0.09</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 		<overlay>
@@ -454,9 +499,9 @@
 	<model>
 		<path>Instruments/fuel-quantity/fuel-quantity.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.32</y-m>
-			<z-m>0.11</z-m>
+			<x-m>0.515</x-m>
+			<y-m>0.28</y-m>
+			<z-m>0.02</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
@@ -466,7 +511,7 @@
 		<offsets>
 			<x-m>0.525</x-m>
 			<y-m>0.48</y-m>
-			<z-m>0.06</z-m>
+			<z-m>0.014</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
@@ -474,10 +519,10 @@
 	<model>
 		<path>Instruments/flap-pos/flap-pos.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.23</y-m>
-			<z-m>-0.06</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.53</x-m>
+			<y-m>-0.03</y-m>
+			<z-m>-0.180</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -490,19 +535,19 @@
 		</condition>
 		<path>Instruments/rudder-pos/rudder-pos.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.14</y-m>
-			<z-m>-0.06</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.53</x-m>
+			<y-m>0.040</y-m>
+			<z-m>-0.1800</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
 	<model>
 		<path>Instruments/oat/oat.xml</path>
 		<offsets>
-			<x-m>0.55</x-m>
-			<y-m>0.32</y-m>
-			<z-m>0.015</z-m>
+			<x-m>0.52</x-m>
+			<y-m>0.355</y-m>
+			<z-m>0.014</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>

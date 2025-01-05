@@ -9,11 +9,14 @@ Let's take the 310 to the level of the 172p!
 	* KNS-80 (Enables GPS through Route Manager)
 	* King KFC-200 Avionics
 	* Autopilot
+* Drop in replacement fuel.xml based on the c182. Just until the bugs are worked out.
+* Panel update for 1953 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
 
 ### Known Issues / Things I've Broken:
 * Prop Feather animation broken- I duplicated the axises in Blender but have since learned it's not so simple...
 * Fuel flow gauge needs to be adapted for other engines. IDK if it was factory on the A, but seems it was there in 1955...
-* CHT gauges
+* CHT gauges (T310 only)
+* Pressure-based fuel system has a leak. Right system leaks from selected tank when left system in position other than off. 
 
 ### Fixed Issues / Modifications:
 * Parking brake handle modified, activate by clicking bracket (This was done because the rod on the handle was clickable behind the switches)

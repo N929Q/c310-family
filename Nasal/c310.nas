@@ -45,6 +45,50 @@ setlistener("/sim/signals/fdm-initialized", func {
 
 var maxStartingTime = 6;
 
+var setAdfFrequency = func(digit, n, m) {
+	var v = getprop("instrumentation/adf[0]/frequencies/selected-khz-digits" ~ digit);
+	if( digit == 2) {
+		v = v + 10 * getprop("instrumentation/adf[0]/frequencies/selected-khz-digits3");
+		setprop("instrumentation/adf[0]/frequencies/selected-khz-digits3", 0);
+	}
+	v = math.mod(v + n + m, m);
+	setprop("instrumentation/adf[0]/frequencies/selected-khz-digits" ~ digit, v);
+	var newFreq = getprop("instrumentation/adf[0]/frequencies/selected-khz-digits0") +
+	10*getprop("instrumentation/adf[0]/frequencies/selected-khz-digits1") + 
+	100*getprop("instrumentation/adf[0]/frequencies/selected-khz-digits2") + 
+	1000*getprop("instrumentation/adf[0]/frequencies/selected-khz-digits3");
+	if( newFreq >= 200 and newFreq <= 1800) {
+		setprop("instrumentation/adf[0]/frequencies/selected-khz", newFreq);
+	}
+}
+
+var calcDigits = func( v, prop, ndigit ) {
+	v = int( v );
+	for( var i = 0; i < ndigit ; i=i+1 ) {
+		v2 = int( v / 10 );
+		r = v - v2 * 10;
+		setprop( prop~i, r );
+		v = v2;
+	}
+}
+
+var MainSystem = {
+	# parents: [Updatable],
+	
+	reset: func {
+		
+	},
+
+	update: func(dt) {
+		
+		calcDigits( getprop("instrumentation/adf[0]/frequencies/selected-khz"), 
+			    "instrumentation/adf[0]/frequencies/selected-khz-digits", 4);
+	},
+};
+
+
+var loop = updateloop.UpdateLoop.new(components: [MainSystem], update_period: 0.1, enable: 1);
+
 var disengageLeftStarterTimer = maketimer(maxStartingTime, func {
 	props.globals.setBoolValue("/controls/engines/engine[0]/starter-button", 0);
 	props.globals.setBoolValue("/controls/engines/engine[0]/master-alt", 1);

@@ -207,6 +207,7 @@
 			<path>/sim/equipment</path>
 			<path>/sim/model/effects/interior/windows</path>
 			<path>/sim/realism</path>
+			<path>instrumentation/adf[0]/frequencies/selected-khz</path>
 		</aircraft-data>
 		
 		<view n="0">
@@ -715,6 +716,9 @@
 	</payload>
 	
 	<nasal>
+		<updateloop>
+			<file>Aircraft/Generic/updateloop.nas</file>
+		</updateloop>
 		<c310>
 			<file>Nasal/parts.nas</file>
 			<file>Nasal/c310.nas</file>
