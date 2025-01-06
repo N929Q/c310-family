@@ -288,7 +288,7 @@
 		<name>TurnCoordinator</name>
 		<path>Instruments/tc/tc.xml</path>
 		<offsets>
-			<x-m>0.512</x-m>
+			<x-m>0.52</x-m>
 			<y-m>-0.415</y-m>
 			<z-m>-0.015</z-m>
 			<pitch-deg>-4.3</pitch-deg>

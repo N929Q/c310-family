@@ -2,6 +2,16 @@
 Let's take the 310 to the level of the 172p!
 
 ### Currently Working:
+* T310P variant:
+	* Fitted with 63gal Aux Tanks
+	* Fitted with 512 Arrow STC Kit:
+		* Continential TSIO-520-NB 325hp Engines
+			* 41 InHg, 31GPH Takeoff Power
+			* 35 InHg, 24GPH Climb Power
+			* 30 InHg, 21GPH 75% Cruise @2200RPM
+		* McKrakken T310P-325-3 3 Blade Propellers
+		* 195KTAS cruise, 12,000ft, 75% power
+		* 208KTAS cruise, 20,000ft, 75% power
 * 4 Panel Variants! *There are switches for radio and avionics- they need to be turned on*
 	* 1954 C310A inspired Panel
 	* 1990's King KFC-200 Panel
@@ -10,7 +20,6 @@ Let's take the 310 to the level of the 172p!
 * Panels Selectable IN FLIGHT from C310 -> Equipment *Displays most advanced panel selected*
 * Paintable Exterior with a decent paintjob
 * Paintkit Materials *I may be redoing the unwrap, the sides of the engines are a little funny, PLEASE hold off on painting liveries for a bit*
-* T310P variant w/ 63gal Aux Tanks
 * Drop in replacement fuel.xml based on the c182. Just until the bugs are worked out.
 * Panel update for 1954 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
 
@@ -20,6 +29,7 @@ Let's take the 310 to the level of the 172p!
 * Overhead light thing got messed up somehow in Blender
 
 ### In Progress
+* Textures for panel (To allow the classic and modern panels to coexist better)
 * Fuel flow gauge needs to be adapted for other engines. IDK if it was factory on the A, but seems it was there in 1955...
 
 
@@ -33,7 +43,6 @@ Let's take the 310 to the level of the 172p!
 * Yoke animation was passing through panel at full forward deflection.
 
 ### To Implement:
-* Textures for panel (To allow the classic and modern panels to coexist better)
 * Checklists
 * I'll find more...
 

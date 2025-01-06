@@ -218,10 +218,10 @@
 			<internal type="bool">true</internal>
 			<config>
 				<x-offset-m>-0.33</x-offset-m>
-				<y-offset-m>0.25</y-offset-m>
-				<z-offset-m>1.2</z-offset-m>
+				<y-offset-m>0.34</y-offset-m>
+				<z-offset-m>1.17</z-offset-m>
 				<pitch-offset-deg>-10</pitch-offset-deg>
-				<default-field-of-view-deg>95</default-field-of-view-deg>
+				<default-field-of-view-deg>71</default-field-of-view-deg>
 			</config>
 		</view>
 		
