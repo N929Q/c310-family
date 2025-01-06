@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
+	
 	<animation>
 	<type>material</type>
 	<object-name>Panel</object-name>
-	<texture>panel-black.png</texture>
+	<texture>panel-tan.png</texture>
 	</animation>
+		
 	<model>
 		<name>LeftYoke</name>
 		<path>Controls/yoke/yoke.xml</path>
@@ -12,7 +14,7 @@
 			<x-m>0.508</x-m>
 			<y-m>-0.32</y-m>
 			<z-m>-0.1</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -23,7 +25,7 @@
 			<x-m>0.508</x-m>
 			<y-m>0.32</y-m>
 			<z-m>-0.1</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -196,148 +198,81 @@
 			<heading-deg>-90</heading-deg>
 		</offsets>
 	</model>
-	<model>
-		<name>kx170b</name>
-		<path>Instruments/kx170b/kx170b.xml</path>
-		<offsets>
-			<x-m>0.5</x-m>
-			<y-m>0.055</y-m>
-			<z-m>0.101783</z-m>
-		</offsets>
-	</model>
-	<model>
-		<name>kx170b-1</name>
-		<path>Instruments/kx170b/kx170b-1.xml</path>
-		<offsets>
-			<x-m>0.5</x-m>
-			<y-m>0.055</y-m>
-			<z-m>0.038</z-m>
-		</offsets>
-	</model>
-	<model>
-		<name>ADF</name>
-		<path>Instruments/arc/r-546e.xml</path>
-		<offsets>
-			<x-m>0.514</x-m>
-			<y-m>0.055</y-m>
-			<z-m>-0.025</z-m>
-		</offsets>
-	</model>
-	<model>
-		<name>XPDR</name>
-		<path>Instruments/arc/rt-359a.xml</path>
-		<offsets>
-			<x-m>0.514</x-m>
-			<y-m>0.055</y-m>
-			<z-m>-0.078</z-m>
-		</offsets>
-	</model>
+	
 	<model>
 		<name>ParkingBrakeHandle</name>
 		<path>Controls/parking-brake/parking-brake.xml</path>
 		<offsets>
-			<x-m>0.46</x-m>
-			<y-m>-0.541</y-m>
-			<z-m>-0.34</z-m>
+			<x-m>0.52</x-m>
+			<y-m>-0.555</y-m>
+			<z-m>-0.33</z-m>
 			<pitch-deg>-15</pitch-deg>
-			<heading-deg>-10</heading-deg>
+			<heading-deg>-2</heading-deg>
 		</offsets>
 	</model>
 	
+<!--
 	<model>
-		<path>Instruments/adf/adf.xml</path>
+		<path>Instruments/asi/asi.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.48</y-m>
-			<z-m>0.02</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.512</x-m>
+			<y-m>-0.415</y-m>
+			<z-m>0.0725</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
-	
-	<model>
-		<path>Instruments/cdi/cdi.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.40</y-m>
-			<z-m>0.07</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-		<overlay>
-			<params>
-				<selected-radial-deg>instrumentation/nav[0]/radials/selected-deg</selected-radial-deg>
-				<tooltip-id>cdi1-radial-knob</tooltip-id>
-				<tooltip-label>NAV1 radial: %3d°</tooltip-label>
-				<to-flag>instrumentation/nav[0]/to-flag</to-flag>
-				<from-flag>instrumentation/nav[0]/from-flag</from-flag>
-				<loc-deflection-norm>instrumentation/nav[0]/heading-needle-deflection-norm</loc-deflection-norm>
-				<gs-deflection-norm>instrumentation/nav[0]/gs-needle-deflection-norm</gs-deflection-norm>
-				<loc-serviceable>instrumentation/nav[0]/cdi/serviceable</loc-serviceable>
-				<gs-serviceable>instrumentation/nav[0]/gs/serviceable</gs-serviceable>
-			</params>
-		</overlay>
-	</model>
-	
-	<model>
-		<path>Instruments/cdi/cdi.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.40</y-m>
-			<z-m>-0.02</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-		<overlay>
-			<params>
-				<selected-radial-deg>instrumentation/nav[1]/radials/selected-deg</selected-radial-deg>
-				<tooltip-id>cdi2-radial-knob</tooltip-id>
-				<tooltip-label>NAV2 radial: %3d°</tooltip-label>
-				<to-flag>instrumentation/nav[1]/to-flag</to-flag>
-				<from-flag>instrumentation/nav[1]/from-flag</from-flag>
-				<loc-deflection-norm>instrumentation/nav[1]/heading-needle-deflection-norm</loc-deflection-norm>
-				<gs-deflection-norm>instrumentation/nav[1]/gs-needle-deflection-norm</gs-deflection-norm>
-				<loc-serviceable>instrumentation/nav[1]/cdi/serviceable</loc-serviceable>
-				<gs-serviceable>instrumentation/nav[1]/gs/serviceable</gs-serviceable>
-			</params>
-		</overlay>
-	</model>
+-->
 	
 	<model>
 		<path>Instruments/asi/asi.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.32</y-m>
-			<z-m>0.11</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.512</x-m>
+			<y-m>0.415</y-m>
+			<z-m>0.0725</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
+<!--
 	<model>
 		<name>Altimeter</name>
 		<path>Instruments/alt/alt.xml</path>
 		<offsets>
-			<x-m>0.525</x-m>
-			<y-m>-0.32</y-m>
-			<z-m>0.02</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.512</x-m>
+			<y-m>-0.21</y-m>
+			<z-m>0.0725</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<name>KAS297</name>
+		<path>Instruments/kfc200/kas297.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>-0.50</y-m>
+			<z-m>0.045</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
 	<model>
 		<name>DirectionalGyro</name>
-		<path>Instruments/dg/dg.xml</path>
+		<path>Instruments/kfc200/ki252a.xml</path>
 		<offsets>
-			<x-m>0.51</x-m>
-			<y-m>-0.2</y-m>
-			<z-m>0.11</z-m>
+			<x-m>0.512</x-m>
+			<y-m>-0.32</y-m>
+			<z-m>-0.009</z-m>
 		</offsets>
 	</model>
 	
 	<model>
 		<name>AttitudeIndicator</name>
-		<path>Instruments/ai/ai.xml</path>
+		<path>Instruments/kfc200/ki256.xml</path>
 		<offsets>
-			<x-m>0.51</x-m>
-			<y-m>-0.09</y-m>
-			<z-m>0.1</z-m>
+			<x-m>0.512</x-m>
+			<y-m>-0.32</y-m>
+			<z-m>0.0925</z-m>
 		</offsets>
 	</model>
 	
@@ -345,141 +280,45 @@
 		<name>VerticalSpeedIndicator</name>
 		<path>Instruments/vsi/vsi.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.07</y-m>
-			<z-m>-0.04</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.516</x-m>
+			<y-m>-0.21</y-m>
+			<z-m>-0.015</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
-	
+-->
 	<model>
 		<name>TurnCoordinator</name>
 		<path>Instruments/tc/tc.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.22</y-m>
-			<z-m>-0.04</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.512</x-m>
+			<y-m>-0.5</y-m>
+			<z-m>0.015</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
-	
+<!--
 	<model>
-		<condition>
-			<equals>
-				<property>parts/selected-clock</property>
-				<value>35-380004-1</value>
-			</equals>
-		</condition>
-		<name>Clock</name>
-		<path>Instruments/clock/clock.xml</path>
+		
+		<path>Instruments/vsi/vsi.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.145</y-m>
-			<z-m>-0.04</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.512</x-m>
+			<y-m>0.415</y-m>
+			<z-m>-0.015</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
+-->
 	
-	<model>
-		<name>AstrotechLC2</name>
-		<path>Instruments/astrotech-lc2/astrotech-lc2.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.145</y-m>
-			<z-m>-0.04</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-	</model>
-	<animation>
-		<type>select</type>
-		<object-name>AstrotechLC2</object-name>
-		<condition>
-			<equals>
-				<property>parts/selected-clock</property>
-				<value>AT420100</value>
-			</equals>
-		</condition>
-	</animation>
+	
 	
 	<model>
 		<path>Instruments/rpm/rpm.xml</path>
 		<offsets>
-			<x-m>0.512</x-m>
-			<y-m>0.18</y-m>
-			<z-m>0.12</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-	</model>
-
-	<model>
-		<condition>
-			<equals>
-				<property>sim/aircraft</property>
-				<value>t310p</value>
-			</equals>
-		</condition>
-		<name>ManiP</name>
-		<path>Instruments/manifold-pressure-t/manifold-pressure.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>0.18</y-m>
-			<z-m>0.03</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-	</model>
-	
-	<model>
-		<condition>
-			<not>
-			<equals>
-				<property>sim/aircraft</property>
-				<value>t310p</value>
-			</equals>
-			</not>
-		</condition>
-		<name>ManiP</name>
-		<path>Instruments/manifold-pressure/manifold-pressure.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>0.18</y-m>
-			<z-m>0.03</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-	</model>
-	
-	<model>
-		<condition>
-			<not>
-			<equals>
-				<property>sim/aircraft</property>
-				<value>t310p</value>
-			</equals>
-			</not>
-		</condition>
-		<name>FuelFlow</name>
-		<path>Instruments/fuelflow-na/FuelFlow.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>0.18</y-m>
-			<z-m>-0.07</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-	</model>
-
-	<model>
-		<condition>
-			<equals>
-				<property>sim/aircraft</property>
-				<value>t310p</value>
-			</equals>
-		</condition>
-		<name>FuelFlow</name>
-		<path>Instruments/fuelflow-t/FuelFlow.xml</path>
-		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>0.18</y-m>
-			<z-m>-0.07</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.523</x-m>
+			<y-m>-0.257</y-m>
+			<z-m>-0.12</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -493,13 +332,203 @@
 		</offsets>
 	</model>
 	
+<!--
+	<model>
+		<path>Instruments/egt/egt.xml</path>
+		<offsets>
+			<x-m>0.513</x-m>
+			<y-m>0.18</y-m>
+			<z-m>0.062</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>Instruments/egt/egt2.xml</path>
+		<offsets>
+			<x-m>0.513</x-m>
+			<y-m>0.245</y-m>
+			<z-m>0.062</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+-->
+	
+<!--
+	<model>
+		<path>Instruments/kfc200/fd-annun.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>-0.21</y-m>
+			<z-m>0.1375</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+-->
+	
+	<model>
+		<path>/Aircraft/Instruments-3d/FG1000/GDU104X/GDU-1044B.1.xml</path>
+		<name>MFD</name>
+		<offsets>
+			<x-m>0.51</x-m>
+			<y-m>0.01</y-m>
+			<z-m>0.03</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<path>/Aircraft/Instruments-3d/FG1000/GDU104X/GDU-1040.2.xml</path>
+		<name>PFD</name>
+		<offsets>
+			<x-m>0.51</x-m>
+			<y-m>-0.31</y-m>
+			<z-m>0.0188</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+ <animation>
+  <type>scale</type>
+  <object-name>MFD</object-name>
+  <x-offset>1</x-offset>
+  <y-offset>1.15</y-offset>
+  <z-offset>1.15</z-offset>
+ </animation>
+
+<!--
+	<model>
+		<path>Instruments/FG1000/GMA1347/GMA1347.xml</path>
+		<name>PFD</name>
+		<offsets>
+			<x-m>0.51</x-m>
+			<y-m>0.26</y-m>
+			<z-m>0.04</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+-->
+
+<!--
+	
+	<model>
+		<path>Instruments/kt76a/kt76a.xml</path>
+		<offsets>
+			<x-m>0.50875</x-m>
+			<y-m>-0.0</y-m>
+			<z-m>-0.13</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+-->
+	
+
+	
+<!--
+	<model>
+		<path>Instruments/kfc200/fd-control.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>-0.505</y-m>
+			<z-m>-0.0725</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+-->
+	<model>
+		<condition>
+			<not>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+			</not>
+		</condition>
+		<name>ManiP</name>
+		<path>Instruments/manifold-pressure/manifold-pressure.xml</path>
+		<offsets>
+			<x-m>0.523</x-m>
+			<y-m>-0.17</y-m>
+			<z-m>-0.12</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<condition>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+		</condition>
+		<name>ManiP</name>
+		<path>Instruments/manifold-pressure-t/manifold-pressure.xml</path>
+		<offsets>
+			<x-m>0.523</x-m>
+			<y-m>-0.17</y-m>
+			<z-m>-0.12</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+	
+<!--
+	<model>
+		<path>Instruments/kns80/kns80.xml</path>
+		<offsets>
+			<x-m>0.52</x-m>
+			<y-m>0.05</y-m>
+			<z-m>-0.105</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+-->
+	<model>
+		<condition>
+			<not>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+			</not>
+		</condition>
+		<name>FuelFlow</name>
+		<path>Instruments/fuelflow-na/FuelFlow.xml</path>
+		<offsets>
+			<x-m>0.523</x-m>
+			<y-m>-0.085</y-m>
+			<z-m>-0.12</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<condition>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+		</condition>
+		<name>FuelFlow</name>
+		<path>Instruments/fuelflow-t/FuelFlow.xml</path>
+		<offsets>
+			<x-m>0.523</x-m>
+			<y-m>-0.085</y-m>
+			<z-m>-0.12</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+<!--
 	<model>
 		<path>Instruments/cht/cht.xml</path>
 		<offsets>
-			<x-m>0.53</x-m>
-			<y-m>0.27</y-m>
-			<z-m>-0.05</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.515</x-m>
+			<y-m>0.18</y-m>
+			<z-m>0.125</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 		<overlay>
 			<indicated-cht-degf-prop>instrumentation/cht[0]/indicated-cht-degf</indicated-cht-degf-prop>
@@ -507,12 +536,12 @@
 	</model>
 	
 	<model>
-		<path>Instruments/cht/cht.xml</path>
+		<path>Instruments/cht/cht1.xml</path>
 		<offsets>
-			<x-m>0.53</x-m>
-			<y-m>0.34</y-m>
-			<z-m>-0.05</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.515</x-m>
+			<y-m>0.245</y-m>
+			<z-m>0.125</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 		<overlay>
 			<indicated-cht-degf-prop>instrumentation/cht[1]/indicated-cht-degf</indicated-cht-degf-prop>
@@ -523,63 +552,62 @@
 		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
 			<x-m>0.52</x-m>
-			<y-m>0.42</y-m>
-			<z-m>0.014</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<y-m>0.18</y-m>
+			<z-m>0.0</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
+	
+	<model>
+		<path>Instruments/ammeter/ammeter.xml</path>
+		<offsets>
+			<x-m>0.52</x-m>
+			<y-m>0.245</y-m>
+			<z-m>0.0</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+-->
 	
 	<model>
 		<path>Instruments/stall-warning/stall-warning.xml</path>
 		<offsets>
-			<x-m>0.515</x-m>
-			<y-m>0.45</y-m>
-			<z-m>0.075</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.512</x-m>
+			<y-m>0.48</y-m>
+			<z-m>0.06</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
+
+
 	<model>
-		<path>Instruments/engine-combo/engine-combo.xml</path>
+		<path>Instruments/ai/ai.xml</path>
 		<offsets>
-			<x-m>0.515</x-m>
-			<y-m>0.27</y-m>
-			<z-m>0.11</z-m>
-			<pitch-deg>-4.1</pitch-deg>
-		</offsets>
-		<overlay>
-			<params>
-				<oil-temp>instrumentation/engine-combo[0]/indicated-oil-temperature-degf</oil-temp>
-				<oil-press>instrumentation/engine-combo[0]/indicated-oil-pressure-psi</oil-press>
-				<fuel-press>instrumentation/engine-combo[0]/indicated-fuel-pressure-psi</fuel-press>
-			</params>
-		</overlay>
-	</model>
-	
-	<model>
-		<path>Instruments/engine-combo/engine-combo.xml</path>
-		<offsets>
-			<x-m>0.515</x-m>
-			<y-m>0.36</y-m>
+			<x-m>0.512</x-m>
+			<y-m>0.325</y-m>
 			<z-m>0.09</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
-		<overlay>
-			<params>
-				<oil-temp>instrumentation/engine-combo[1]/indicated-oil-temperature-degf</oil-temp>
-				<oil-press>instrumentation/engine-combo[1]/indicated-oil-pressure-psi</oil-press>
-				<fuel-press>instrumentation/engine-combo[1]/indicated-fuel-pressure-psi</fuel-press>
-			</params>
-		</overlay>
+	</model>
+	
+	<model>
+		<path>Instruments/hi/hi.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>0.325</y-m>
+			<z-m>0.0</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
 	</model>
 	
 	<model>
 		<path>Instruments/fuel-quantity/fuel-quantity.xml</path>
 		<offsets>
-			<x-m>0.515</x-m>
-			<y-m>0.28</y-m>
-			<z-m>0.02</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.52</x-m>
+			<y-m>0.0</y-m>
+			<z-m>-0.12</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -587,18 +615,18 @@
 		<path>Instruments/vacuum/vacuum.xml</path>
 		<offsets>
 			<x-m>0.525</x-m>
-			<y-m>0.48</y-m>
-			<z-m>0.014</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<y-m>0.245</y-m>
+			<z-m>-0.06</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
 	<model>
 		<path>Instruments/flap-pos/flap-pos.xml</path>
 		<offsets>
-			<x-m>0.53</x-m>
-			<y-m>-0.03</y-m>
-			<z-m>-0.180</z-m>
+			<x-m>0.525</x-m>
+			<y-m>-0.025</y-m>
+			<z-m>-0.185</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -612,23 +640,25 @@
 		</condition>
 		<path>Instruments/rudder-pos/rudder-pos.xml</path>
 		<offsets>
-			<x-m>0.53</x-m>
-			<y-m>0.040</y-m>
-			<z-m>-0.1800</z-m>
+			<x-m>0.525</x-m>
+			<y-m>0.035</y-m>
+			<z-m>-0.185</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
+<!--
 	<model>
 		<path>Instruments/oat/oat.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>0.355</y-m>
-			<z-m>0.014</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<x-m>0.525</x-m>
+			<y-m>0.18</y-m>
+			<z-m>-0.06</z-m>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
+-->
 	<model>
 		<name>LeftFuelSelector</name>
 		<path>Controls/fuel-selector/left-fuel-selector.xml</path>
@@ -660,4 +690,6 @@
 			<pitch-deg>-4.0829</pitch-deg>
 		</offsets>
 	</model>
+
+
 </PropertyList>

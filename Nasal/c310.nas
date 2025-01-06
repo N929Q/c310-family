@@ -13,6 +13,68 @@ parts.manager.createCategory("instruments", "Instruments")
 				.createPart("map-light", "Map light", ["A-1425A-2-12"])
 				.createCategory("fuel-system", "Fuel system")
 				.createPart("fuel-boost-pump", "Fuel boost pump", ["1C6-10"]);
+				
+var nasal_dir = getprop("/sim/fg-root") ~ "/Aircraft/Instruments-3d/FG1000/Nasal/";
+#io.load_nasal(nasal_dir ~ 'Interfaces/GenericInterfaceController.nas', "fg1000");
+
+var aircraft_dir = getprop("/sim/aircraft-dir");
+io.load_nasal(aircraft_dir ~ '/Nasal/c310-InterfaceController.nas', "fg1000");
+var interfaceController = fg1000.GenericInterfaceController.getOrCreateInstance();
+interfaceController.start();
+# Load a customer Interface controller
+io.load_nasal(aircraft_dir ~ '/Nasal/c310-EISPublisher.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Nasal/EIS-c310.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Nasal/EISController.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Nasal/EISStyles.nas', "fg1000");
+io.load_nasal(aircraft_dir ~ '/Nasal/EISOptions.nas', "fg1000");
+var EIS_Class = fg1000.EIS;
+interfaceController.start();
+var nasal_dir = getprop("/sim/fg-root") ~ "/Aircraft/Instruments-3d/FG1000/Nasal/";
+io.load_nasal(nasal_dir ~ 'FG1000.nas', "fg1000");
+
+# Create the FG1000
+var fg1000system = fg1000.FG1000.getOrCreateInstance(EIS_Class:EIS_Class, EIS_SVG: "Nasal/MFDPages/EIS-C182T.svg");
+
+# Create a PFD as device 1, MFD as device 2
+fg1000system.addPFD(index:2);
+fg1000system.addMFD(index:1);
+
+# Map the devices to placement objects Screen{i}, in this case Screen1 and Screen2
+fg1000system.display(index:2);
+fg1000system.display(index:1);
+
+# Show the devices
+#fg1000system.show(index:1);
+#fg1000system.show(index:2);
+
+#  Display a GUI version of device 1 at 50% scale.
+#fg1000system.displayGUI(index:1, scale:0.5);
+
+# Control the backlighting of the bezel based on the avionics light knob
+setlistener("/controls/lighting/uv-instrument-norm", func(n) {
+    if (getprop("/systems/electrical/consumers/uv-instrument-light/volts") > 5.0) {
+      setprop("/instrumentation/FG1000/Lightmap", n.getValue()*2);
+    } else {
+      setprop("/instrumentation/FG1000/Lightmap", 0.0);
+    }
+}, 0, 0);
+setlistener("/systems/electrical/outputs/fg1000-mfd", func(n) {
+    if (n.getValue() > 0) {
+      fg1000system.show(1);
+    } else {
+      fg1000system.hide(1);
+    }
+}, 0, 0);
+
+setlistener("/systems/electrical/outputs/fg1000-pfd", func(n) {
+    if (n.getValue() > 0) {
+#    fg1000system.addPFD(index:2);
+#    fg1000system.display(index:2);
+      fg1000system.show(2);
+    } else {
+      fg1000system.hide(2);
+    }
+}, 0, 0);
 
 setlistener("/sim/signals/fdm-initialized", func {
   aircraft.data.add(

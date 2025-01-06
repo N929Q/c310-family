@@ -162,6 +162,10 @@
 		<systems>
 			<path>Systems/systems.xml</path>
 
+			<autopilot>
+				<path>Systems/c310-kfc200-autopilot.xml</path>
+			</autopilot>
+
 			<property-rule n="100">
 				<name>Time properties</name>
 				<path>Systems/time.xml</path>
@@ -225,6 +229,9 @@
 			<auxiliary-fuel-tanks type="bool">false</auxiliary-fuel-tanks>
 			<right-landing-light type="bool">false</right-landing-light>
 			<rotating-beacon type="bool">false</rotating-beacon>
+			<new-panel type="bool">false</new-panel>
+			<mfd type="bool">false</mfd>
+			<glass type="bool">false</glass>
 		</equipment>
 		
 		<menubar include="gui/menubar.xml"/>
@@ -719,7 +726,11 @@
 		<updateloop>
 			<file>Aircraft/Generic/updateloop.nas</file>
 		</updateloop>
-		<c310>
+		<systems>
+            <file>Models/Interior/Panel/Instruments/kns80/KNS80.nas</file>
+        </systems>
+        <c310>
+			<file>Models/Interior/Panel/Instruments/kfc200/kfc-200.nas</file>
 			<file>Nasal/parts.nas</file>
 			<file>Nasal/c310.nas</file>
 			<file>Nasal/chocks.nas</file>
@@ -729,6 +740,14 @@
 			<file>Nasal/failures.nas</file>
 		</c310>
 	</nasal>
+
+    <autopilot>
+        <locks>
+            <passive-mode type="bool">true</passive-mode>
+            <pitch-active type="bool">true</pitch-active>
+            <roll-active type="bool">true</roll-active>
+        </locks>
+    </autopilot>
 	
 	<systems>
 		<electrical>

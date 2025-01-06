@@ -106805,6 +106805,7 @@ name "Panel"
 data 11
 Panel1.mesh
 crease 45.0
+texture "panel-black.png"
 numvert 32
 0.50069 0.03793 -0.53716
 0.50069 0.03793 0.53715

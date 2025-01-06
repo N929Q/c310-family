@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
+	
+	<animation>
+	<type>material</type>
+	<object-name>Panel</object-name>
+	<texture>panel-tan.png</texture>
+	</animation>
+
+		
 	<model>
 		<name>LeftYoke</name>
 		<path>Controls/yoke/yoke.xml</path>
@@ -438,6 +446,32 @@
 	</model>
 	
 	<model>
+		<condition>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+		</condition>
+		<name>ManiP</name>
+		<path>Instruments/manifold-pressure-t/manifold-pressure.xml</path>
+		<offsets>
+			<x-m>0.516</x-m>
+			<y-m>-0.13</y-m>
+			<z-m>-0.015</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+	<model>
+		<condition>
+			<not>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+			</not>
+		</condition>
+		<name>ManiP</name>
 		<path>Instruments/manifold-pressure/manifold-pressure.xml</path>
 		<offsets>
 			<x-m>0.516</x-m>
@@ -446,13 +480,40 @@
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
+	
+
 	<model>
+		<condition>
+			<not>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+			</not>
+		</condition>
+		<name>FuelFlow</name>
+		<path>Instruments/fuelflow-na/FuelFlow.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>0.135</y-m>
+			<z-m>0.02</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+
+	<model>
+		<condition>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+		</condition>
+		<name>FuelFlow</name>
 		<path>Instruments/fuelflow-t/FuelFlow.xml</path>
 		<offsets>
 			<x-m>0.512</x-m>
 			<y-m>0.135</y-m>
 			<z-m>0.02</z-m>
-
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -471,7 +532,7 @@
 	</model>
 	
 	<model>
-		<path>Instruments/cht/cht1.xml</path>
+		<path>Instruments/cht/cht.xml</path>
 		<offsets>
 			<x-m>0.515</x-m>
 			<y-m>0.185</y-m>
@@ -494,7 +555,7 @@
 	</model>
 	
 	<model>
-		<path>Instruments/ammeter/ammeter1.xml</path>
+		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
 			<x-m>0.53</x-m>
 			<y-m>-0.4735</y-m>

@@ -2,21 +2,26 @@
 Let's take the 310 to the level of the 172p!
 
 ### Currently Working:
+* 4 Panel Variants! *There are switches for radio and avionics- they need to be turned on*
+	* 1954 C310A inspired Panel
+	* 1990's King KFC-200 Panel
+	* KFC-200 / FG1000 MFD Combo *Needs EISController stuff for NA engines still*
+	* Full FG1000 *Mostly Works, needs more gauges, see MFD note above*
+* Panels Selectable IN FLIGHT from C310 -> Equipment *Displays most advanced panel selected*
 * Paintable Exterior with a decent paintjob
-* Paintkit Materials
-* T310P variant *There are switches for radio and avionics- they need to be turned on* 
-	* 63gal Aux Tanks
-	* KNS-80 (Enables GPS through Route Manager)
-	* King KFC-200 Avionics
-	* Autopilot
+* Paintkit Materials *I may be redoing the unwrap, the sides of the engines are a little funny, PLEASE hold off on painting liveries for a bit*
+* T310P variant w/ 63gal Aux Tanks
 * Drop in replacement fuel.xml based on the c182. Just until the bugs are worked out.
-* Panel update for 1953 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
+* Panel update for 1954 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
 
 ### Known Issues / Things I've Broken:
 * Prop Feather animation broken- I duplicated the axises in Blender but have since learned it's not so simple...
-* Fuel flow gauge needs to be adapted for other engines. IDK if it was factory on the A, but seems it was there in 1955...
-* CHT gauges (T310 only)
 * Pressure-based fuel system has a leak. Right system leaks from selected tank when left system in position other than off. 
+* Overhead light thing got messed up somehow in Blender
+
+### In Progress
+* Fuel flow gauge needs to be adapted for other engines. IDK if it was factory on the A, but seems it was there in 1955...
+
 
 ### Fixed Issues / Modifications:
 * Parking brake handle modified, activate by clicking bracket (This was done because the rod on the handle was clickable behind the switches)
@@ -28,15 +33,9 @@ Let's take the 310 to the level of the 172p!
 * Yoke animation was passing through panel at full forward deflection.
 
 ### To Implement:
-* Multiple Panel Options
-* KNS-80
-* NAV/COMM radios
-* King KFC-200 w/ Autopilot
-* FG1000 w/ Autopilot
-* T310P Variant
 * Textures for panel (To allow the classic and modern panels to coexist better)
 * Checklists
-* I'm just getting started
+* I'll find more...
 
 
 # Cessna 310 family

@@ -1,8 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
+	
+<!--
+	<animation>
+	<type>material</type>
+	<object-name>Panel</object-name>
+	<texture>panel-tan.png</texture>
+	</animation>
+		
+-->
+		
 	<model>
+		<condition>
+			<and>
+				<not>
+					<property>sim/equipment/new-panel</property>
+				</not>
+				<not>
+					<property>sim/equipment/mfd</property>
+				</not>
+				<not>
+					<property>sim/equipment/glass</property>
+				</not>
+			</and>
+		</condition>
 		<name>Panel</name>
 		<path>Panel/panel.xml</path>
+	</model>
+	
+	<model>
+		<condition>
+			<and>
+				<property>sim/equipment/new-panel</property>
+				<not>
+					<property>sim/equipment/mfd</property>
+				</not>
+				<not>
+					<property>sim/equipment/glass</property>
+				</not>
+			</and>
+		</condition>
+		<name>Panel</name>
+		<path>Panel/panel-1990.xml</path>
+	</model>
+	
+	<model>
+		<condition>
+			<and>
+				<property>sim/equipment/mfd</property>
+				<not>
+					<property>sim/equipment/glass</property>
+				</not>
+			</and>
+		</condition>
+		<name>Panel</name>
+		<path>Panel/panel-mfd.xml</path>
+	</model>
+	
+	<model>
+		<condition>
+			<property>sim/equipment/glass</property>
+		</condition>
+		<name>Panel</name>
+		<path>Panel/panel-glass.xml</path>
 	</model>
 	
 	<model>

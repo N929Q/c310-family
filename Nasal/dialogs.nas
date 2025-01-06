@@ -2,7 +2,7 @@ var dialogs = {};
 
 dialogs.EquipmentDialog = {
 	new: func {
-		var obj = canvas.Window.new(size: [250, 100], type: "dialog", destroy_on_close: 0)
+		var obj = canvas.Window.new(size: [250, 150], type: "dialog", destroy_on_close: 0)
 						.setTitle("Equipment options")
 						.setBool("resize", 1);
 		obj.parents = [dialogs.EquipmentDialog] ~ obj.parents;
@@ -10,6 +10,9 @@ dialogs.EquipmentDialog = {
 		obj.auxiliaryFuelTanksNode = obj.equipmentNode.getNode("auxiliary-fuel-tanks");
 		obj.rightLandingLightNode = obj.equipmentNode.getNode("right-landing-light");
 		obj.rotatingBeaconNode = obj.equipmentNode.getNode("rotating-beacon");
+		obj.NewPanelNode = obj.equipmentNode.getNode("new-panel");
+		obj.mfdNode = obj.equipmentNode.getNode("mfd");
+		obj.glassNode = obj.equipmentNode.getNode("glass");
 		obj.canvas = obj.getCanvas(create: 1).set("background", canvas.style.getColor("bg_color"));
 		obj.root = obj.canvas.createGroup();
 		obj.layout = canvas.VBoxLayout.new();
@@ -32,6 +35,24 @@ dialogs.EquipmentDialog = {
 		)
 						.setText("Rotating beacon:");
 		obj.layout.addItem(obj.rotatingBeaconCheckbox);
+		
+		obj.NewPanelCheckbox = canvas.gui.widgets.PropertyCheckBox.new(
+			obj.root, canvas.style, {"node": obj.NewPanelNode, "label-position": "left"}
+		)
+						.setText("1990's Avionics Update:");
+		obj.layout.addItem(obj.NewPanelCheckbox);
+		
+		obj.mfdCheckbox = canvas.gui.widgets.PropertyCheckBox.new(
+			obj.root, canvas.style, {"node": obj.mfdNode, "label-position": "left"}
+		)
+						.setText("FG1000 MFD + 1990's:");
+		obj.layout.addItem(obj.mfdCheckbox);
+		
+		obj.glassCheckbox = canvas.gui.widgets.PropertyCheckBox.new(
+			obj.root, canvas.style, {"node": obj.glassNode, "label-position": "left"}
+		)
+						.setText("Full FG1000 Panel:");
+		obj.layout.addItem(obj.glassCheckbox);
 		return obj;
 	},
 	

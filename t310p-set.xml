@@ -19,34 +19,7 @@
 		</model>
 		<variant-of>c310a</variant-of>
 		<primary-set type="bool">false</primary-set>
-		<systems>
-			<autopilot>
-				<path>Systems/c310-kfc200-autopilot.xml</path>
-			</autopilot>
-		</systems>
 	</sim>
-	<nasal>
-		<systems>
-            <file>Models/Interior/Panel/Instruments/kns80/KNS80.nas</file>
-        </systems>
-        <c310>
-			<file>Models/Interior/Panel/Instruments/kfc200/kfc-200.nas</file>
-			<file>Nasal/parts.nas</file>
-			<file>Nasal/c310.nas</file>
-			<file>Nasal/chocks.nas</file>
-			<file>Nasal/dialogs.nas</file>
-			<file>Nasal/controls.nas</file>
-			<file>Nasal/states.nas</file>
-			<file>Nasal/failures.nas</file>
-        </c310>
-	</nasal>
 
-    <autopilot>
-        <locks>
-            <passive-mode type="bool">true</passive-mode>
-            <pitch-active type="bool">true</pitch-active>
-            <roll-active type="bool">true</roll-active>
-        </locks>
-    </autopilot>
     
 </PropertyList>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<PropertyList include="interior.xml">
-	<model>
-		<name>Panel</name>
-		<path>Panel/panel-t310.xml</path>
-	</model>
-</PropertyList>
