@@ -2169,6 +2169,49 @@
 			</params>
 		</overlay>
 	</model>
+	
+<animation>
+  <type>material</type>
+		<object-name>BaggageDoorExterior</object-name>
+		<object-name>CabinDoorExterior</object-name>
+		<object-name>Fuselage</object-name>
+		<object-name>HorizontalStabilizer</object-name>
+		<object-name>LeftAileron</object-name>
+		<object-name>AileronTrimTab</object-name>
+		<object-name>LeftElevator</object-name>
+		<object-name>ElevatorTrimTab</object-name>
+		<object-name>LeftEngine</object-name>
+		<object-name>LeftEngineIntake</object-name>
+		<object-name>LeftWingtipTankFillerCover</object-name>
+		<object-name>LeftInboardFlap</object-name>
+		<object-name>LeftOutboardFlap</object-name>
+		<object-name>LeftMainGearDoorInboard</object-name>
+		<object-name>LeftMainGearDoorOutboard</object-name>
+		<object-name>LeftWing</object-name>
+		<object-name>LeftWingtipTank</object-name>
+		<object-name>NoseGearDoorForward</object-name>
+		<object-name>NoseGearDoorRearLeft</object-name>
+		<object-name>NoseGearDoorRearRight</object-name>
+		<object-name>RightAileron</object-name>
+		<object-name>RightElevator</object-name>
+		<object-name>RightEngine</object-name>
+		<object-name>RightEngineIntake</object-name>
+		<object-name>RightWingtipTankFillerCover</object-name>
+		<object-name>RightInboardFlap</object-name>
+		<object-name>RightOutboardFlap</object-name>
+		<object-name>RightMainGearDoorOutboard</object-name>
+		<object-name>RightMainGearDoorInboard</object-name>
+		<object-name>RightWing</object-name>
+		<object-name>RightWingtipTank</object-name>
+		<object-name>Rudder</object-name>
+		<object-name>RudderTrimTab</object-name>
+		<object-name>VerticalStabilizer</object-name>
+		<object-name>VerticalStabilizerTip</object-name>
+		<object-name>BeaconMount</object-name>
+  <property-base>sim/model/livery</property-base>
+  <texture-prop>texture</texture-prop>
+  <texture>Liveries/Untitled.png</texture>
+</animation>
 
 	<effect>
 		<inherits-from>Effects/exterior-opaque</inherits-from>

@@ -14,6 +14,8 @@ parts.manager.createCategory("instruments", "Instruments")
 				.createCategory("fuel-system", "Fuel system")
 				.createPart("fuel-boost-pump", "Fuel boost pump", ["1C6-10"]);
 				
+aircraft.livery.init("Aircraft/c310-family/Models/Liveries");
+
 var nasal_dir = getprop("/sim/fg-root") ~ "/Aircraft/Instruments-3d/FG1000/Nasal/";
 #io.load_nasal(nasal_dir ~ 'Interfaces/GenericInterfaceController.nas', "fg1000");
 

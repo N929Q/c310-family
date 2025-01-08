@@ -4,7 +4,8 @@
 		<menu n="10">
 			<label>Cessna 310A</label>
 			<enabled type="bool">true</enabled>
-			
+
+
 			<item>
 				<label>Autostart / autostop</label>
 				<binding>
@@ -45,13 +46,13 @@
 				</binding>
 			</item>
 			
-			<!--<item>
+			<item>
 				<label>Select Livery</label>
 				<binding>
 					<command>nasal</command>
 					<script>aircraft.livery.dialog.open()</script>
 				</binding>
-			</item>-->
+			</item>
 		</menu>
 	</default>
 </PropertyList>

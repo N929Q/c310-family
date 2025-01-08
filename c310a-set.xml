@@ -96,6 +96,9 @@
 		<model>
 			<path>Aircraft/c310-family/Models/c310a.xml</path>
 			
+			<livery>
+				<file type="string"/>
+			</livery>
 			<effects>
 				<interior>
 					<windows>
@@ -154,7 +157,7 @@
 				</landing>
 			</lights>
 		</model>
-		
+
 		<instrumentation>
 			<path>Systems/instrumentation.xml</path>
 		</instrumentation>
