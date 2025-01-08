@@ -19,14 +19,12 @@ Let's take the 310 to the level of the 172p!
 	* Full FG1000 *Mostly Works, needs more gauges, see MFD note above*
 * Panels Selectable IN FLIGHT from C310 -> Equipment *Displays most advanced panel selected*
 * Livery Support
-* Paintkit Materials *I may be redoing the unwrap, the sides of the engines are a little funny, PLEASE hold off on painting liveries for a bit*
+* Paintkit Materials 
 * Drop in replacement fuel.xml based on the c182. Just until the bugs are worked out.
 * Panel update for 1954 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
 
 ### Known Issues / Things I've Broken:
-* Prop Feather animation broken- I duplicated the axises in Blender but have since learned it's not so simple...
 * Pressure-based fuel system has a leak. Right system leaks from selected tank when left system in position other than off. 
-* Overhead light thing got messed up somehow in Blender
 
 ### In Progress
 * Textures for panel (To allow the classic and modern panels to coexist better)

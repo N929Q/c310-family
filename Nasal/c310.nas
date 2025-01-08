@@ -22,7 +22,6 @@ var nasal_dir = getprop("/sim/fg-root") ~ "/Aircraft/Instruments-3d/FG1000/Nasal
 var aircraft_dir = getprop("/sim/aircraft-dir");
 io.load_nasal(aircraft_dir ~ '/Nasal/c310-InterfaceController.nas', "fg1000");
 var interfaceController = fg1000.GenericInterfaceController.getOrCreateInstance();
-interfaceController.start();
 # Load a customer Interface controller
 io.load_nasal(aircraft_dir ~ '/Nasal/c310-EISPublisher.nas', "fg1000");
 io.load_nasal(aircraft_dir ~ '/Nasal/EIS-c310.nas', "fg1000");
@@ -101,11 +100,18 @@ setlistener("/sim/signals/fdm-initialized", func {
     "consumables/fuel/tank[1]/level-norm",
     "consumables/fuel/tank[2]/level-norm",
     "consumables/fuel/tank[3]/level-norm",
-    "controls/lighting/instruments-norm",
-    "controls/lighting/panel-norm",
-    "controls/lighting/dome-norm",
   );
 });
+
+
+setlistener("/controls/lighting/instruments-norm", func(node) {
+	setprop("/controls/lighting/uv-instrument-norm", node.getValue());
+}, startup = 1, runtime = 0);
+
+
+setlistener("/controls/lighting/panel-norm", func(node) {
+	setprop("/controls/lighting/red-instrument-norm", node.getValue());
+}, startup = 1, runtime = 0);
 
 var maxStartingTime = 6;
 

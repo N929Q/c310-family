@@ -493,7 +493,7 @@
 		<property>engines/engine[1]/thruster/rpm</property>
 	</animation>
 	
-<!-- Prop feather animation currently broken.
+
 	<animation>
 		<type>rotate</type>
 		<object-name>LeftPropellerBlade1</object-name>
@@ -509,6 +509,15 @@
 		<object-name>LeftPropellerBlade2</object-name>
 		<axis>
 			<object-name>LeftPropellerBlade2Axis</object-name>
+		</axis>
+		<property>engines/engine[0]/thruster/pitch</property>
+	</animation>
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>LeftPropellerBlade3</object-name>
+		<axis>
+			<object-name>LeftPropellerBlade3Axis</object-name>
 		</axis>
 		<property>engines/engine[0]/thruster/pitch</property>
 	</animation>
@@ -531,7 +540,16 @@
 		</axis>
 		<property>engines/engine[1]/thruster/pitch</property>
 	</animation>
--->
+	
+	<animation>
+		<type>rotate</type>
+		<object-name>RightPropellerBlade3</object-name>
+		<axis>
+			<object-name>RightPropellerBlade3Axis</object-name>
+		</axis>
+		<property>engines/engine[1]/thruster/pitch</property>
+	</animation>
+
 	
 	<!-- nose gear -->
 	<animation>
@@ -2174,6 +2192,7 @@
   <type>material</type>
 		<object-name>BaggageDoorExterior</object-name>
 		<object-name>CabinDoorExterior</object-name>
+		<object-name>ComNavAntenna</object-name>
 		<object-name>Fuselage</object-name>
 		<object-name>HorizontalStabilizer</object-name>
 		<object-name>LeftAileron</object-name>
@@ -2187,8 +2206,8 @@
 		<object-name>LeftOutboardFlap</object-name>
 		<object-name>LeftMainGearDoorInboard</object-name>
 		<object-name>LeftMainGearDoorOutboard</object-name>
-		<object-name>LeftWing</object-name>
 		<object-name>LeftWingtipTank</object-name>
+		<object-name>LeftWing</object-name>
 		<object-name>NoseGearDoorForward</object-name>
 		<object-name>NoseGearDoorRearLeft</object-name>
 		<object-name>NoseGearDoorRearRight</object-name>

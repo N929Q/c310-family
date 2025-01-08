@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <PropertyList include="c310p-set.xml">
 	<sim>
-		<description>Cessna T310P (JSBsim)</description>
+		<description>Cessna T310P 512 Arrow 325HP (JSBsim)</description>
 		<minimum-fg-version>2020.4.0</minimum-fg-version>
 		
 		<rating>

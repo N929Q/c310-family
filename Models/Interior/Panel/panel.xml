@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
-	<animation>
-	<type>material</type>
-	<object-name>Panel</object-name>
-	<texture>panel-black.png</texture>
-	</animation>
+
+<animation>
+  <type>material</type>
+  <object-name>Panel</object-name>
+  <texture-prop>texture</texture-prop>
+  <property-base>sim/model/livery</property-base>
+  <texture-prop>panel-texture</texture-prop>
+  <texture>Liveries/panel-black.png</texture>
+</animation>
 	<model>
 		<name>LeftYoke</name>
 		<path>Controls/yoke/yoke.xml</path>

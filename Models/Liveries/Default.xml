@@ -6,7 +6,8 @@
   <model>
     <livery>
       <name type="string">Red, White, Blue</name>
-      <texture>Liveries/Untitled.png</texture>
+      <texture>Liveries/Default.png</texture>
+      <panel-texture>Liveries/panel-black.png</panel-texture>
     </livery>
   </model>
 </sim>
