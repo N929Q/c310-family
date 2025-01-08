@@ -502,7 +502,7 @@
 	</model>
 	
 	<model>
-		<path>Instruments/cht/cht1.xml</path>
+		<path>Instruments/cht/cht.xml</path>
 		<offsets>
 			<x-m>0.515</x-m>
 			<y-m>0.245</y-m>
@@ -525,7 +525,7 @@
 	</model>
 	
 	<model>
-		<path>Instruments/ammeter/ammeter1.xml</path>
+		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
 			<x-m>0.53</x-m>
 			<y-m>-0.4735</y-m>

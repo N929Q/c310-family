@@ -18,7 +18,7 @@ Let's take the 310 to the level of the 172p!
 	* KFC-200 / FG1000 MFD Combo *Needs EISController stuff for NA engines still*
 	* Full FG1000 *Mostly Works, needs more gauges, see MFD note above*
 * Panels Selectable IN FLIGHT from C310 -> Equipment *Displays most advanced panel selected*
-* Paintable Exterior with a decent paintjob
+* Livery Support
 * Paintkit Materials *I may be redoing the unwrap, the sides of the engines are a little funny, PLEASE hold off on painting liveries for a bit*
 * Drop in replacement fuel.xml based on the c182. Just until the bugs are worked out.
 * Panel update for 1954 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
