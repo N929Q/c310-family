@@ -2,19 +2,19 @@ AC3Db
 MATERIAL "TrimNeedleMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
 MATERIAL "ExteriorPaint" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.700 0.700 0.700  shi 115 trans 0.000
 MATERIAL "AxisMaterial" rgb 1.000 0.911 0.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 1.000
-MATERIAL "TrimWheelMaterial" rgb 0.033 0.033 0.033  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.200 0.200 0.200  shi 64 trans 0.000
+MATERIAL "TrimWheelMaterial" rgb 0.1 0.13 0.1  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.200 0.200 0.200  shi 64 trans 0.000
 MATERIAL "InteriorMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.200 0.200 0.200  shi 64 trans 0.000
-MATERIAL "ExteriorPaint.001" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.700 0.700 0.700  shi 64 trans 0.000
+MATERIAL "ExteriorPaint.001" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.700 0.700 0.700  shi 112 trans 0.000
 MATERIAL "BeaconGlassMaterial" rgb 1.000 0.000 0.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.700
 MATERIAL "DefaultWhite" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
-MATERIAL "FuselageMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "FuselageMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 112 trans 0.000
 MATERIAL "PanelMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.300 0.300 0.300  shi 64 trans 0.000
 MATERIAL "WingMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.000 0.000 0.000  shi 64 trans 0.000
 MATERIAL "DefaultWhite.001" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
-MATERIAL "MetalMaterial" rgb 0.704 0.704 0.704  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
+MATERIAL "MetalMaterial" rgb 0.704 0.704 0.704  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 127 trans 0.000
 MATERIAL "DomeLightSwitchMaterial" rgb 0.000 0.000 0.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
 MATERIAL "SeatMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.000 0.000 0.000  shi 64 trans 0.000
-MATERIAL "GlareshieldMaterial" rgb 0.013 0.013 0.013  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.000 0.000 0.000  shi 64 trans 0.000
+MATERIAL "GlareshieldMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.000 0.000 0.000  shi 64 trans 0.000
 MATERIAL "HandleMaterial" rgb 1.000 1.000 1.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
 MATERIAL "GearMaterial" rgb 0.400 0.000 0.000  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 1.000 1.000 1.000  shi 64 trans 0.000
 MATERIAL "BlackMetalMaterial" rgb 0.010 0.010 0.010  amb 0.800 0.800 0.800  emis 0.000 0.000 0.000  spec 0.000 0.000 0.000  shi 64 trans 0.000
@@ -34196,6 +34196,7 @@ name "Glareshield"
 data 11
 Panel3.mesh
 crease 45.0
+texture "Panel.png"
 numvert 199
 -0.01079 0.10185 0
 0.52107 0.03005 0.57443
