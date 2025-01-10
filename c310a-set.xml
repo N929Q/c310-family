@@ -248,6 +248,15 @@
 			<path>/instrumentation/kns-80/wpt[2]</path>
 			<path>/instrumentation/kns-80/wpt[3]</path>
 			<path>/instrumentation/transponder</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[0]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[1]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[2]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[3]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[4]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[5]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[6]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[7]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>
 		</aircraft-data>
 		
 		<view n="0">
