@@ -2,7 +2,7 @@ var dialogs = {};
 
 dialogs.EquipmentDialog = {
 	new: func {
-		var obj = canvas.Window.new(size: [250, 150], type: "dialog", destroy_on_close: 0)
+		var obj = canvas.Window.new(size: [250, 250], type: "dialog", destroy_on_close: 0)
 						.setTitle("Equipment options")
 						.setBool("resize", 1);
 		obj.parents = [dialogs.EquipmentDialog] ~ obj.parents;
@@ -10,6 +10,7 @@ dialogs.EquipmentDialog = {
 		obj.auxiliaryFuelTanksNode = obj.equipmentNode.getNode("auxiliary-fuel-tanks");
 		obj.rightLandingLightNode = obj.equipmentNode.getNode("right-landing-light");
 		obj.rotatingBeaconNode = obj.equipmentNode.getNode("rotating-beacon");
+		obj.DisableUVStarterNode = obj.equipmentNode.getNode("disable-uv-starter");
 		obj.NewPanelNode = obj.equipmentNode.getNode("new-panel");
 		obj.mfdNode = obj.equipmentNode.getNode("mfd");
 		obj.glassNode = obj.equipmentNode.getNode("glass");
@@ -35,6 +36,12 @@ dialogs.EquipmentDialog = {
 		)
 						.setText("Rotating beacon:");
 		obj.layout.addItem(obj.rotatingBeaconCheckbox);
+		
+		obj.DisableUVStarterCheckbox = canvas.gui.widgets.PropertyCheckBox.new(
+			obj.root, canvas.style, {"node": obj.DisableUVStarterNode, "label-position": "left"}
+		)
+						.setText("Disable UV Starter:");
+		obj.layout.addItem(obj.DisableUVStarterCheckbox);
 		
 		obj.NewPanelCheckbox = canvas.gui.widgets.PropertyCheckBox.new(
 			obj.root, canvas.style, {"node": obj.NewPanelNode, "label-position": "left"}

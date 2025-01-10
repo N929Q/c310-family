@@ -77,31 +77,16 @@ setlistener("/systems/electrical/outputs/fg1000-pfd", func(n) {
     }
 }, 0, 0);
 
-setlistener("/sim/signals/fdm-initialized", func {
-  aircraft.data.add(
-    "instrumentation/comm[0]/volume",
-    "instrumentation/comm[0]/frequencies/selected-mhz",
-    "instrumentation/comm[0]/frequencies/standby-mhz",
-    "instrumentation/comm[0]/test-btn",
-    "instrumentation/nav[0]/volume",
-    "instrumentation/nav[0]/audio-btn",
-    "instrumentation/nav[0]/power-btn",
-    "instrumentation/nav[0]/frequencies/selected-mhz",
-    "instrumentation/nav[0]/frequencies/standby-mhz",
-    "instrumentation/comm[1]/volume",
-    "instrumentation/comm[1]/frequencies/selected-mhz",
-    "instrumentation/comm[1]/frequencies/standby-mhz",
-    "instrumentation/comm[1]/test-btn",
-    "instrumentation/nav[1]/audio-btn",
-    "instrumentation/nav[1]/power-btn",
-    "instrumentation/nav[1]/frequencies/selected-mhz",
-    "instrumentation/nav[1]/frequencies/standby-mhz",
-    "consumables/fuel/tank/level-norm",
-    "consumables/fuel/tank[1]/level-norm",
-    "consumables/fuel/tank[2]/level-norm",
-    "consumables/fuel/tank[3]/level-norm",
-  );
-});
+
+
+setlistener("/controls/lighting/uv-instrument-norm", func(node) {
+	setprop("/controls/lighting/instruments-norm", node.getValue());
+}, startup = 1, runtime = 0);
+
+
+setlistener("/controls/lighting/red-instrument-norm", func(node) {
+	setprop("/controls/lighting/panel-norm", node.getValue());
+}, startup = 1, runtime = 0);
 
 
 setlistener("/controls/lighting/instruments-norm", func(node) {
@@ -209,10 +194,8 @@ var autostopEngine = func(i) {
 var autostartElectricsBeforeEngineStart = func {
 	props.globals.setBoolValue("/controls/electric/battery-switch", 1);
 	props.globals.setBoolValue("/controls/lighting/beacon", 1);
-	props.globals.setDoubleValue("/controls/lighting/uv-instrument-norm", 1);
 	props.globals.setBoolValue("/controls/lighting/uv-instrument-starter-button-pressed[0]", 1);
 	props.globals.setBoolValue("/controls/lighting/uv-instrument-starter-button-pressed[1]", 1);
-	props.globals.setDoubleValue("/controls/lighting/red-instrument-norm", 1);
 }
 
 var autostartElectricsAfterEngineStart = func {

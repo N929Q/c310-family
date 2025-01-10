@@ -349,9 +349,9 @@
 		<type>gain</type>
 		<input>
 			<expression>
-				<sum>
+				<sum> <!-- Avalaible amps on series batteries does not double, only the voltage -->
 					<property>suppliers/battery[0]/available-amps</property>
-					<property>suppliers/battery[1]/available-amps</property>
+					<!-- <property>suppliers/battery[1]/available-amps</property> -->
 				</sum>
 			</expression>
 		</input>
@@ -592,6 +592,7 @@
 		<name>Left UV instrument light active</name>
 		<input>
 			<or>
+				<property>/sim/equipment/disable-uv-starter</property>
 				<and>
 					<property>/systems/electrical/consumers/uv-instrument-light[0]/active</property>
 					<property>/systems/electrical/consumers/uv-instrument-light[0]/volts</property>
@@ -612,6 +613,7 @@
 		<name>Right UV instrument light active</name>
 		<input>
 			<or>
+				<property>/sim/equipment/disable-uv-starter</property>
 				<and>
 					<property>/systems/electrical/consumers/uv-instrument-light[1]/active</property>
 					<property>/systems/electrical/consumers/uv-instrument-light[1]/volts</property>

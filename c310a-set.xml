@@ -214,7 +214,40 @@
 			<path>/sim/equipment</path>
 			<path>/sim/model/effects/interior/windows</path>
 			<path>/sim/realism</path>
-			<path>instrumentation/adf[0]/frequencies/selected-khz</path>
+			<path>/instrumentation/adf[0]/frequencies/selected-khz</path>
+			<path>/instrumentation/comm[0]/volume</path>
+			<path>/instrumentation/comm[0]/frequencies/selected-mhz</path>
+			<path>/instrumentation/comm[0]/frequencies/standby-mhz</path>
+			<path>/instrumentation/comm[0]/test-btn</path>
+			<path>/instrumentation/nav[0]/volume</path>
+			<path>/instrumentation/nav[0]/audio-btn</path>
+			<path>/instrumentation/nav[0]/power-btn</path>
+			<path>/instrumentation/nav[0]/frequencies/selected-mhz</path>
+			<path>/instrumentation/nav[0]/frequencies/standby-mhz</path>
+			<path>/instrumentation/comm[1]/volume</path>
+			<path>/instrumentation/comm[1]/frequencies/selected-mhz</path>
+			<path>/instrumentation/comm[1]/frequencies/standby-mhz</path>
+			<path>/instrumentation/comm[1]/test-btn</path>
+			<path>/instrumentation/nav[1]/audio-btn</path>
+			<path>/instrumentation/nav[1]/power-btn</path>
+			<path>/instrumentation/nav[1]/frequencies/selected-mhz</path>
+			<path>/instrumentation/nav[1]/frequencies/standby-mhz</path>
+			<path>/consumables/fuel/tank/level-norm</path>
+			<path>/consumables/fuel/tank[1]/level-norm</path>
+			<path>/consumables/fuel/tank[2]/level-norm</path>
+			<path>/consumables/fuel/tank[3]/level-norm</path>
+			<path>/controls/lighting/red-instrument-norm</path>
+			<path>/controls/lighting/uv-instrument-norm</path>
+			<path>/controls/gear/brake-parking</path>
+			<path>/controls/switches/radio</path>
+			<path>/controls/switches/nav</path>
+			<path>/autopilot/settings/heading-bug-deg</path>
+			<path>/instrumentation/nav/radials/selected-deg</path>
+			<path>/instrumentation/kns-80/wpt[0]</path>
+			<path>/instrumentation/kns-80/wpt[1]</path>
+			<path>/instrumentation/kns-80/wpt[2]</path>
+			<path>/instrumentation/kns-80/wpt[3]</path>
+			<path>/instrumentation/transponder</path>
 		</aircraft-data>
 		
 		<view n="0">
@@ -235,6 +268,7 @@
 			<new-panel type="bool">false</new-panel>
 			<mfd type="bool">false</mfd>
 			<glass type="bool">false</glass>
+			<disable-uv-starter type="bool">true</disable-uv-starter>
 		</equipment>
 		
 		<menubar include="gui/menubar.xml"/>
@@ -763,17 +797,17 @@
 					<rated-amps>35</rated-amps>
 					<rated-volts>24</rated-volts>
 				</alternator>
-				<battery>
-					<rated-amps>35</rated-amps>
+				<battery> <!-- Modified using data for a replacement battery from Concorde -->
+					<rated-amps>225</rated-amps>
 					<rated-volts>12</rated-volts>
-					<capacity-amp_hours>24</capacity-amp_hours>
-					<charge-amp_hours>24</charge-amp_hours>
+					<capacity-amp_hours>19</capacity-amp_hours>
+					<charge-amp_hours>19</charge-amp_hours>
 				</battery>
 				<battery>
-					<rated-amps>35</rated-amps>
+					<rated-amps>225</rated-amps>
 					<rated-volts>12</rated-volts>
-					<capacity-amp_hours>24</capacity-amp_hours>
-					<charge-amp_hours>24</charge-amp_hours>
+					<capacity-amp_hours>19</capacity-amp_hours>
+					<charge-amp_hours>19</charge-amp_hours>
 				</battery>
 				<gpu>
 					<rated-amps>100</rated-amps>
@@ -811,11 +845,11 @@
 				</landing-light-motor>
 				<starter-motor n="0">
 					<rated-volts>24</rated-volts>
-					<rated-amps>91</rated-amps>
+					<rated-amps>190</rated-amps> <!-- AOPA article -->
 				</starter-motor>
 				<starter-motor n="1">
 					<rated-volts>24</rated-volts>
-					<rated-amps>91</rated-amps>
+					<rated-amps>190</rated-amps>
 				</starter-motor>
 				<rotating-beacon>
 					<rated-volts>28</rated-volts>
