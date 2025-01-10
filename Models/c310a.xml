@@ -462,6 +462,7 @@
 	</animation>
 	
 	<animation>
+		<name>LeftPropSpinAnimation</name>
 		<type>spin</type>
 		<object-name>LeftPropellerBlur</object-name>
 		<object-name>LeftPropellerSpinner</object-name>
@@ -478,6 +479,7 @@
 	</animation>
 	
 	<animation>
+		<name>RightPropSpinAnimation</name>
 		<type>spin</type>
 		<object-name>RightPropellerBlur</object-name>
 		<object-name>RightPropellerSpinner</object-name>
@@ -491,6 +493,7 @@
 			<object-name>RightPropellerSpinAxis</object-name>
 		</axis>
 		<property>engines/engine[1]/thruster/rpm</property>
+		<factor>-1</factor>
 	</animation>
 	
 

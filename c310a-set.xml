@@ -60,6 +60,12 @@
 			<realistic-fdm type="bool">true</realistic-fdm>
 		</realism>
 		
+		<rendering>
+			<multithreading-mode>CullDrawThreadPerContext</multithreading-mode>
+		</rendering>
+		
+		<affinity-control>clear</affinity-control>
+		<model-hz type="double">90.0</model-hz>
 		<previews>
 			<preview>
 				<type>exterior</type>

@@ -24,7 +24,7 @@
 	<oil-pressure-relief-valve-psi>55</oil-pressure-relief-valve-psi>
 	<oil-pressure-rpm-max>2000</oil-pressure-rpm-max>
 	<design-oil-temp-degK>340</design-oil-temp-degK>
-	<cylinder-head-mass unit="LBS">23.3</cylinder-head-mass>
+	<cylinder-head-mass unit="LBS">32.3</cylinder-head-mass>
 
 	<numboostspeeds>1</numboostspeeds>
 	<boostoverride>0</boostoverride>
