@@ -1,0 +1,7 @@
+To get the DDS textures compatable with this aircraft, use "export as" in Gimp, select .dds and use the following settings:
+
+BC3 / DTX5
+Flip the image horizontally
+Generate MipMaps
+
+And you should have a working DirectDraw Surface.

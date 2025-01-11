@@ -2232,7 +2232,7 @@
 		<object-name>BeaconMount</object-name>
   <property-base>sim/model/livery</property-base>
   <texture-prop>texture</texture-prop>
-  <texture>Liveries/Untitled.png</texture>
+  <texture>Liveries/Default.dds</texture>
 </animation>
 
 	<effect>

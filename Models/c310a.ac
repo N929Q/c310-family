@@ -342,7 +342,7 @@ name "AileronTrimTab"
 data 23
 LeftAileronTrimTab.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 6
 2.04519 -0.52125 3.51917
 1.93668 -0.47116 4.39823
@@ -7524,7 +7524,7 @@ name "BaggageCompartment"
 data 18
 Headliner.mesh.004
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 16
 2.7657 -0.54362 0.44312
 2.72615 -0.58329 0.448
@@ -7631,7 +7631,7 @@ name "BaggageDoorExterior"
 data 14
 CargoDoor.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 18
 2.7657 -0.54362 -0.54454
 2.72615 -0.58329 -0.54942
@@ -7759,7 +7759,7 @@ name "BaggageDoorInterior"
 data 20
 CargoDoorIn.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 8
 2.76506 -0.10178 -0.54426
 2.72615 -0.58329 -0.54942
@@ -8203,7 +8203,7 @@ name "BeaconMount"
 data 12
 Cylinder.003
 crease 40.0
-texture "Default.png"
+texture "Default.dds"
 numvert 46
 5.57 1.955 -0.035
 5.5875 1.955 -0.03031
@@ -8394,7 +8394,7 @@ name "CabinDoorExterior"
 data 12
 EntDoor.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 57
 0.85482 0.50994 -0.47008
 1.01842 0.58406 -0.39258
@@ -8634,7 +8634,7 @@ name "CabinDoorHandle"
 data 18
 EntHandle.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 63
 0.64014 -0.14399 -0.57821
 0.61182 -0.11968 -0.57136
@@ -9053,7 +9053,7 @@ name "CabinDoorHandleAxis"
 data 18
 EntHandle.mesh.002
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 2
 0.6095 -0.1448 -0.60034
 0.61436 -0.14432 -0.55058
@@ -9069,7 +9069,7 @@ name "CabinDoorInterior"
 data 19
 EntDoorInt.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 128
 1.21446 -0.21855 -0.60614
 1.21175 -0.20969 -0.60606
@@ -10311,7 +10311,7 @@ name "CircuitBreakerPanelCover"
 data 21
 BreakerDoors.mesh.001
 crease 45.0
-texture "Panel.png"
+texture "Panel.dds"
 numvert 88
 0.93494 -0.07785 0.59657
 0.93573 -0.07975 0.59662
@@ -10975,7 +10975,7 @@ name "CircuitBreakerPanelCoverHandle"
 data 9
 Plane.028
 crease 45.0
-texture "Panel.png"
+texture "Panel.dds"
 numvert 34
 0.73481 -0.08744 0.56007
 0.73497 -0.0894 0.55769
@@ -12659,7 +12659,7 @@ name "ComNavAntenna"
 data 12
 Antenna.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 15
 1.06773 0.61032 0.03016
 0.89784 0.62706 0.03016
@@ -13106,7 +13106,7 @@ name "ElevatorTrimTab"
 data 25
 RightElevatorTrimTab.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 6
 6.42315 -0.15653 -1.17631
 6.42361 -0.1695 -1.17631
@@ -21525,7 +21525,7 @@ name "EngineControlsAxis"
 data 17
 Interior.mesh.002
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 2
 0.59772 -0.29019 -0.08229
 0.59772 -0.29019 0.08229
@@ -21785,7 +21785,7 @@ name "FrontLeftSeat"
 data 16
 SeatArm.mesh.002
 crease 45.0
-texture "front-seats.png"
+texture "front-seats.dds"
 numvert 458
 1.42527 -0.22461 0.06515
 1.42375 -0.229 0.05874
@@ -25408,7 +25408,7 @@ name "FrontRightSeat"
 data 16
 SeatArm.mesh.003
 crease 45.0
-texture "front-seats.png"
+texture "front-seats.dds"
 numvert 458
 1.42527 -0.22461 -0.06515
 1.42375 -0.229 -0.05874
@@ -29031,7 +29031,7 @@ name "Fuselage"
 data 17
 Fuselage.mesh.001
 crease 85.0
-texture "Default.png"
+texture "Default.dds"
 numvert 719
 3.27558 -0.55536 0.50854
 2.58448 -0.67768 0.57389
@@ -34196,7 +34196,7 @@ name "Glareshield"
 data 11
 Panel3.mesh
 crease 45.0
-texture "Panel.png"
+texture "Panel.dds"
 numvert 199
 -0.01079 0.10185 0
 0.52107 0.03005 0.57443
@@ -35740,7 +35740,7 @@ name "GloveboxDoor"
 data 21
 BreakerDoors.mesh.003
 crease 45.0
-texture "Panel.png"
+texture "Panel.dds"
 numvert 28
 0.51754 -0.26039 -0.14334
 0.50926 -0.14752 -0.14334
@@ -35899,7 +35899,7 @@ name "HorizontalStabilizer"
 data 14
 Wings.mesh.001
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 133
 5.59795 -0.18399 2.54041
 5.64472 -0.1829 2.60326
@@ -37063,7 +37063,7 @@ name "Interior"
 data 17
 Interior.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 637
 0.54389 -0.70982 0.08229
 0.54389 -0.70982 -0.03247
@@ -41562,7 +41562,7 @@ name "LeftAileron"
 data 16
 LeftAileron.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 14
 2.04633 -0.55409 3.51917
 1.93562 -0.44063 4.39823
@@ -41744,7 +41744,7 @@ name "LeftAshTray"
 data 20
 AshAndVents.mesh.002
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 36
 0.74872 -0.302 0.60117
 0.82463 -0.25261 0.60781
@@ -42373,7 +42373,7 @@ name "LeftElevator"
 data 17
 LeftElevator.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 24
 6.07162 -0.1387 0.07102
 6.42307 -0.15405 0.04125
@@ -42590,7 +42590,7 @@ name "LeftEngine"
 data 22
 EnginesBrakes.mesh.002
 crease 50.0
-texture "Default.png"
+texture "Default.dds"
 numvert 442
 -0.42579 -0.59656 2.38677
 -0.4445 -0.59324 2.37271
@@ -46520,7 +46520,7 @@ name "LeftInboardFlap"
 data 15
 LFlap2.mesh.001
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 6
 1.88449 -0.78168 0.68957
 1.88453 -0.81323 0.68957
@@ -46598,7 +46598,7 @@ name "LeftLandingLightLampCase"
 data 10
 Sphere.001
 crease 30.0
-texture "Default.png"
+texture "Default.dds"
 numvert 276
 1.006 -0.61085 3.40056
 1.03188 -0.61558 3.40371
@@ -50296,7 +50296,7 @@ name "LeftMainGearDoorInboard"
 data 19
 GearDoors1.mesh.002
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 10
 1.07673 -0.77258 1.4012
 0.95176 -0.78737 1.21169
@@ -50391,7 +50391,7 @@ name "LeftMainGearDoorOutboard"
 data 19
 GearDoors2.mesh.006
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 48
 1.48353 -0.74788 1.6317
 1.48355 -0.76076 1.67061
@@ -60288,7 +60288,7 @@ name "LeftOutboardFlap"
 data 15
 RFlap1.mesh.002
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 8
 1.8844 -0.71604 1.96224
 2.3487 -0.66304 1.95858
@@ -60382,7 +60382,7 @@ name "LeftPropellerBlade1"
 data 10
 Circle.007
 crease 90.0
-texture "propeller.png"
+texture "propeller.dds"
 numvert 559
 -0.56516 -0.49403 2.03579
 -0.57643 -0.49209 2.03692
@@ -64769,7 +64769,7 @@ name "LeftPropellerBlade2"
 data 10
 Circle.008
 crease 90.0
-texture "propeller.png"
+texture "propeller.dds"
 numvert 559
 -0.56516 -0.54115 1.88579
 -0.57643 -0.54309 1.88691
@@ -69156,7 +69156,7 @@ name "LeftPropellerBlade3"
 data 10
 Circle.003
 crease 90.0
-texture "propeller.png"
+texture "propeller.dds"
 numvert 559
 -0.56516 -0.38769 1.91999
 -0.57643 -0.38769 1.91774
@@ -75282,7 +75282,7 @@ name "LeftSunVisorAxis"
 data 18
 VisorEdge.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 2
 0.68917 0.4883 0.43325
 0.60349 0.51199 0.04165
@@ -75582,7 +75582,7 @@ name "LeftWing"
 data 14
 Wings.mesh.006
 crease 50.0
-texture "Default.png"
+texture "Default.dds"
 numvert 373
 0.98107 -0.29091 5.4171
 1.16218 -0.35468 4.06536
@@ -77955,7 +77955,7 @@ name "LeftWingtipTank"
 data 23
 GearLightMount.mesh.005
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 258
 -0.16574 -0.33953 5.4706
 -0.12542 -0.2883 5.4706
@@ -81245,7 +81245,7 @@ name "LeftWingtipTankFillerCover"
 data 12
 Cylinder.009
 crease 40.0
-texture "Default.png"
+texture "Default.dds"
 numvert 212
 0.75319 -0.01729 5.39607
 0.75319 -0.01729 5.49607
@@ -89480,7 +89480,7 @@ name "NoseGearDoorForward"
 data 19
 GearDoors1.mesh.001
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 22
 -1.42081 -0.73986 -0.08581
 -1.39709 -0.77394 -0
@@ -89660,7 +89660,7 @@ name "NoseGearDoorRearLeft"
 data 19
 GearDoors2.mesh.001
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 34
 -1.01416 -0.88649 -0.00009
 -1.1921 -0.82318 0.11526
@@ -89982,7 +89982,7 @@ name "NoseGearDoorRearRight"
 data 19
 GearDoors2.mesh.003
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 34
 -1.01416 -0.88649 0.00009
 -1.1921 -0.82318 -0.11526
@@ -99704,7 +99704,7 @@ name "OpenableWindowAxis"
 data 25
 OpenableWindowIn.mesh.002
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 2
 0.91466 0.00563 0.66104
 0.64899 0.00524 0.64308
@@ -100087,7 +100087,7 @@ name "OpenableWindowFrameInterior"
 data 21
 OpenableWindowIn.mesh
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 153
 0.96148 0.17911 0.64934
 0.948 0.16837 0.64913
@@ -101785,7 +101785,7 @@ name "OpenableWindowHandle"
 data 18
 Headliner.mesh.005
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 77
 0.83603 0.18461 0.63745
 0.8344 0.1838 0.63189
@@ -102432,7 +102432,7 @@ name "OpenableWindowHandleAxis"
 data 18
 Headliner.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 2
 0.78634 0.18746 0.61041
 0.78286 0.1991 0.64897
@@ -102562,7 +102562,7 @@ name "OpenableWindowLatch"
 data 18
 LatchBody.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 91
 0.78551 0.18993 0.62771
 0.78226 0.19309 0.62646
@@ -106833,7 +106833,7 @@ name "Panel"
 data 11
 Panel1.mesh
 crease 45.0
-texture "Panel.png"
+texture "Panel.dds"
 numvert 32
 0.50069 0.03793 -0.53716
 0.50069 0.03793 0.53715
@@ -106914,7 +106914,7 @@ name "Pedestal"
 data 17
 Interior.mesh.003
 crease 50.0
-texture "interior.png"
+texture "interior.dds"
 numvert 479
 0.88322 -0.67359 -0.09157
 0.84878 -0.67641 -0.09157
@@ -110584,7 +110584,7 @@ name "Pocket"
 data 18
 Headliner.mesh.006
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 15
 0.85437 -0.52215 0.59657
 0.8 -0.52449 0.56463
@@ -110681,7 +110681,7 @@ name "RearSeat"
 data 17
 RearSeat.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 228
 2.15933 -0.45621 0.55452
 2.31564 0.12295 0.41512
@@ -112490,7 +112490,7 @@ name "RightAileron"
 data 17
 RightAileron.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 10
 1.76866 -0.57334 -3.51917
 1.78134 -0.58485 -3.51917
@@ -112620,7 +112620,7 @@ name "RightAshTray"
 data 20
 AshAndVents.mesh.001
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 36
 0.74872 -0.302 -0.60117
 0.82463 -0.25261 -0.60781
@@ -113249,7 +113249,7 @@ name "RightElevator"
 data 18
 RightElevator.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 28
 6.08188 -0.14176 -2.50104
 6.07163 -0.15026 -2.50104
@@ -113513,7 +113513,7 @@ name "RightEngine"
 data 22
 EnginesBrakes.mesh.004
 crease 50.0
-texture "Default.png"
+texture "Default.dds"
 numvert 443
 -0.42579 -0.59656 -2.38677
 -0.4445 -0.59324 -2.37271
@@ -117482,7 +117482,7 @@ name "RightInboardFlap"
 data 15
 RFlap2.mesh.001
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 6
 2.3487 -0.66304 -1.95858
 1.8844 -0.71604 -1.96224
@@ -117619,7 +117619,7 @@ name "RightLandingLightLampCase"
 data 10
 Sphere.002
 crease 30.0
-texture "Default.png"
+texture "Default.dds"
 numvert 276
 1.006 -0.59526 -3.59738
 1.03188 -0.60042 -3.59502
@@ -121317,7 +121317,7 @@ name "RightMainGearDoorInboard"
 data 19
 GearDoors1.mesh.006
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 10
 1.07673 -0.77258 -1.4012
 0.95176 -0.78737 -1.21169
@@ -121412,7 +121412,7 @@ name "RightMainGearDoorOutboard"
 data 19
 GearDoors2.mesh.008
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 48
 1.48353 -0.74788 -1.6317
 1.48355 -0.76076 -1.67061
@@ -131309,7 +131309,7 @@ name "RightOutboardFlap"
 data 15
 RFlap1.mesh.003
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 8
 1.8844 -0.71604 -1.96224
 1.82716 -0.65554 -2.72982
@@ -131403,7 +131403,7 @@ name "RightPropellerBlade1"
 data 10
 Circle.004
 crease 90.0
-texture "propeller.png"
+texture "propeller.dds"
 numvert 559
 -0.56516 -0.54115 -2.00859
 -0.57643 -0.54309 -2.00747
@@ -135790,7 +135790,7 @@ name "RightPropellerBlade2"
 data 10
 Circle.006
 crease 90.0
-texture "propeller.png"
+texture "propeller.dds"
 numvert 559
 -0.56516 -0.38769 -1.97439
 -0.57643 -0.38769 -1.97664
@@ -140177,7 +140177,7 @@ name "RightPropellerBlade3"
 data 10
 Circle.002
 crease 90.0
-texture "propeller.png"
+texture "propeller.dds"
 numvert 559
 -0.56516 -0.49403 -1.85859
 -0.57643 -0.49209 -1.85746
@@ -146303,7 +146303,7 @@ name "RightSunVisorAxis"
 data 18
 VisorEdge.mesh.004
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 2
 0.68917 0.4883 -0.43325
 0.60349 0.51199 -0.04165
@@ -146603,7 +146603,7 @@ name "RightWing"
 data 14
 Wings.mesh.003
 crease 50.0
-texture "Default.png"
+texture "Default.dds"
 numvert 373
 0.98107 -0.29091 -5.4171
 1.16218 -0.35468 -4.06536
@@ -148976,7 +148976,7 @@ name "RightWingtipTank"
 data 23
 GearLightMount.mesh.007
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 258
 -0.16574 -0.33953 -5.4706
 -0.12542 -0.2883 -5.4706
@@ -152266,7 +152266,7 @@ name "RightWingtipTankFillerCover"
 data 12
 Cylinder.016
 crease 40.0
-texture "Default.png"
+texture "Default.dds"
 numvert 212
 0.75319 -0.01729 -5.39607
 0.75319 -0.01729 -5.49607
@@ -156058,7 +156058,7 @@ name "Rudder"
 data 14
 RudderCut.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 53
 6.01868 1.90157 0.009
 5.66951 1.92679 0.01393
@@ -156880,7 +156880,7 @@ name "RudderTrimTab"
 data 18
 RudderTrimTab.mesh
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 12
 6.56482 0.2019 0
 6.51242 0.17156 0.00529
@@ -164960,7 +164960,7 @@ name "Vents"
 data 16
 AshAndVents.mesh
 crease 45.0
-texture "interior.png"
+texture "interior.dds"
 numvert 48
 0.46382 -0.60494 0.54737
 0.46133 -0.60494 0.56305
@@ -165425,7 +165425,7 @@ name "VerticalStabilizer"
 data 23
 GearLightMount.mesh.002
 crease 40.0
-texture "Default.png"
+texture "Default.dds"
 numvert 107
 5.53203 -0.02749 0.0383
 4.94248 0.42893 0.02872
@@ -166277,7 +166277,7 @@ name "VerticalStabilizerTip"
 data 23
 GearLightMount.mesh.001
 crease 45.0
-texture "Default.png"
+texture "Default.dds"
 numvert 6
 6.60782 -0.14493 -0
 6.56482 0.2019 0

@@ -65,7 +65,7 @@
 		</rendering>
 		
 		<affinity-control>clear</affinity-control>
-		<model-hz type="double">90.0</model-hz>
+		<model-hz type="double">120.0</model-hz>
 		<previews>
 			<preview>
 				<type>exterior</type>

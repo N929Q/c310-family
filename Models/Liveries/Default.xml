@@ -6,7 +6,7 @@
   <model>
     <livery>
       <name type="string">Red, White, Blue</name>
-      <texture>Liveries/Default.png</texture>
+      <texture>Liveries/Default.dds</texture>
       <panel-texture>Liveries/panel-black.png</panel-texture>
     </livery>
   </model>

@@ -6,7 +6,7 @@
   <model>
     <livery>
       <name type="string">N512CO</name>
-      <texture>Liveries/512.png</texture>
+      <texture>Liveries/512.dds</texture>
       <panel-texture>Liveries/panel-tan.png</panel-texture>
     </livery>
   </model>
