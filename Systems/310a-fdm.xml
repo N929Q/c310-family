@@ -406,16 +406,28 @@
 			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
 		</contact>
 		
-		<contact type="STRUCTURE" name="Tail stinger tip">
+		<contact type="STRUCTURE" name="Front lower fuselage">
 			<location unit="IN">
-				<x>260.5</x>
+				<x>-50</x>
 				<y>0</y>
-				<z>-6.7</z>
+				<z>-20.7</z>
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">5400</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+			<spring_coeff unit="LBS/FT">54000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">27000</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Rear lower fuselage">
+			<location unit="IN">
+				<x>200.5</x>
+				<y>0</y>
+				<z>-20.7</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">54000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">27000</damping_coeff>
 		</contact>
 	</ground_reactions>
 	

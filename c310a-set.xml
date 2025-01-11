@@ -17,7 +17,7 @@
 				<nick>Ysop</nick>
 			</author>
 			<author n="3">
-				<description>T310P, Exterior unwrap, Autopilot, Panel, fixed some things, broke some things.</description>
+				<description>T310P, Exterior unwrap, Autopilot, Panel, fixed some things.</description>
 				<nick>512 Colorado</nick>
 			</author>
 			<author n="4">
@@ -263,6 +263,10 @@
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[6]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[7]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>
+			<path>/instrumentation/kfc200/alt-preset</path>
+			<path>/instrumentation/altimeter/setting-inhg</path>
+			<path>/sim/model/sun-visors/pos-norm[0]</path>
+			<path>/sim/model/sun-visors/pos-norm[1]</path>
 		</aircraft-data>
 		
 		<view n="0">
