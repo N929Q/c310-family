@@ -2,6 +2,8 @@
 <system name="engines">
 	<property value="1">propulsion/engine[0]/lubrication-norm</property>
 	<property value="1">propulsion/engine[1]/lubrication-norm</property>
+	<property value="0">propulsion/engine[0]/cowl-flaps</property>
+	<property value="0">propulsion/engine[1]/cowl-flaps</property>
 	<property>propulsion/engine[0]/external-power-hp</property>
 	<property>propulsion/engine[1]/external-power-hp</property>
 	
@@ -98,6 +100,10 @@
 		<fcs_function name="propulsion/engine[0]/cooling-factor">
 			<function>
 				<sum>
+					<product>
+						<p>propulsion/engine[0]/cowl-flaps</p>
+						<v>0.505</v>
+					</product>
 					<v>0.8</v>
 					<product>
 						<difference>
@@ -229,6 +235,10 @@
 		<fcs_function name="propulsion/engine[1]/cooling-factor">
 			<function>
 				<sum>
+					<product>
+						<p>propulsion/engine[1]/cowl-flaps</p>
+						<v>.505</v>
+					</product>
 					<v>0.8</v>
 					<product>
 						<difference>

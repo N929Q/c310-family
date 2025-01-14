@@ -545,6 +545,57 @@
 	</model>
 	
 	<model>
+		<condition>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+		</condition>
+		<name>Left-cowl-flaps</name>
+		<path>Controls/switches/two-position.xml</path>
+		<offsets>
+			<x-m>0.708</x-m>
+			<y-m>-0.035</y-m>
+			<z-m>-0.323</z-m>
+		</offsets>
+	<overlay>
+	<params>
+		<property>/fdm/jsbsim/propulsion/engine[0]/cowl-flaps</property>
+		<tooltip-id>Left Cowl Flaps</tooltip-id>
+		<label>Left Cowl Flaps: %s</label>
+		<measure-text>Left Cowl Flaps: Closed</measure-text>
+		<script>return ["Closed", "Open"][arg[0]]</script>
+	</params>
+	</overlay>
+	</model>
+	
+	<model>
+		<condition>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+		</condition>
+		<name>Right-cowl-flaps</name>
+		<path>Controls/switches/two-position.xml</path>
+		<offsets>
+			<x-m>0.708</x-m>
+			<y-m>0.005</y-m>
+			<z-m>-0.323</z-m>
+		</offsets>
+	<overlay>
+	<params>
+		<property>/fdm/jsbsim/propulsion/engine[1]/cowl-flaps</property>
+		<tooltip-id>Right Cowl Flaps</tooltip-id>
+		<label>Right Cowl Flaps: %s</label>
+		<measure-text>Right Cowl Flaps: Closed</measure-text>
+		<script>return ["Closed", "Open"][arg[0]]</script>
+	</params>
+	</overlay>
+	</model>
+	
+	
+	<model>
 		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
 			<x-m>0.53</x-m>

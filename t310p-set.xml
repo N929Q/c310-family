@@ -21,5 +21,13 @@
 		<primary-set type="bool">false</primary-set>
 	</sim>
 
-    
+    <limits>
+		<mass-and-balance>
+			<maximum-ramp-mass-lbs>5700</maximum-ramp-mass-lbs>
+			<maximum-takeoff-mass-lbs>5670</maximum-takeoff-mass-lbs>
+			<maximum-landing-mass-lbs>5670</maximum-landing-mass-lbs>
+			<!--<maximum-zero-fuel-mass-lbs>3475.1</maximum-zero-fuel-mass-lbs>-->
+		</mass-and-balance>
+	</limits>
+	
 </PropertyList>

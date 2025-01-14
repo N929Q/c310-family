@@ -358,6 +358,54 @@
 			<retractable>1</retractable>
 		</contact>
 		
+		<contact type="STRUCTURE" name="Front lower fuselage">
+			<location unit="IN">
+				<x>-50</x>
+				<y>0</y>
+				<z>-40.7</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Rear lower fuselage">
+			<location unit="IN">
+				<x>80.5</x>
+				<y>0</y>
+				<z>-40.7</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Left wing tip tank bottom">
+			<location unit="IN">
+				<x>0</x>
+				<y>-214.4</y>
+				<z>-24.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Right wing tip tank bottom">
+			<location unit="IN">
+				<x>0</x>
+				<y>214.4</y>
+				<z>-24.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+		</contact>
+		
 		<contact type="STRUCTURE" name="Left wing tip tank front tip">
 			<location unit="IN">
 				<x>-6.9</x>
@@ -366,8 +414,8 @@
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">5400</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
 		</contact>
 		
 		<contact type="STRUCTURE" name="Left wing tip tank rear tip">
@@ -378,8 +426,8 @@
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">5400</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
 		</contact>
 		
 		<contact type="STRUCTURE" name="Right wing tip tank front tip">
@@ -390,8 +438,8 @@
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">5400</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
 		</contact>
 		
 		<contact type="STRUCTURE" name="Right wing tip tank rear tip">
@@ -402,32 +450,56 @@
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">5400</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">2700</damping_coeff>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
 		</contact>
 		
-		<contact type="STRUCTURE" name="Front lower fuselage">
+		<contact type="STRUCTURE" name="Right wing tip tank bottom">
+			<location unit="IN">
+				<x>0</x>
+				<y>214.4</y>
+				<z>-24.9</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Front upper fuselage">
 			<location unit="IN">
 				<x>-50</x>
 				<y>0</y>
-				<z>-20.7</z>
+				<z>28.7</z>
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">54000</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">27000</damping_coeff>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
 		</contact>
 		
-		<contact type="STRUCTURE" name="Rear lower fuselage">
+		<contact type="STRUCTURE" name="Tail stinger tip">
 			<location unit="IN">
-				<x>200.5</x>
+				<x>260.5</x>
 				<y>0</y>
-				<z>-20.7</z>
+				<z>-6.7</z>
 			</location>
 			<static_friction>0.5</static_friction>
 			<dynamic_friction>0.5</dynamic_friction>
-			<spring_coeff unit="LBS/FT">54000</spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">27000</damping_coeff>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
+		</contact>
+		
+		<contact type="STRUCTURE" name="Tail tip">
+			<location unit="IN">
+				<x>260.5</x>
+				<y>0</y>
+				<z>100.7</z>
+			</location>
+			<static_friction>0.5</static_friction>
+			<dynamic_friction>0.5</dynamic_friction>
+			<spring_coeff unit="LBS/FT">10000</spring_coeff>
+			<damping_coeff unit="LBS/FT/SEC">1000</damping_coeff>
 		</contact>
 	</ground_reactions>
 	

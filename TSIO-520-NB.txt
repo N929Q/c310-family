@@ -1,0 +1,128 @@
+
+
+=======================
+    TSIO-520-NB 
+OPERATING INSTRUCTIONS
+=======================
+Maximum CHT:460F
+Cruise CHT: 380F
+
+==================
+1. BEFORE STARTING
+==================
+
+a. Perform the daily inspection, page 30.
+b. Make sure that mixture control is in "IDLE CUT-OFF" engine position and ignition switch is in "OFF" position.
+c. Before starting engine in cold weather, it is recommended that the propeller be rotated by hand to loosen congealed oil surfaces and provide channels in the oil.
+d. Place propeller governor control at limit of "INCREASE RPM" movement.
+e. Open cowling flaps, if any.
+
+===========
+2. STARTING
+===========
+
+a. Open fuel supply line valve to fuel tank (or as instructed by aircraft manufacturer).
+b. Set mixture control to "FULL RICH" position.
+c. Open throttle slightly (See note 1).
+d. Turn master switch "ON".
+e. Turn ignition switch to "BOTH".
+f. Set auxiliary pump switch "ON" (or as instructed by aircraft manufacturer).
+
+**CAUTION . .. If engine is hot, press starter button first, then turn auxiliary fuel pump switch "ON" (or as instructed by aircraft manufacturer).
+
+g. When fuel pressure gauge shows normal idle pressure (2 to 2.5 psi), engage starter.
+
+**CAUTION . .. Release starter switch as soon as engine fires. Never engage the starter while the propeller is turning. If the starter has been engaged for 30 seconds, and the engine has not started, release the starter switch and allow the starter motor to cool 3 to 5 minutes before another starting attempt is made. Turn auxiliary fuel pump off during cooling period.
+
+NOTE 1 ... The auxiliary pump delivers a continuous flow of fuel in proportion to the amount of throttle opening and length of time before engagmg starter. If the engme IS flooded, follow this sequence:
+(1) Turn auxiliary pump "OFF".
+(2) Turn ignition switch "OFF".
+(3) Set throttle "FULL OPEN".
+(4) Set mixture control to "IDLE CUT-OFF".
+(5) Engage starter and crank engine for about 10 seconds to clear cylinders of excess fuel.
+(6) Repeat normal engine starting procedure.
+
+h. After engine is running smoothly, turn auxiliary pump "OFF" (or as instructed by aircraft manufacturer).
+i. Check oil pressure frequently. Oil pressure indication should be noted within 30 seconds in normal weather, and 60 seconds in cold weather. If no pressure is noted within the specified time, stop the engine and investigate the cause.
+
+==========
+3. WARM UP
+==========
+
+a. Maintain engine speed at approximately 900 to 1000 crankshaft RPM for at least one minute in warm weather, and as required during cold weather to prevent cavitation in the pressure oil pump and to assure adequate lubrication.
+b. Advance throttle slowly until tachometer indicates an engine speed of approximately 1200 RPM. Allow additional warm-up time at this speed depending on ambient temperature. This time may be used for taxiing to take-off position. The minimum allowable oil temperature before take-off run-up speed is 75°F.
+
+**CAUTION . .. Do not run engine at the run-up speed unless oil temperature is 75°F. minimum.
+
+c. Perform all ground operations with cowling flaps, if any, wide open, with mixture controls in "FULL RICH" position and propeller governor set for maximum RPM (except for brief testing of mixture and governor controls).
+d. Restrict ground operations to the time necessary for warm-up and testing.
+e. Increase engine speed to 1700 RPM only long enough to perform the following checks:
+
+(1) Check magnetos. Due to design changes in todays higher output engines, the comparison of single magneto operation versus both magnetos is no longer a sound criteria for evaluation of magneto performance. Therefore all magneto checks should be performed on a comparative basis between Right and Left Magneto performance.
+Move the ignition switch first to "R" position and note engine RPM, then move switch back to "BOTH" position to clear the other set of spark plugs. Then move the switch to "L" position and note RPM. The difference between the two magnetos operated singly should not differ more than 50 RPM.
+If no drop in speed is observed when operating on either magneto alone, switch circuit should be inspected for loose connections.
+(2) Check throttle and propeller operation.
+(a) Slowly move propeller governor control toward low RPM position and observe ·affect on tachometer reading. Engine speed should decrease. Return governor control to high speed position.
+(b) Slowly advance throttle to wide open position and observe tachometer. Engine speed should approach maximum RPM.
+Immediately after this check, close throttle to idling stop, unless ready for take-off.
+
+**CAUTION . .. Do not operate the engine at a speed in excess of 1500 RPM longer than necessary to test operation and observe engine instruments. Proper cooling of engine depends upon forward speed of the aircraft. Discontinue testing whenever temperature or pressure limits are approached.
+
+(3) Check engine operation. If engine accelerates smoothly, and the oil temperature is above 75°F., with the oil pressure less than 100 psi, the engine is warm enough for take-off.
+
+f. Instrument Indications
+(1) Oil Pressure: The oil pressure relief valve will maintain pressure within the specified limits if the oil temperature is within the specified limits and if the engine is not excessively worn or dirty. Fluctuating or low pressure may be due to dirty oil passing the valve.
+(2) Oil Temperatures: The oil cooler and oil temperature control valve will maintain oil temperature within the specified range unless the cooler oil passages or air channels are obstructed, or the oil temperature control valve is held open by solid particles in the engine oil. Oil temperature above the, prescribed limit may cause a drop in oil pressure, leading to rapid wear of moving parts in the engine.
+(3) Cylinder Head Temperature: Any temperature in excess of the specified limit may cause cylinder or piston damage. Cooling of cylinders depends on cylinder baffles being properly positioned on the cylinder heads and barrels, and other joints in the pressure compartment being tight so as to force air between the cylinder fins. Proper cooling also depends on operation practices. Fuel and. air mixture ratio also affects cylinder temperature. Excessively lean mixture causes overheating, even when the cooling system is in good condition. Long climb at low speed, or any low speed flight operation, may cause overheating by reducing the cooling air flow. The engine depends on the air ram developed by the forward motion of the aircraft for proper cooling.
+(4) Battery Charging: The ammeter should indicate a positive charging rate until the power used for starting has been replaced by the battery charging circuit, unless the electrical load on the alternator is heavy enough to require its full output, in which event the ammeter reading should return to the positive side as soon as the load is reduced. A low charging rate is normal after the initial recharging of the battery. A zero reading or negative reading with no battery load indicates leak or malfunction in the alternator or regulator system.
+
+**CAUTION ... The turbocharger has no oil temperature or pressure indicator. The oil pressure to the turbocharger is the same as indicated by the engine oil pressure gauge. The main shaft of this unit, which can attain speeds up to 90,000 RPM, is lubricated by engine oil from the main oil pressure system. The engine oil must be warm, at least 75°F. to assure proper flow through the turbocharger. The engine must not be run under high power setting until it is certain the oil to the turbocharger has reached this temperature. 
+
+=====================
+4. TAKE-OFF AND CLIMB
+=====================
+
+a. Take-Off
+(1) Set mixture to "FULL RICH" setting. Where installed, cowlflaps should be in full open position.
+(2) Slowly advance throttle to the maximum allowable take-off manifold pressure (41 inches or red line on manifold pressure gauge - see Note 2). The recommended power setting (RPM and manifold pressure) should not be exceeded for long periods. 
+(3) Set auxiliary pump switch as instructed by aircraft manufacturer (see Note 3).
+NOTE 2 ... The turbocharger lag may boost the manifold pressure 2 to 3 inches between run-up and ground breaking speed. Always advance throttles slowly to permit turbocharger to follow engine speed, and assist in preventing over-boost. In cold weather the waste-gate valve can over-boost, unless the oil is warm.
+
+**CAUTION . .. AVOID RAPID THROTTLE OPERATION. Counterweights may become detuned during severe acceleration.
+
+b. Climb
+(1) All high power climb must be done at "FULL RICH" mixture setting, with cowl flaps, if provided-, in full open position.
+(2) During climb (immediately after take-off) observe manifold pressure, and retard throttle to stay below 39.5 inch maximum manifold pressure setting (red line). NEVER EXCEED THIS LIMIT.
+
+**CAUTION . .. OVER-BOOSTING WILL RUIN THE ENGINE AND BE CAUSE FOR ENGINE REPLACEMENT.
+
+(3) At reduction from take-off power for climb, follow aircraft manufacturer's recommendation for fuel pressure at power setting used.
+
+=========
+5. CRUISE
+=========
+
+a. Set manifold pressure and RPM for cruise power selected. Reset mixture control for "Best Power Setting".
+b. After engine temperatl!res have stabilized at cruise condition (usually 5 to 15 minutes of operation), the mixture control may be reset for a "Normal Lean".
+NOTE 3 ... With high ambient temperature at ground level, a very low fluctuation in metered fuel pressure may appear in the early flight stages, which is caused by excess vapor. Momentary operation of the auxiliary pump will generally eliminate excess vapor.
+c. When an economy setting (step b. above) is in use, and a change of power setting is to be made, it is recommended that the mixture control be returned by gauge to approximately "Best Power Setting" before changing the throttle or propeller setting.
+d. If it is necessary to retard the throttle at altitudes above 10,000 ft., leaning of the fuel mixture may also be necessary to maintain satisfactory engine operation. The mixture must be returned to the richer setting before the throttle is returned to the high power position.
+
+=========================
+6. DESCENDING AND LANDING
+=========================
+
+a. Set mixture control at "Best Power Setting" or richer, before reducing for descent.
+b. The mixture control must be set in "FULL RICH" position before entering the airport traffic pattern.
+c. Operate the auxiliary pump as instructed by aircraft manufacturer.
+
+==================
+7. STOPPING ENGINE
+==================
+
+a. If auxiliary pump has been on in landing, turn to "OFF".
+b. Run the engine at idle for 2 to 3 minutes to allow the turbochargers to cool off and slow down. The units will generally spin from 1 to 2 minutes after the engines have stopped. If the engines are stopped too soon, and the turbochargers are still turning at high speed, the shaft bearings will become starved for lubrication and cause coking within turbine housing.
+c. Place mixture control in "IDLE CUT-OFF".
+d. Then turn all switches "OFF".
+
+
