@@ -10,7 +10,7 @@
 	<idlerpm>500</idlerpm>
 	<maxrpm>2625</maxrpm>
 	<sparkfaildrop>0.1</sparkfaildrop>
-	<man-press-lag>1</man-press-lag>
+	<man-press-lag>4</man-press-lag>
 	<static-friction unit="HP">2</static-friction>
 	<starter-torque>25</starter-torque>
 	<starter-rpm>925</starter-rpm>

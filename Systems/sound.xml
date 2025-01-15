@@ -10,9 +10,9 @@
    <path>Sounds/engstart.wav</path>
    <property>/engines/engine[0]/cranking</property>
    <position>
-    <x>-2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <offset>0.4</offset>
@@ -27,9 +27,9 @@
     <property>/engines/engine[0]/cranking</property>
    </condition>
    <position>
-    <x>-2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <offset>0.5</offset>
@@ -41,9 +41,9 @@
    <path>Sounds/coughing.wav</path>
    <property>/engines/engine[0]/running</property>
    <position>
-    <x>-2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <offset>0.3</offset>
@@ -56,9 +56,9 @@
    <path>Sounds/wasp.wav</path>
    <property>/engines/engine[0]/running</property>
    <position>
-    <x>-2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <property>/engines/engine[0]/mp-inhg</property>
@@ -76,6 +76,39 @@
    </pitch>
   </engine>
 
+  <engine>
+   <name>turbo1</name>
+   		<condition>
+            <and>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+   <property>/engines/engine[0]/running</property>
+            </and>
+		</condition>
+   <mode>looped</mode>
+   <path>/Aircraft/c310-family/Sounds/turdo.wav</path>
+   <position>
+    <x>0.0</x>
+    <y>4.0</y>
+    <z>0.0</z>
+   </position>
+   <volume>
+    <property>/engines/engine[0]/mp-inhg</property>
+    <factor>0.002</factor>
+    <min>0.0</min>
+    <max>0.2</max>
+    <offset>-0.02</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[0]/mp-inhg</property>
+    <factor>0.025</factor>
+    <min>-0.5</min>
+    <max>2.0</max>
+    <offset>0.3</offset>
+   </pitch>
+  </engine>
 <!-- Engine 2 -->
 
   <crank>
@@ -83,9 +116,9 @@
    <path>Sounds/engstart.wav</path>
    <property>/engines/engine[1]/cranking</property>
    <position>
-    <x>2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>-4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <offset>0.4</offset>
@@ -100,9 +133,9 @@
     <property>/engines/engine[1]/cranking</property>
    </condition>
    <position>
-    <x>2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>-4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <offset>0.5</offset>
@@ -114,9 +147,9 @@
    <path>Sounds/coughing.wav</path>
    <property>/engines/engine[1]/running</property>
    <position>
-    <x>2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>-4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <offset>0.0</offset>
@@ -129,9 +162,9 @@
    <path>Sounds/wasp.wav</path>
    <property>/engines/engine[1]/running</property>
    <position>
-    <x>2.0</x>
-    <y>0.0</y>
-    <z>-2.0</z>
+    <x>0.0</x>
+    <y>-4.0</y>
+    <z>0.0</z>
    </position>
    <volume>
     <property>/engines/engine[1]/mp-inhg</property>
@@ -146,6 +179,40 @@
     <min>0</min>
     <max>2.0</max>
     <offset>0.3</offset>
+   </pitch>
+  </engine>
+
+  <engine>
+   <name>turbo2</name>
+   		<condition>
+        <and>
+			<equals>
+				<property>sim/aircraft</property>
+				<value>t310p</value>
+			</equals>
+   <property>/engines/engine[1]/running</property>
+            </and>
+		</condition>
+   <mode>looped</mode>
+   <path>/Aircraft/c310-family/Sounds/turdo.wav</path>
+   <position>
+    <x>0.0</x>
+    <y>4.0</y>
+    <z>0.0</z>
+   </position>
+   <volume>
+    <property>/engines/engine[1]/mp-inhg</property>
+    <factor>0.002</factor>
+    <min>0.0</min>
+    <max>0.2</max>
+    <offset>-0.02</offset>
+   </volume>
+   <pitch>
+    <property>/engines/engine[1]/mp-inhg</property>
+    <factor>0.025</factor>
+    <min>-0.5</min>
+    <max>2.0</max>
+    <offset>0</offset>
    </pitch>
   </engine>
 
