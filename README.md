@@ -22,6 +22,7 @@ Let's take the 310 to the level of the 172p!
 * Paintkit Materials 
 * Drop in replacement fuel.xml based on the c182. Just until the bugs are worked out.
 * Panel update for 1954 panel adding COMM, NAV, and ADF from the c140 and c150 (Those radios look old enough to not break the experience)
+* Turbo model now with "realistic" whistling effect!
 
 ### Known Issues / Things I've Broken:
 * Pressure-based fuel system has a leak. Right system leaks from selected tank when left system in position other than off. 
