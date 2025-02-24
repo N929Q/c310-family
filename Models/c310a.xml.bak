@@ -1650,9 +1650,9 @@
 					if (arg[0] == 0) {
 						return "neutral";
 					} else if (arg[0] > 0) {
-						return sprintf("%.1f° right", abs(arg[0]));
-					} else {
 						return sprintf("%.1f° left", abs(arg[0]));
+					} else {
+						return sprintf("%.1f° right", abs(arg[0]));
 					}
 				]]></script>
 			</binding>
@@ -1699,9 +1699,9 @@
 					if (arg[0] == 0) {
 						return "neutral";
 					} else if (arg[0] > 0) {
-						return sprintf("%.1f° right", abs(arg[0]));
-					} else {
 						return sprintf("%.1f° left", abs(arg[0]));
+					} else {
+						return sprintf("%.1f° right", abs(arg[0]));
 					}
 				]]></script>
 			</binding>

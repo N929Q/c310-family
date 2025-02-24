@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <flight_control>
 	<channel name="Elevator">
+		<kinematic name="fcs/elevator-cmd-norm-traverse">
+                <input>fcs/elevator-cmd-norm</input>
+                <traverse>
+                    <setting>
+                        <position>-1</position>
+                        <time>0</time>
+                    </setting>
+                    <setting>
+                        <position>1</position>
+                        <time>0.2</time>
+                    </setting>
+                </traverse>
+                <output>fcs/elevator-cmd-norm-traverse</output>
+            	</kinematic>
+		
 		<aerosurface_scale>
 			<input>-fcs/pitch-trim-cmd-norm</input>
 			<range>
-				<min>-28</min>
-				<max>20</max>
+				<min>-26</min>
+				<max>10</max>
 			</range>
 			<output>fcs/elevator-trim-tab-pos-deg</output>
 			<output>/surface-positions/elevator-trim-tab-deg</output>
@@ -14,8 +29,8 @@
 		<aerosurface_scale>
 			<input>fcs/elevator-trim-tab-pos-deg</input>
 			<domain>
-				<min>-28</min>
-				<max>20</max>
+				<min>-26</min>
+				<max>10</max>
 			</domain>
 			<range>
 				<min>-1</min>
@@ -29,9 +44,9 @@
 			<function>
 				<difference>
 					<table>
-						<independentVar lookup="row">fcs/elevator-cmd-norm</independentVar>
+						<independentVar lookup="row">fcs/elevator-cmd-norm-traverse</independentVar>
 						<tableData>
-							-1	-25
+							-1	-16.5
 							0	0
 							1	15
 						</tableData>
@@ -43,7 +58,7 @@
 				</difference>
 			</function>
 			<clipto>
-				<min>-25</min>
+				<min>-16.5</min>
 				<max>15</max>
 			</clipto>
 			<output>fcs/elevator-pos-deg</output>
@@ -53,7 +68,7 @@
 		<aerosurface_scale>
 			<input>fcs/elevator-pos-deg</input>
 			<domain>
-				<min>-25</min>
+				<min>-16.5</min>
 				<max>15</max>
 			</domain>
 			<range>
@@ -61,11 +76,26 @@
 				<max>1</max>
 			</range>
 			<output>fcs/elevator-pos-norm</output>
-			<output>/surface-positions/left-aileron-norm</output>
+			<output>/surface-positions/elevator-norm</output>
 		</aerosurface_scale>
 	</channel>
 	
 	<channel name="Ailerons">
+		<kinematic name="fcs/aileron-cmd-norm-traverse">
+			<input>fcs/aileron-cmd-norm</input>
+			<traverse>
+				<setting>
+					<position>-1</position>
+					<time>0</time>
+				</setting>
+				<setting>
+					<position>1</position>
+					<time>0.2</time>
+				</setting>
+			</traverse>
+			<output>fcs/aileron-cmd-norm-traverse</output>
+		</kinematic>
+		
 		<aerosurface_scale>
 			<input>fcs/roll-trim-cmd-norm</input>
 			<range>
@@ -94,7 +124,7 @@
 			<function>
 				<sum>
 					<table>
-						<independentVar lookup="row">fcs/aileron-cmd-norm</independentVar>
+						<independentVar lookup="row">fcs/aileron-cmd-norm-traverse</independentVar>
 						<tableData>
 							-1	-20
 							0	0
@@ -115,7 +145,7 @@
 			<function>
 				<sum>
 					<table>
-						<independentVar lookup="row">-fcs/aileron-cmd-norm</independentVar>
+						<independentVar lookup="row">-fcs/aileron-cmd-norm-traverse</independentVar>
 						<tableData>
 							-1	-20
 							0	0
@@ -124,7 +154,7 @@
 					</table>
 					<product>
 						<property>fcs/aileron-trim-tab-pos-deg</property>
-						<value>-0.5</value>
+						<value>0.5</value>
 					</product>
 				</sum>
 			</function>
@@ -171,7 +201,7 @@
 				</quotient>
 			</function>
 			<output>fcs/aileron-pos-norm</output>
-			<output>/surface-positions/left-aileron-norm</output>
+			<output>/surface-positions/aileron-norm</output>
 		</fcs_function>
 		
 		<fcs_function>
@@ -185,6 +215,7 @@
 				</quotient>
 			</function>
 			<output>fcs/aileron-pos-deg</output>
+			<output>/surface-positions/aileron-deg</output>
 		</fcs_function>
 		
 		<fcs_function>
@@ -202,11 +233,26 @@
 	</channel>
 	
 	<channel name="Rudder">
+		<kinematic name="fcs/rudder-cmd-norm-traverse">
+			<input>fcs/rudder-cmd-norm</input>
+			<traverse>
+				<setting>
+					<position>-1</position>
+					<time>0</time>
+				</setting>
+				<setting>
+					<position>1</position>
+					<time>0.2</time>
+				</setting>
+			</traverse>
+			<output>fcs/rudder-cmd-norm-traverse</output>
+		</kinematic>
+		
 		<aerosurface_scale>
 			<input>-fcs/yaw-trim-cmd-norm</input>
 			<range>
 				<min>-20</min>
-				<max>26</max>
+				<max>25</max>
 			</range>
 			<output>fcs/rudder-trim-tab-pos-deg</output>
 			<output>/surface-positions/rudder-trim-tab-deg</output>
@@ -215,7 +261,7 @@
 		<aerosurface_scale>
 			<input>fcs/rudder-trim-tab-pos-deg</input>
 			<domain>
-				<min>-26</min>
+				<min>-25</min>
 				<max>20</max>
 			</domain>
 			<range>
@@ -230,8 +276,8 @@
 			<function>
 				<difference>
 					<product>
-						<property>fcs/rudder-cmd-norm</property>
-						<value>25</value>
+						<property>fcs/rudder-cmd-norm-traverse</property>
+						<value>29</value>
 					</product>
 					<product>
 						<property>fcs/rudder-trim-tab-pos-deg</property>
@@ -240,8 +286,8 @@
 				</difference>
 			</function>
 			<clipto>
-				<min>-25</min>
-				<max>25</max>
+				<min>-29</min>
+				<max>29</max>
 			</clipto>
 			<output>fcs/rudder-pos-deg</output>
 			<output>/surface-positions/rudder-deg</output>
@@ -250,8 +296,8 @@
 		<aerosurface_scale>
 			<input>fcs/rudder-pos-deg</input>
 			<domain>
-				<min>-25</min>
-				<max>25</max>
+				<min>-29</min>
+				<max>29</max>
 			</domain>
 			<range>
 				<min>-1</min>
