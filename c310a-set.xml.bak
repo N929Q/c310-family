@@ -220,8 +220,6 @@
 			<path>/sim/equipment</path>
 			<path>/sim/model/effects/interior/windows</path>
 			<path>/sim/realism</path>
-			<path>/sim/model/sun-visors/pos-norm[0]</path>
-			<path>/sim/model/sun-visors/pos-norm[1]</path>			
 			<path>/instrumentation/adf[0]/frequencies/selected-khz</path>
 			<path>/instrumentation/comm[0]/volume</path>
 			<path>/instrumentation/comm[0]/frequencies/selected-mhz</path>
@@ -240,59 +238,16 @@
 			<path>/instrumentation/nav[1]/power-btn</path>
 			<path>/instrumentation/nav[1]/frequencies/selected-mhz</path>
 			<path>/instrumentation/nav[1]/frequencies/standby-mhz</path>
-			<path>/instrumentation/altimeter/setting-inhg</path>
-			<path>/instrumentation/kfc200/alt-preset</path>
-			<path>/instrumentation/directional-gyro/align-deg</path>
-			<path>/instrumentation/directional-gyro/caged</path>
 			<path>/consumables/fuel/tank/level-norm</path>
 			<path>/consumables/fuel/tank[1]/level-norm</path>
 			<path>/consumables/fuel/tank[2]/level-norm</path>
 			<path>/consumables/fuel/tank[3]/level-norm</path>
-			<path>/fdm/jsbsim/propulsion/engine[0]/oil/reservoir/level-lbs</path>
-			<path>/fdm/jsbsim/propulsion/engine[1]/oil/reservoir/level-lbs</path>
-			<path>/controls/fuel/selector[0]</path>
-			<path>/controls/fuel/selector[1]</path>
 			<path>/controls/lighting/red-instrument-norm</path>
 			<path>/controls/lighting/uv-instrument-norm</path>
-			<path>/controls/lighting/instruments-norm</path>
-			<path>/controls/lighting/panel-norm</path>
-			<path>/controls/lighting/dome-norm</path>
 			<path>/controls/gear/brake-parking</path>
-			<path>/controls/engines/engine[0]/master-alt</path>
-			<path>/controls/electric/battery-switch</path>
-			<path>/controls/engines/engine[1]/master-alt</path>
-			<path>/controls/engines/engine[0]/left-magneto</path>
-			<path>/controls/engines/engine[0]/right-magneto</path>
-			<path>/controls/engines/engine[1]/left-magneto</path>
-			<path>/controls/engines/engine[1]/right-magneto</path>
 			<path>/controls/switches/radio</path>
 			<path>/controls/switches/nav</path>
-			<path>/controls/lighting/nav-lights</path>
-			<path>/controls/lighting/beacon</path>
-			<path>/controls/lighting/landing-light[0]</path>
-			<path>/controls/lighting/landing-light[1]</path>
-			<path>/controls/cabin-air/ventilation</path>
-			<path>/controls/anti-ice/pitot-heat</path>
-			<path>/controls/anti-ice/windshield</path>
-			<path>/controls/anti-ice/left-prop</path>
-			<path>/controls/anti-ice/right-prop</path>
-			<path>/controls/gear/antiskid-sw</path>
-			<path>/controls/engines/engine[0]/throttle</path>
-			<path>/controls/engines/engine[1]/throttle</path>
-			<path>/controls/engines/engine[0]/mixture</path>
-			<path>/controls/engines/engine[1]/mixture</path>
-			<path>/controls/engines/engine[0]/propeller-pitch</path>
-			<path>/controls/engines/engine[1]/propeller-pitch</path>
-			<path>fdm/jsbsim/propulsion/engine[0]/cowl-flaps</path>
-			<path>fdm/jsbsim/propulsion/engine[1]/cowl-flaps</path>
-			<path>controls/engines/engine[0]/carb-heat</path>
-			<path>controls/engines/engine[1]/carb-heat</path>
-			<path>controls/vacuum/gauge-source-selector</path>				
-			<path>controls/flight/elevator-trim</path>
-			<path>controls/flight/aileron-trim</path>
-			<path>controls/flight/rudder-trim</path>			
 			<path>/autopilot/settings/heading-bug-deg</path>
-			<path>/autopilot/settings/target-pitch-deg</path>
 			<path>/instrumentation/nav/radials/selected-deg</path>
 			<path>/instrumentation/kns-80/wpt[0]</path>
 			<path>/instrumentation/kns-80/wpt[1]</path>
@@ -308,7 +263,10 @@
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[6]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[7]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>
-			<path>/controls/flight/flaps</path>			
+			<path>/instrumentation/kfc200/alt-preset</path>
+			<path>/instrumentation/altimeter/setting-inhg</path>
+			<path>/sim/model/sun-visors/pos-norm[0]</path>
+			<path>/sim/model/sun-visors/pos-norm[1]</path>
 		</aircraft-data>
 		
 		<view n="0">
