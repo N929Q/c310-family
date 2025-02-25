@@ -1,6 +1,6 @@
 AC3Db
-MATERIAL "PropRPMHandleMaterial" rgb 0.000 0.133 1.000  amb 0.000 0.133 1.000  emis 0.000 0.000 0.000  spec 0.200 0.200 0.200  shi 64 trans 0.000
-MATERIAL "PropRPMLeverMaterial" rgb 0.010 0.010 0.010  amb 0.010 0.010 0.010  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
+MATERIAL "PropRPMHandleMaterial" rgb 0.000 0.133 1.000  amb 0.000 0.133 1.000  emis 0.000 0.000 0.000  spec 0.200 0.200 0.200  shi 150 trans 0.000
+MATERIAL "PropRPMLeverMaterial" rgb 0.201 0.201 0.201  amb 0.200 0.200 0.200  emis 0.000 0.000 0.000  spec 0.500 0.500 0.500  shi 64 trans 0.000
 OBJECT world
 name "Blender_exporter_v3.3__right-prop-rpm-lever.ac"
 kids 2

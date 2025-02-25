@@ -1,5 +1,5 @@
 AC3Db
-MATERIAL "ThrottleMaterial" rgb 0.010 0.010 0.010  amb 0.010 0.010 0.010  emis 0.000 0.000 0.000  spec 0.200 0.200 0.200  shi 64 trans 0.000
+MATERIAL "ThrottleMaterial" rgb 0.460 0.474 0.490  amb 0.900 0.900 0.900  emis 0.000 0.000 0.000  spec 0.700 0.700 0.700  shi 150 trans 0.000
 OBJECT world
 name "Blender_exporter_v3.3__throttle-lever.ac"
 kids 2
@@ -8,6 +8,7 @@ name "ThrottleHandle"
 data 9
 Plane.001
 crease 30.0
+texture "ThrottleHandle.png"
 numvert 42
 0 0.19981 0.01177
 0 0.19841 0.02167
@@ -230,6 +231,7 @@ name "ThrottleLever"
 data 5
 Plane
 crease 30.0
+texture "ThrottleLever.png"
 numvert 20
 -0.005 0 0.002
 0.005 0 0.002
