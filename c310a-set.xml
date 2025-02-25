@@ -287,6 +287,8 @@
 			<path>fdm/jsbsim/propulsion/engine[1]/cowl-flaps</path>
 			<path>controls/engines/engine[0]/carb-heat</path>
 			<path>controls/engines/engine[1]/carb-heat</path>
+			<path>controls/engines/engine[0]/carb-heat-lock-norm</path>
+			<path>controls/engines/engine[1]/carb-heat-lock-norm</path>			
 			<path>controls/vacuum/gauge-source-selector</path>				
 			<path>controls/flight/elevator-trim</path>
 			<path>controls/flight/aileron-trim</path>

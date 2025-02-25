@@ -41,7 +41,7 @@
 				<property alias="/params/carb-heat-lock-prop"/>
 				<min>0</min>
 				<max>1</max>
-				<factor>0.1</factor>
+				<factor>0.3</factor>
 			</binding>
 		</shift-action>
 		<hovered>
