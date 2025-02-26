@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+	<path>CompassCorrectionCard.ac</path>
+	
+	<animation>
+		<type>material</type>
+		<object-name>CompassCorrectionCard</object-name>
+		<!--
+		<emission>
+			<red>0.95</red>
+			<green>1</green>
+			<blue>1</blue>
+			<factor>
+				<expression>
+					<sum>
+						<product>
+							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
+							<value>0.10</value>
+						</product>
+						<product>
+							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
+							<value>0.05</value>
+						</product>
+					</sum>
+				</expression>
+			</factor>
+		</emission> -->
+	</animation>
+	<!--
+	<effect>
+		<inherits-from>Aircraft/c310-family/Models/Effects/interior-glass</inherits-from>
+		<object-name>CompassCorrectionCard</object-name>
+		<parameters>
+			<texture n="3">
+				<image>c310-family\Models\Interior\Panel\Instruments\compass/null_lm.png</image>
+				<type>2d</type>
+				<filter>linear-mipmap-linear</filter>
+				<wrap-s>clamp</wrap-s>
+				<wrap-t>clamp</wrap-t>
+				<internal-format>normalized</internal-format>
+			</texture>
+		</parameters>
+	</effect>
+	-->
+	<!-- Zoom for the Card when clicked -->
+	<animation>
+		<type>pick</type>
+		<object-name>CompassCorrectionCard</object-name>
+		<visible>true</visible>
+		<action>
+			<button>0</button>
+			<repeatable>false</repeatable>
+			<binding>
+				<condition> <not><property>sim/model/c310/compassCardZoomed</property></not> </condition>
+				<command>nasal</command>
+				<script><![CDATA[
+					var size = {original: [1024, 512], resize: 0.5};
+					var CompassCorrectionCardDialog = {
+						new: func(sized) {
+							var width = sized.original[0] * sized.resize;
+							var height = sized.original[1] * sized.resize;
+							var m = {
+								parents: [CompassCorrectionCardDialog],
+								_dlg: canvas.Window.new([width, height], "dialog")
+												.set("title", "Compass Deviation Correction Card")
+												.set("resize", 1),
+							};
+
+							m._dlg.getCanvas(1)
+								.set("background", canvas.style.getColor("bg_color"));
+							m._root = m._dlg.getCanvas().createGroup();
+						
+							var vbox = canvas.VBoxLayout.new();
+							m._dlg.setLayout(vbox);
+
+							var path = "Aircraft/c182s/Models/Instruments/Compass-correction-card.png";
+							var child = m._root.createChild("image")
+								.setFile(path)
+								.setSize(width, height)
+								.setTranslation(0,0);
+
+							var hint = vbox.sizeHint();
+							hint[0] = math.max(width, hint[0]);
+							hint[1] = math.max(height, hint[1]);
+							m._dlg.setSize(hint);
+							
+							m._dlg.del = func {
+								setprop("/sim/model/c182s/compassCardZoomed", 0);
+								call(canvas.Window.del, [], me);
+							}
+
+							return m;
+						},
+					};
+					CompassCorrectionCardDialog.new(size);
+					setprop("/sim/model/c182s/compassCardZoomed", 1);
+				]]></script>
+			</binding>
+		</action>
+		<hovered>
+			<binding>
+				<command>set-tooltip</command>
+				<tooltip-id>CompassCorrectionCard_tt</tooltip-id>
+				<label>Show bigger Card</label>
+			</binding>
+		</hovered>
+	</animation>
+</PropertyList>

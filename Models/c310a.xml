@@ -1848,7 +1848,7 @@
 				<property alias="../../../property"/>
 				<min>0</min>
 				<max>1</max>
-				<factor>0.05</factor>
+				<factor>0.01</factor>
 			</binding>
 		</action>
 		<hovered>
@@ -1877,7 +1877,7 @@
 				<property alias="../../../property"/>
 				<min>0</min>
 				<max>1</max>
-				<factor>0.05</factor>
+				<factor>0.01</factor>
 			</binding>
 		</action>
 		<hovered>

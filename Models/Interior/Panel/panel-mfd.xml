@@ -203,7 +203,7 @@
 		<name>ParkingBrakeHandle</name>
 		<path>Controls/parking-brake/parking-brake.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
+			<x-m>0.505</x-m>
 			<y-m>-0.555</y-m>
 			<z-m>-0.33</z-m>
 			<pitch-deg>-15</pitch-deg>
@@ -247,8 +247,8 @@
 		<path>Instruments/kfc200/kas297.xml</path>
 		<offsets>
 			<x-m>0.512</x-m>
-			<y-m>-0.50</y-m>
-			<z-m>0.045</z-m>
+			<y-m>-0.490</y-m>
+			<z-m>0.054</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -279,7 +279,7 @@
 		<offsets>
 			<x-m>0.516</x-m>
 			<y-m>-0.21</y-m>
-			<z-m>-0.015</z-m>
+			<z-m>-0.013</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -288,9 +288,9 @@
 		<name>TurnCoordinator</name>
 		<path>Instruments/tc/tc.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
-			<y-m>-0.415</y-m>
-			<z-m>-0.015</z-m>
+			<x-m>0.515</x-m>
+			<y-m>-0.413</y-m>
+			<z-m>-0.0111</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -299,7 +299,7 @@
 		<name>TurnCoordinator1</name>
 		<path>Instruments/tc/tc.xml</path>
 		<offsets>
-			<x-m>0.512</x-m>
+			<x-m>0.515</x-m>
 			<y-m>0.495</y-m>
 			<z-m>-0.015</z-m>
 			<pitch-deg>-4.3</pitch-deg>
@@ -324,7 +324,7 @@
 		<offsets>
 			<x-m>0.522</x-m>
 			<y-m>-0.21</y-m>
-			<z-m>-0.104</z-m>
+			<z-m>-0.098</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -340,6 +340,16 @@
 	</model>
 	
 	<model>
+		<path>Instruments/vacuum/vacuum2.xml</path>
+		<offsets>
+			<x-m>0.518</x-m>
+			<y-m>0.18</y-m>
+			<z-m>0.062</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	
+	
+	<model>
 		<path>Instruments/egt/egt.xml</path>
 		<offsets>
 			<x-m>0.513</x-m>
@@ -348,6 +358,16 @@
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
+	
+	<model>
+		<path>Instruments/vacuum/vacuum2.xml</path>
+		<offsets>
+			<x-m>0.518</x-m>
+			<y-m>0.245</y-m>
+			<z-m>0.062</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>		
 	
 	<model>
 		<path>Instruments/egt/egt2.xml</path>
@@ -379,21 +399,39 @@
 		</offsets>
 	</model>
 	
-
-<!--
+	<model>
+		<name>Compass</name>
+		<path>Instruments/Compass/Compass.xml</path>
+		<offsets>
+			<x-m>0.570</x-m>
+			<y-m>-0.00</y-m>
+			<z-m>0.455</z-m>
+			<pitch-deg>5.00</pitch-deg>
+		</offsets>
+	</model>
 	
+<!--	
 	<model>
 		<path>Instruments/kt76a/kt76a.xml</path>
 		<offsets>
-			<x-m>0.50875</x-m>
+			<x-m>0.516</x-m>
 			<y-m>-0.0</y-m>
-			<z-m>-0.13</z-m>
+			<z-m>-0.1405</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 -->
 	
-
+	<model>
+		<name>XPDR</name>
+		<path>Instruments/arc/rt-359a.xml</path>
+		<offsets>
+			<x-m>0.516</x-m>
+			<y-m>-0.00</y-m>
+			<z-m>-0.1405</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	
 	
 	<model>
 		<path>Instruments/kfc200/fd-control.xml</path>
@@ -419,7 +457,7 @@
 		<offsets>
 			<x-m>0.52</x-m>
 			<y-m>-0.124</y-m>
-			<z-m>-0.104</z-m>
+			<z-m>-0.098</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -436,7 +474,7 @@
 		<offsets>
 			<x-m>0.52</x-m>
 			<y-m>-0.124</y-m>
-			<z-m>-0.104</z-m>
+			<z-m>-0.098</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -445,9 +483,9 @@
 	<model>
 		<path>Instruments/kns80/kns80.xml</path>
 		<offsets>
-			<x-m>0.52</x-m>
+			<x-m>0.511</x-m>
 			<y-m>0.00</y-m>
-			<z-m>-0.098</z-m>
+			<z-m>-0.080</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -466,7 +504,7 @@
 		<offsets>
 			<x-m>0.52</x-m>
 			<y-m>0.124</y-m>
-			<z-m>-0.104</z-m>
+			<z-m>-0.098</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -483,7 +521,7 @@
 		<offsets>
 			<x-m>0.52</x-m>
 			<y-m>0.124</y-m>
-			<z-m>-0.104</z-m>
+			<z-m>-0.098</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -491,7 +529,7 @@
 	<model>
 		<path>Instruments/cht/cht.xml</path>
 		<offsets>
-			<x-m>0.515</x-m>
+			<x-m>0.519</x-m>
 			<y-m>0.18</y-m>
 			<z-m>0.125</z-m>
 			<pitch-deg>-4.3</pitch-deg>
@@ -504,7 +542,7 @@
 	<model>
 		<path>Instruments/cht/cht.xml</path>
 		<offsets>
-			<x-m>0.515</x-m>
+			<x-m>0.519</x-m>
 			<y-m>0.245</y-m>
 			<z-m>0.125</z-m>
 			<pitch-deg>-4.3</pitch-deg>
@@ -525,7 +563,7 @@
 		<path>Controls/switches/two-position.xml</path>
 		<offsets>
 			<x-m>0.708</x-m>
-			<y-m>-0.035</y-m>
+			<y-m>-0.027</y-m>
 			<z-m>-0.323</z-m>
 		</offsets>
 	<overlay>
@@ -550,7 +588,7 @@
 		<path>Controls/switches/two-position.xml</path>
 		<offsets>
 			<x-m>0.708</x-m>
-			<y-m>0.005</y-m>
+			<y-m>0.027</y-m>
 			<z-m>-0.323</z-m>
 		</offsets>
 	<overlay>
@@ -568,13 +606,14 @@
 	<model>
 		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
-			<x-m>0.53</x-m>
+			<x-m>0.525</x-m>
 			<y-m>-0.5355</y-m>
 			<z-m>-0.1342</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
+	<!--
 	<model>
 		<path>Instruments/ammeter/ammeter.xml</path>
 		<offsets>
@@ -584,6 +623,7 @@
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
+	-->
 	
 	<model>
 		<path>Instruments/stall-warning/stall-warning.xml</path>
@@ -622,17 +662,27 @@
 		<offsets>
 			<x-m>0.52</x-m>
 			<y-m>0.210</y-m>
-			<z-m>-0.104</z-m>
+			<z-m>-0.098</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
 	<model>
-		<path>Instruments/vacuum/vacuum.xml</path>
+		<path>Instruments/compass/CompassCorrectionCard.xml</path>
 		<offsets>
 			<x-m>0.525</x-m>
-			<y-m>0.18</y-m>
-			<z-m>-0.00</z-m>
+			<y-m>0.200</y-m>
+			<z-m>-0.170</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	
+	
+	<model>
+		<path>Instruments/vacuum/vacuum.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>0.2457</y-m>
+			<z-m>-0.002</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -640,9 +690,9 @@
 	<model>
 		<path>Instruments/flap-pos/flap-pos.xml</path>
 		<offsets>
-			<x-m>0.525</x-m>
+			<x-m>0.53</x-m>
 			<y-m>-0.025</y-m>
-			<z-m>-0.185</z-m>
+			<z-m>-0.192</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
@@ -656,15 +706,55 @@
 		</condition>
 		<path>Instruments/rudder-pos/rudder-pos.xml</path>
 		<offsets>
-			<x-m>0.525</x-m>
+			<x-m>0.53</x-m>
 			<y-m>0.035</y-m>
-			<z-m>-0.185</z-m>
+			<z-m>-0.192</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	
+	<!--
+	<model>
+		<path>Instruments/oat/oat.xml</path>
+		<offsets>
+			<x-m>0.520</x-m>
+			<y-m>0.1808</y-m>
+			<z-m>-0.002</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
+	-->
+	
+	<model>
+		<path>Instruments/oat/oat.xml</path>
+		<offsets>
+			<x-m>0.520</x-m>
+			<y-m>0.1808</y-m>
+			<z-m>-0.002</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	
+
+	<model>
+		<condition>
+			<equals>
+				<property>parts/selected-clock</property>
+				<value>35-380004-1</value>
+			</equals>
+		</condition>
+		<name>Clock</name>
+		<path>Instruments/clock/clock.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>-0.145</y-m>
+			<z-m>-0.04</z-m>
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
 	<model>
-		<path>Instruments/oat/oat.xml</path>
+		<name>AstrotechLC2</name>
+		<path>Instruments/astrotech-lc2/astrotech-lc2.xml</path>
 		<offsets>
 			<x-m>0.512</x-m>
 			<y-m>-0.505</y-m>
@@ -672,20 +762,19 @@
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
-	
-	<model>
-		<path>Instruments/oat/oat.xml</path>
-		<offsets>
-			<x-m>0.512</x-m>
-			<y-m>0.245</y-m>
-			<z-m>-0.002</z-m>
-			<pitch-deg>-4.3</pitch-deg>
-		</offsets>
-	</model>	
-	
+	<animation>
+		<type>select</type>
+		<object-name>AstrotechLC2</object-name>
+		<condition>
+			<equals>
+				<property>parts/selected-clock</property>
+				<value>AT420100</value>
+			</equals>
+		</condition>
+	</animation>	
 	<model>
 		<name>LeftFuelSelector</name>
-		<path>Controls/fuel-selector/left-fuel-selector.xml</path>
+		<path>Controls/fuel-selector/left-fuel-selector-31.xml</path>
 		<offsets>
 			<x-m>0.866</x-m>
 			<y-m>-0.05</y-m>
@@ -695,7 +784,7 @@
 	</model>
 	<model>
 		<name>RightFuelSelector</name>
-		<path>Controls/fuel-selector/right-fuel-selector.xml</path>
+		<path>Controls/fuel-selector/right-fuel-selector-31.xml</path>
 		<offsets>
 			<x-m>0.866</x-m>
 			<y-m>0.05</y-m>

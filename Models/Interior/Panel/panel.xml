@@ -16,7 +16,7 @@
 			<x-m>0.508</x-m>
 			<y-m>-0.32</y-m>
 			<z-m>-0.1</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -27,7 +27,7 @@
 			<x-m>0.508</x-m>
 			<y-m>0.32</y-m>
 			<z-m>-0.1</z-m>
-			<pitch-deg>-4.1</pitch-deg>
+			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
 	
@@ -292,11 +292,11 @@
 		<name>ParkingBrakeHandle</name>
 		<path>Controls/parking-brake/parking-brake.xml</path>
 		<offsets>
-			<x-m>0.46</x-m>
-			<y-m>-0.541</y-m>
-			<z-m>-0.34</z-m>
+			<x-m>0.505</x-m>
+			<y-m>-0.555</y-m>
+			<z-m>-0.33</z-m>
 			<pitch-deg>-15</pitch-deg>
-			<heading-deg>-10</heading-deg>
+			<heading-deg>-2</heading-deg>
 		</offsets>
 	</model>
 	
@@ -410,7 +410,7 @@
 	
 	<model>
 		<name>TurnCoordinator</name>
-		<path>Instruments/tc/tc.xml</path>
+		<path>Instruments/tc-1954/tc.xml</path>
 		<offsets>
 			<x-m>0.52</x-m>
 			<y-m>-0.22</y-m>
@@ -435,7 +435,8 @@
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
-	
+
+	<!--
 	<model>
 		<name>AstrotechLC2</name>
 		<path>Instruments/astrotech-lc2/astrotech-lc2.xml</path>
@@ -446,6 +447,7 @@
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
+	-->
 	<animation>
 		<type>select</type>
 		<object-name>AstrotechLC2</object-name>
@@ -456,6 +458,27 @@
 			</equals>
 		</condition>
 	</animation>
+	
+	<model>
+		<name>Clock</name>
+		<path>Instruments/Clock-150/clock.xml</path>
+		<offsets>
+			<x-m>0.508</x-m>
+			<y-m>-0.145</y-m>
+			<z-m>-0.04</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	-->
+	
+	<model>
+		<path>Instruments/vacuum/vacuum2.xml</path>
+		<offsets>
+			<x-m>0.512</x-m>
+			<y-m>-0.145</y-m>
+			<z-m>-0.04</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>						
 	
 	<model>
 		<path>Instruments/rpm/rpm.xml</path>
@@ -684,6 +707,17 @@
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
+	
+	<model>
+		<name>Compass</name>
+		<path>Instruments/Compass/Compass.xml</path>
+		<offsets>
+			<x-m>0.570</x-m>
+			<y-m>-0.00</y-m>
+			<z-m>0.455</z-m>
+			<pitch-deg>5.00</pitch-deg>
+		</offsets>
+	</model>			
 	
 	<model>
 		<name>LeftFuelSelector</name>
