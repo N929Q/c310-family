@@ -1,0 +1,1 @@
+Sound redone with my 5.1 surround, 20.0 and -20.0 is the best seperation value tested.

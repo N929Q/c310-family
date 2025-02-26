@@ -10,9 +10,9 @@
    <path>Sounds/engstart.wav</path>
    <property>/engines/engine[0]/cranking</property>
    <position>
-    <x>-0.5</x>
-    <y>4.0</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <offset>0.4</offset>
@@ -27,9 +27,9 @@
     <property>/engines/engine[0]/cranking</property>
    </condition>
    <position>
-    <x>-0.5</x>
-    <y>4.0</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <offset>0.5</offset>
@@ -41,9 +41,9 @@
    <path>Sounds/coughing.wav</path>
    <property>/engines/engine[0]/running</property>
    <position>
-    <x>-0.5</x>
-    <y>4.0</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <offset>0.3</offset>
@@ -56,9 +56,9 @@
    <path>Sounds/wasp.wav</path>
    <property>/engines/engine[0]/running</property>
    <position>
-    <x>-0.5</x>
-    <y>3</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <property>/engines/engine[0]/mp-inhg</property>
@@ -90,9 +90,9 @@
    <mode>looped</mode>
    <path>/Aircraft/c310-family/Sounds/turdo.wav</path>
    <position>
-    <x>2</x>
-    <y>-0.5</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <property>/engines/engine[0]/mp-inhg</property>
@@ -116,9 +116,9 @@
    <path>Sounds/engstart.wav</path>
    <property>/engines/engine[1]/cranking</property>
    <position>
-    <x>-0.5</x>
-    <y>-4.0</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>-20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <offset>0.4</offset>
@@ -133,9 +133,9 @@
     <property>/engines/engine[1]/cranking</property>
    </condition>
    <position>
-    <x>-0.5</x>
-    <y>-4.0</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>-20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <offset>0.5</offset>
@@ -147,9 +147,9 @@
    <path>Sounds/coughing.wav</path>
    <property>/engines/engine[1]/running</property>
    <position>
-    <x>-0.5</x>
-    <y>-4.0</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>-20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <offset>0.0</offset>
@@ -162,9 +162,9 @@
    <path>Sounds/wasp.wav</path>
    <property>/engines/engine[1]/running</property>
    <position>
-    <x>-0.5</x>
-    <y>3</y>
-    <z>-0.5</z>
+     <x>-1.0</x>
+    <y>-20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <property>/engines/engine[1]/mp-inhg</property>
@@ -196,9 +196,9 @@
    <mode>looped</mode>
    <path>/Aircraft/c310-family/Sounds/turdo.wav</path>
    <position>
-    <x>-2</x>
-    <y>-0.5</y>
-    <z>-0.5</z>
+    <x>-1.0</x>
+    <y>-20.0</y>
+    <z>-0.75</z>
    </position>
    <volume>
     <property>/engines/engine[1]/mp-inhg</property>
