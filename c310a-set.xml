@@ -244,12 +244,13 @@
 			<path>/instrumentation/kfc200/alt-preset</path>
 			<path>/instrumentation/directional-gyro/align-deg</path>
 			<path>/instrumentation/directional-gyro/caged</path>
-			<path>/consumables/fuel/tank/level-norm</path>
-			<path>/consumables/fuel/tank[1]/level-norm</path>
-			<path>/consumables/fuel/tank[2]/level-norm</path>
-			<path>/consumables/fuel/tank[3]/level-norm</path>
-			<path>/fdm/jsbsim/propulsion/engine[0]/oil/reservoir/level-lbs</path>
-			<path>/fdm/jsbsim/propulsion/engine[1]/oil/reservoir/level-lbs</path>
+			<path>/instrumentation/nav/radials/selected-deg</path>
+			<path>/instrumentation/kns-80/wpt[0]</path>
+			<path>/instrumentation/kns-80/wpt[1]</path>
+			<path>/instrumentation/kns-80/wpt[2]</path>
+			<path>/instrumentation/kns-80/wpt[3]</path>
+			<path>/instrumentation/kns-80/nav-mode</path>
+			<path>/instrumentation/transponder</path>
 			<path>/controls/fuel/selector[0]</path>
 			<path>/controls/fuel/selector[1]</path>
 			<path>/controls/lighting/red-instrument-norm</path>
@@ -283,24 +284,25 @@
 			<path>/controls/engines/engine[1]/mixture</path>
 			<path>/controls/engines/engine[0]/propeller-pitch</path>
 			<path>/controls/engines/engine[1]/propeller-pitch</path>
-			<path>fdm/jsbsim/propulsion/engine[0]/cowl-flaps</path>
-			<path>fdm/jsbsim/propulsion/engine[1]/cowl-flaps</path>
-			<path>controls/engines/engine[0]/carb-heat</path>
-			<path>controls/engines/engine[1]/carb-heat</path>
-			<path>controls/engines/engine[0]/carb-heat-lock-norm</path>
-			<path>controls/engines/engine[1]/carb-heat-lock-norm</path>			
-			<path>controls/vacuum/gauge-source-selector</path>				
-			<path>controls/flight/elevator-trim</path>
-			<path>controls/flight/aileron-trim</path>
-			<path>controls/flight/rudder-trim</path>			
+			<path>/controls/engines/engine[0]/carb-heat</path>
+			<path>/controls/engines/engine[1]/carb-heat</path>
+			<path>/controls/engines/engine[0]/carb-heat-lock-norm</path>
+			<path>/controls/engines/engine[1]/carb-heat-lock-norm</path>
+			<path>/controls/vacuum/gauge-source-selector</path>				
+			<path>/controls/flight/elevator-trim</path>
+			<path>/controls/flight/aileron-trim</path>
+			<path>/controls/flight/rudder-trim</path>
+			<path>/controls/flight/flaps</path>				
 			<path>/autopilot/settings/heading-bug-deg</path>
 			<path>/autopilot/settings/target-pitch-deg</path>
-			<path>/instrumentation/nav/radials/selected-deg</path>
-			<path>/instrumentation/kns-80/wpt[0]</path>
-			<path>/instrumentation/kns-80/wpt[1]</path>
-			<path>/instrumentation/kns-80/wpt[2]</path>
-			<path>/instrumentation/kns-80/wpt[3]</path>
-			<path>/instrumentation/transponder</path>
+			<path>/consumables/fuel/tank/level-norm</path>
+			<path>/consumables/fuel/tank[1]/level-norm</path>
+			<path>/consumables/fuel/tank[2]/level-norm</path>
+			<path>/consumables/fuel/tank[3]/level-norm</path>			
+			<path>/fdm/jsbsim/propulsion/engine[0]/oil/reservoir/level-lbs</path>
+			<path>/fdm/jsbsim/propulsion/engine[1]/oil/reservoir/level-lbs</path>			
+			<path>/fdm/jsbsim/propulsion/engine[0]/cowl-flaps</path>
+			<path>/fdm/jsbsim/propulsion/engine[1]/cowl-flaps</path>			
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[0]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[1]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[2]</path>
@@ -309,8 +311,7 @@
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[5]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[6]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[7]</path>
-			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>
-			<path>/controls/flight/flaps</path>			
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>					
 		</aircraft-data>
 		
 		<view n="0">
