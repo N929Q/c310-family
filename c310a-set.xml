@@ -249,7 +249,6 @@
 			<path>/instrumentation/kns-80/wpt[1]</path>
 			<path>/instrumentation/kns-80/wpt[2]</path>
 			<path>/instrumentation/kns-80/wpt[3]</path>
-			<path>/instrumentation/kns-80/nav-mode</path>
 			<path>/instrumentation/transponder</path>
 			<path>/controls/fuel/selector[0]</path>
 			<path>/controls/fuel/selector[1]</path>
