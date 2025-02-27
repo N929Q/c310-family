@@ -1650,9 +1650,9 @@
 					if (arg[0] == 0) {
 						return "neutral";
 					} else if (arg[0] > 0) {
-						return sprintf("%.1f° left", abs(arg[0]));
-					} else {
 						return sprintf("%.1f° right", abs(arg[0]));
+					} else {
+						return sprintf("%.1f° left", abs(arg[0]));
 					}
 				]]></script>
 			</binding>
@@ -1699,9 +1699,9 @@
 					if (arg[0] == 0) {
 						return "neutral";
 					} else if (arg[0] > 0) {
-						return sprintf("%.1f° left", abs(arg[0]));
-					} else {
 						return sprintf("%.1f° right", abs(arg[0]));
+					} else {
+						return sprintf("%.1f° left", abs(arg[0]));
 					}
 				]]></script>
 			</binding>
@@ -1848,7 +1848,7 @@
 				<property alias="../../../property"/>
 				<min>0</min>
 				<max>1</max>
-				<factor>0.05</factor>
+				<factor>0.01</factor>
 			</binding>
 		</action>
 		<hovered>
@@ -1877,7 +1877,7 @@
 				<property alias="../../../property"/>
 				<min>0</min>
 				<max>1</max>
-				<factor>0.05</factor>
+				<factor>0.01</factor>
 			</binding>
 		</action>
 		<hovered>

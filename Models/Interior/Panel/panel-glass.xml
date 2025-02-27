@@ -40,7 +40,7 @@
 		<path>Controls/switches/two-position.xml</path>
 		<offsets>
 			<x-m>0.708</x-m>
-			<y-m>-0.035</y-m>
+			<y-m>-0.027</y-m>
 			<z-m>-0.323</z-m>
 		</offsets>
 	<overlay>
@@ -65,7 +65,7 @@
 		<path>Controls/switches/two-position.xml</path>
 		<offsets>
 			<x-m>0.708</x-m>
-			<y-m>0.005</y-m>
+			<y-m>0.027</y-m>
 			<z-m>-0.323</z-m>
 		</offsets>
 	<overlay>
@@ -534,8 +534,28 @@
 			<pitch-deg>-4.3</pitch-deg>
 		</offsets>
 	</model>
+	-->
+	<model>
+		<name>Compass</name>
+		<path>Instruments/Compass/Compass.xml</path>
+		<offsets>
+			<x-m>0.570</x-m>
+			<y-m>-0.00</y-m>
+			<z-m>0.455</z-m>
+			<pitch-deg>5.00</pitch-deg>
+		</offsets>
+	</model>
 	
--->
+	<model>
+		<path>Instruments/compass/CompassCorrectionCard.xml</path>
+		<offsets>
+			<x-m>0.525</x-m>
+			<y-m>0.200</y-m>
+			<z-m>-0.170</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	
+	
 	<model>
 		<condition>
 			<not>
@@ -712,7 +732,7 @@
 -->
 	<model>
 		<name>LeftFuelSelector</name>
-		<path>Controls/fuel-selector/left-fuel-selector.xml</path>
+		<path>Controls/fuel-selector/left-fuel-selector-31.xml</path>
 		<offsets>
 			<x-m>0.866</x-m>
 			<y-m>-0.05</y-m>
@@ -722,7 +742,7 @@
 	</model>
 	<model>
 		<name>RightFuelSelector</name>
-		<path>Controls/fuel-selector/right-fuel-selector.xml</path>
+		<path>Controls/fuel-selector/right-fuel-selector-31.xml</path>
 		<offsets>
 			<x-m>0.866</x-m>
 			<y-m>0.05</y-m>

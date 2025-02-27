@@ -220,6 +220,8 @@
 			<path>/sim/equipment</path>
 			<path>/sim/model/effects/interior/windows</path>
 			<path>/sim/realism</path>
+			<path>/sim/model/sun-visors/pos-norm[0]</path>
+			<path>/sim/model/sun-visors/pos-norm[1]</path>			
 			<path>/instrumentation/adf[0]/frequencies/selected-khz</path>
 			<path>/instrumentation/comm[0]/volume</path>
 			<path>/instrumentation/comm[0]/frequencies/selected-mhz</path>
@@ -238,22 +240,69 @@
 			<path>/instrumentation/nav[1]/power-btn</path>
 			<path>/instrumentation/nav[1]/frequencies/selected-mhz</path>
 			<path>/instrumentation/nav[1]/frequencies/standby-mhz</path>
-			<path>/consumables/fuel/tank/level-norm</path>
-			<path>/consumables/fuel/tank[1]/level-norm</path>
-			<path>/consumables/fuel/tank[2]/level-norm</path>
-			<path>/consumables/fuel/tank[3]/level-norm</path>
-			<path>/controls/lighting/red-instrument-norm</path>
-			<path>/controls/lighting/uv-instrument-norm</path>
-			<path>/controls/gear/brake-parking</path>
-			<path>/controls/switches/radio</path>
-			<path>/controls/switches/nav</path>
-			<path>/autopilot/settings/heading-bug-deg</path>
+			<path>/instrumentation/altimeter/setting-inhg</path>
+			<path>/instrumentation/kfc200/alt-preset</path>
+			<path>/instrumentation/directional-gyro/align-deg</path>
+			<path>/instrumentation/directional-gyro/caged</path>
 			<path>/instrumentation/nav/radials/selected-deg</path>
 			<path>/instrumentation/kns-80/wpt[0]</path>
 			<path>/instrumentation/kns-80/wpt[1]</path>
 			<path>/instrumentation/kns-80/wpt[2]</path>
 			<path>/instrumentation/kns-80/wpt[3]</path>
+			<path>/instrumentation/kns-80/nav-mode</path>
 			<path>/instrumentation/transponder</path>
+			<path>/controls/fuel/selector[0]</path>
+			<path>/controls/fuel/selector[1]</path>
+			<path>/controls/lighting/red-instrument-norm</path>
+			<path>/controls/lighting/uv-instrument-norm</path>
+			<path>/controls/lighting/instruments-norm</path>
+			<path>/controls/lighting/panel-norm</path>
+			<path>/controls/lighting/dome-norm</path>
+			<path>/controls/gear/brake-parking</path>
+			<path>/controls/engines/engine[0]/master-alt</path>
+			<path>/controls/electric/battery-switch</path>
+			<path>/controls/engines/engine[1]/master-alt</path>
+			<path>/controls/engines/engine[0]/left-magneto</path>
+			<path>/controls/engines/engine[0]/right-magneto</path>
+			<path>/controls/engines/engine[1]/left-magneto</path>
+			<path>/controls/engines/engine[1]/right-magneto</path>
+			<path>/controls/switches/radio</path>
+			<path>/controls/switches/nav</path>
+			<path>/controls/lighting/nav-lights</path>
+			<path>/controls/lighting/beacon</path>
+			<path>/controls/lighting/landing-light[0]</path>
+			<path>/controls/lighting/landing-light[1]</path>
+			<path>/controls/cabin-air/ventilation</path>
+			<path>/controls/anti-ice/pitot-heat</path>
+			<path>/controls/anti-ice/windshield</path>
+			<path>/controls/anti-ice/left-prop</path>
+			<path>/controls/anti-ice/right-prop</path>
+			<path>/controls/gear/antiskid-sw</path>
+			<path>/controls/engines/engine[0]/throttle</path>
+			<path>/controls/engines/engine[1]/throttle</path>
+			<path>/controls/engines/engine[0]/mixture</path>
+			<path>/controls/engines/engine[1]/mixture</path>
+			<path>/controls/engines/engine[0]/propeller-pitch</path>
+			<path>/controls/engines/engine[1]/propeller-pitch</path>
+			<path>/controls/engines/engine[0]/carb-heat</path>
+			<path>/controls/engines/engine[1]/carb-heat</path>
+			<path>/controls/engines/engine[0]/carb-heat-lock-norm</path>
+			<path>/controls/engines/engine[1]/carb-heat-lock-norm</path>
+			<path>/controls/vacuum/gauge-source-selector</path>				
+			<path>/controls/flight/elevator-trim</path>
+			<path>/controls/flight/aileron-trim</path>
+			<path>/controls/flight/rudder-trim</path>
+			<path>/controls/flight/flaps</path>				
+			<path>/autopilot/settings/heading-bug-deg</path>
+			<path>/autopilot/settings/target-pitch-deg</path>
+			<path>/consumables/fuel/tank/level-norm</path>
+			<path>/consumables/fuel/tank[1]/level-norm</path>
+			<path>/consumables/fuel/tank[2]/level-norm</path>
+			<path>/consumables/fuel/tank[3]/level-norm</path>			
+			<path>/fdm/jsbsim/propulsion/engine[0]/oil/reservoir/level-lbs</path>
+			<path>/fdm/jsbsim/propulsion/engine[1]/oil/reservoir/level-lbs</path>			
+			<path>/fdm/jsbsim/propulsion/engine[0]/cowl-flaps</path>
+			<path>/fdm/jsbsim/propulsion/engine[1]/cowl-flaps</path>			
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[0]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[1]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[2]</path>
@@ -262,11 +311,7 @@
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[5]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[6]</path>
 			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[7]</path>
-			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>
-			<path>/instrumentation/kfc200/alt-preset</path>
-			<path>/instrumentation/altimeter/setting-inhg</path>
-			<path>/sim/model/sun-visors/pos-norm[0]</path>
-			<path>/sim/model/sun-visors/pos-norm[1]</path>
+			<path>/fdm/jsbsim/inertia/pointmass-weight-lbs[8]</path>					
 		</aircraft-data>
 		
 		<view n="0">
@@ -279,6 +324,94 @@
 				<default-field-of-view-deg>71</default-field-of-view-deg>
 			</config>
 		</view>
+		
+		<view n="100">
+			<name>CoPilot View</name>
+			<type>lookfrom</type>
+			<internal type="bool">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+					<x-offset-m>0.32</x-offset-m>
+					<y-offset-m>0.37</y-offset-m>
+					<z-offset-m>1.2</z-offset-m>
+					<pitch-offset-deg>-14</pitch-offset-deg>
+					<heading-offset-deg>07</heading-offset-deg>
+					<default-field-of-view-deg>54.5</default-field-of-view-deg>
+					<limits>
+						<!-- disabled while working on the cabin -->
+						<enabled type="bool">true</enabled>
+						<left>
+							<heading-max-deg type="double">175</heading-max-deg>
+							<x-offset-max-m type="double">0.15</x-offset-max-m>
+							<x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+						</left>
+						<right>
+							<heading-max-deg type="double">140</heading-max-deg>
+							<x-offset-max-m type="double">0.15</x-offset-max-m>
+							<x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+						</right>
+					</limits>
+			</config>
+		</view>		
+		
+		<view n="101">
+			<name>Center Console</name>
+			<type>lookfrom</type>
+			<internal type="bool">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+					<x-offset-m>0.0</x-offset-m>
+					<y-offset-m>-0.05</y-offset-m>
+					<z-offset-m>0.95</z-offset-m>
+					<pitch-offset-deg>-45.8</pitch-offset-deg>
+					<default-field-of-view-deg>108.5</default-field-of-view-deg>
+					<limits>
+						<!-- disabled while working on the cabin -->
+						<enabled type="bool">true</enabled>
+						<left>
+							<heading-max-deg type="double">45</heading-max-deg>
+							<x-offset-max-m type="double">0.15</x-offset-max-m>
+							<x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+						</left>
+						<right>
+							<heading-max-deg type="double">45</heading-max-deg>
+							<x-offset-max-m type="double">0.15</x-offset-max-m>
+							<x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+						</right>
+					</limits>
+			</config>
+		</view>
+		
+		<view n="102">
+			<name>Overhead Panel View</name>
+			<type>lookfrom</type>
+			<internal type="bool">true</internal>
+			<config>
+				<from-model type="bool">true</from-model>
+				<from-model-idx type="int">0</from-model-idx>
+					<x-offset-m>0.0</x-offset-m>
+					<y-offset-m>0.45</y-offset-m>
+					<z-offset-m>1.5</z-offset-m>
+					<pitch-offset-deg>14</pitch-offset-deg>
+					<default-field-of-view-deg>110.5</default-field-of-view-deg>
+					<limits>
+						<!-- disabled while working on the cabin -->
+						<enabled type="bool">true</enabled>
+						<left>
+							<heading-max-deg type="double">140</heading-max-deg>
+							<x-offset-max-m type="double">0.15</x-offset-max-m>
+							<x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+						</left>
+						<right>
+							<heading-max-deg type="double">140</heading-max-deg>
+							<x-offset-max-m type="double">0.15</x-offset-max-m>
+							<x-offset-threshold-deg type="double">65</x-offset-threshold-deg>
+						</right>
+					</limits>
+			</config>
+		</view>				
 		
 		<equipment>
 			<auxiliary-fuel-tanks type="bool">false</auxiliary-fuel-tanks>
