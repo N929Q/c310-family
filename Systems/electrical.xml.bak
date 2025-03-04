@@ -554,7 +554,6 @@
       <property>/systems/electrical/outputs/adf</property>
       <property>/systems/electrical/outputs/gps</property>
       <property>/systems/electrical/outputs/transponder</property>
-      <property>/systems/electrical/outputs/dme</property>
 		</output>
 	</filter>
 	
