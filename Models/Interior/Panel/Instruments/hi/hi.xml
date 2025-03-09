@@ -322,7 +322,7 @@
 		<command>set-tooltip</command>
 		<tooltip-id>offset-deg</tooltip-id>
 		<mapping>heading</mapping>
-		<label>Offset Deg: %3.0f</label>
+		<label>Heading Offset Deg: %3.0f</label>
 		<property>instrumentation/heading-indicator/offset-deg</property>
 	</binding>
   </hovered>      
