@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PropertyList>
-	<path>left-switches-panel.ac</path>
+	<path>left-switches-panel-1954.ac</path>
 
 	<animation>
 		<type>material</type>
-		<object-name>LeftSwitchesPanel-1954</object-name>
+		<object-name>LeftSwitchesPanel</object-name>
 		<emission>
 			<red>0.95</red>
 			<green>1</green>
@@ -14,11 +14,11 @@
 					<sum>
 						<product>
 							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
-							<value>0.25</value>
+							<value>0.38</value>
 						</product>
 						<product>
 							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
-							<value>0.52</value>
+							<value>0.85</value>
 						</product>
 					</sum>
 				</expression>
@@ -430,5 +430,36 @@ controls/switches/radio
 			</params>
 		</overlay>
 	</model>
+	
+	<animation>
+		<type>select</type>
+		<object-name>BeaconLightSwitchLabel</object-name>
+		<condition>
+		<property>sim/equipment/rotating-beacon</property>
+		</condition>
+	</animation>
+	<animation>
+		<type>material</type>
+		<object-name>BeaconLightSwitchLabel</object-name>
+		<emission>
+			<red>0.95</red>
+			<green>1</green>
+			<blue>1</blue>
+			<factor>
+				<expression>
+					<sum>
+						<product>
+							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
+							<value>0.38</value>
+						</product>
+						<product>
+							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
+							<value>0.85</value>
+						</product>
+					</sum>
+				</expression>
+			</factor>
+		</emission>
+	</animation>	
 </PropertyList>
 
