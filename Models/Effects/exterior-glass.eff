@@ -13,7 +13,7 @@
 		<splash-z><use>sim/model/effects/interior/windows/front/splash-vector-z</use></splash-z>
 		<glass-tint type="vec4d" n="0">0.692 1.0 1.0 1.0</glass-tint>
 		<use-reflection type="int">1</use-reflection>
-		<reflection-strength type="float">1</reflection-strength>
+		<reflection-strength type="float">0.2</reflection-strength>
 		<texture n= "3">
 			<type>cubemap</type>
 			<images>
