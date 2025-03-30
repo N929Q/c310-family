@@ -28,11 +28,11 @@ Syd Adams
 					<sum>
 						<product>
 							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
-							<value>0.45</value>
+							<value>0.35</value>
 						</product>
 						<product>
 							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
-							<value>0.15</value>
+							<value>0.05</value>
 						</product>
 					</sum>
 				</expression>
