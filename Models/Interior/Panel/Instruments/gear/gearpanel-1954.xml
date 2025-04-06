@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PropertyList>
 
-  <path>gearpanel.ac</path>
+  <path>gearpanel-1954.ac</path>
 
 <!-- Controls -->
   <animation>
@@ -289,11 +289,11 @@
 					<sum>
 						<product>
 							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
-							<value>0.55</value>
+							<value>0.18</value>
 						</product>
 						<product>
 							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
-							<value>0.25</value>
+							<value>0.42</value>
 						</product>
 					</sum>
 				</expression>

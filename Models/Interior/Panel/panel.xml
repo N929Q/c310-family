@@ -299,7 +299,7 @@
 			<heading-deg>-2</heading-deg>
 		</offsets>
 	</model>
-	
+	<!--
 	<model>
 		<path>Instruments/adf/adf.xml</path>
 		<offsets>
@@ -309,6 +309,16 @@
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
 	</model>
+	-->
+	<model>
+		<path>Instruments/hi/hi.xml</path>
+		<offsets>
+			<x-m>0.52</x-m>
+			<y-m>-0.48</y-m>
+			<z-m>0.02</z-m>
+			<pitch-deg>-4.1</pitch-deg>
+		</offsets>
+	</model>	
 	
 	<model>
 		<path>Instruments/cdi/cdi.xml</path>
@@ -563,7 +573,7 @@
 	</model>
 	
 	<model>
-		<path>Instruments/gear/gearpanel.xml</path>
+		<path>Instruments/gear/gearpanel-1954.xml</path>
 		<offsets>
 			<x-m>0.523</x-m>
 			<y-m>-0.109</y-m>
