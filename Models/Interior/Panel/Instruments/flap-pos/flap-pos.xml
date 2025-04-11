@@ -36,7 +36,7 @@
 			<z>0</z>
 		</axis>
 		<property>instrumentation/flap-position/indicated-flap-position-deg</property>
-		<factor>4.666</factor>
+		<factor>6.04</factor>
 	</animation>
 	
 	<effect>
