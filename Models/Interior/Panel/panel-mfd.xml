@@ -310,7 +310,7 @@
 		
 		<path>Instruments/vsi/vsi.xml</path>
 		<offsets>
-			<x-m>0.512</x-m>
+			<x-m>0.516</x-m>
 			<y-m>0.410</y-m>
 			<z-m>-0.015</z-m>
 			<pitch-deg>-4.3</pitch-deg>
@@ -713,6 +713,25 @@
 		</offsets>
 	</model>
 	
+	<model>
+		<path>Instruments/vacuum/vacuum2.xml</path>
+		<offsets>
+			<x-m>0.515</x-m>
+			<y-m>-0.410</y-m>
+			<z-m>-0.088</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>	-->	
+	
+	<model>
+		<path>Instruments/Clock-150/clock.xml</path>
+		<offsets>
+			<x-m>0.511</x-m>
+			<y-m>-0.410</y-m>
+			<z-m>-0.088</z-m>
+			<pitch-deg>-4.3</pitch-deg>
+		</offsets>
+	</model>
 	<!--
 	<model>
 		<path>Instruments/oat/oat.xml</path>

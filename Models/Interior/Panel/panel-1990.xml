@@ -310,7 +310,7 @@
 		
 		<path>Instruments/vsi/vsi.xml</path>
 		<offsets>
-			<x-m>0.512</x-m>
+			<x-m>0.516</x-m>
 			<y-m>0.410</y-m>
 			<z-m>-0.015</z-m>
 			<pitch-deg>-4.3</pitch-deg>

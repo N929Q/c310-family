@@ -28,7 +28,7 @@
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
             <Ti>20.0</Ti>
-            <Td>0.08</Td>
+            <Td>0.10</Td>
             <u_min>-0.5</u_min>
             <u_max>0.5</u_max>
         </config>
@@ -54,7 +54,7 @@
             <Kp>-1.0</Kp>
             <Ki>0.0</Ki>
             <Ti>5</Ti>
-            <Td>0.08</Td>
+            <Td>0.10</Td>
             <u_min>-30.0</u_min>
             <u_max>30.0</u_max>
         </config>
@@ -82,13 +82,13 @@
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
             <Ti>10.0</Ti>
-            <Td>0.08</Td>
+            <Td>0.10</Td>
             <u_min>-0.5</u_min>
             <u_max>0.5</u_max>
         </config>
     </pid-controller>
 
-<!-- VOR / Loca;izer hold-->
+<!-- VOR / Localizer hold-->
 
     <pid-controller>
         <name>Nav1 Hold Stage 1</name>
@@ -112,9 +112,9 @@
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
             <Ti>5</Ti>
-            <Td>0.08</Td>
-            <u_min>-23.0</u_min>
-            <u_max>23.0</u_max>
+            <Td>0.10</Td>
+            <u_min>-25.0</u_min>
+            <u_max>25.0</u_max>
         </config>
     </pid-controller>
 
@@ -140,7 +140,7 @@
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
             <Ti>10.0</Ti>
-            <Td>0.08</Td>
+            <Td>0.10</Td>
             <u_min>-0.5</u_min>
             <u_max>0.5</u_max>
         </config> 
@@ -157,7 +157,7 @@
     <type>noise-spike</type>
     <input>autopilot/internal/aileron-filter</input>
     <output>controls/flight/aileron</output>
-    <max-rate-of-change>1.0</max-rate-of-change>
+    <max-rate-of-change>2.75</max-rate-of-change>
 </filter>
 
 <!-- ================================ -->
@@ -189,7 +189,7 @@
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
             <Ti>10.0</Ti>
-            <Td>0.08</Td>
+            <Td>0.10</Td>
             <u_min>-1.0</u_min>
             <u_max>1.0</u_max>
         </config>
@@ -245,9 +245,9 @@
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
             <Ti>10.0</Ti>
-            <Td>0.08</Td>
+            <Td>0.10</Td>
             <u_min>-10.0</u_min>
-            <u_max>20.0</u_max>
+            <u_max>15.0</u_max>
         </config>
     </pid-controller>
 
@@ -272,8 +272,8 @@
             <beta>1.0</beta>
             <alpha>0.1</alpha>
             <gamma>0.0</gamma>
-            <Ti>20.0</Ti>
-            <Td>0.08</Td>
+            <Ti>10.0</Ti>
+            <Td>0.10</Td>
             <u_min>-0.5</u_min>
             <u_max>0.5</u_max>
         </config>
@@ -304,7 +304,7 @@
       <alpha>0.1</alpha>
       <gamma>0.0</gamma>
       <Ti>20.0</Ti>
-      <Td>0.08</Td>
+      <Td>0.10</Td>
       <u_min>-5.0</u_min>
       <u_max>5.0</u_max>
     </config>
@@ -323,7 +323,7 @@
     <type>noise-spike</type>
     <input>autopilot/internal/elevator-filter</input>
     <output>controls/flight/elevator-trim</output>
-    <max-rate-of-change>1.5</max-rate-of-change>
+    <max-rate-of-change>2.75</max-rate-of-change>
 </filter>
 
 </PropertyList>

@@ -221,7 +221,9 @@
 			<path>/sim/model/effects/interior/windows</path>
 			<path>/sim/realism</path>
 			<path>/sim/model/sun-visors/pos-norm[0]</path>
-			<path>/sim/model/sun-visors/pos-norm[1]</path>			
+			<path>/sim/model/sun-visors/pos-norm[1]</path>
+			<path>/sim/model/openable-window/pos-norm</path>
+			<path>/sim/model/openable-window/handle-pos-norm</path>			
 			<path>/instrumentation/adf[0]/frequencies/selected-khz</path>
 			<path>/instrumentation/comm[0]/volume</path>
 			<path>/instrumentation/comm[0]/frequencies/selected-mhz</path>
@@ -249,7 +251,6 @@
 			<path>/instrumentation/kns-80/wpt[1]</path>
 			<path>/instrumentation/kns-80/wpt[2]</path>
 			<path>/instrumentation/kns-80/wpt[3]</path>
-			<path>/instrumentation/kns-80/nav-mode</path>
 			<path>/instrumentation/transponder</path>
 			<path>/controls/fuel/selector[0]</path>
 			<path>/controls/fuel/selector[1]</path>
@@ -288,7 +289,8 @@
 			<path>/controls/engines/engine[1]/carb-heat</path>
 			<path>/controls/engines/engine[0]/carb-heat-lock-norm</path>
 			<path>/controls/engines/engine[1]/carb-heat-lock-norm</path>
-			<path>/controls/vacuum/gauge-source-selector</path>				
+			<path>/controls/vacuum/gauge-source-selector</path>
+			<path>/controls/vacuum/gauge-source-selector-lock</path>			
 			<path>/controls/flight/elevator-trim</path>
 			<path>/controls/flight/aileron-trim</path>
 			<path>/controls/flight/rudder-trim</path>

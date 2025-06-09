@@ -308,7 +308,7 @@
 			<z-m>0.02</z-m>
 			<pitch-deg>-4.1</pitch-deg>
 		</offsets>
-	</model>
+	</model>	
 	
 	<model>
 		<path>Instruments/cdi/cdi.xml</path>
@@ -563,7 +563,7 @@
 	</model>
 	
 	<model>
-		<path>Instruments/gear/gearpanel.xml</path>
+		<path>Instruments/gear/gearpanel-1954.xml</path>
 		<offsets>
 			<x-m>0.523</x-m>
 			<y-m>-0.109</y-m>
@@ -741,8 +741,8 @@
 	</model>
 	
 	<model>
-		<name>LeftSwitchesPanel</name>
-		<path>Controls/left-switches-panel.xml</path>
+		<name>LeftSwitchesPanel-1954</name>
+		<path>Controls/left-switches-panel-1954.xml</path>
 		<offsets>
 			<x-m>0.52408</x-m>
 			<y-m>-0.56749</y-m>

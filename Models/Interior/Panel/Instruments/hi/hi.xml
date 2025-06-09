@@ -191,6 +191,15 @@
       <wrap>1</wrap>
     </binding>
   </action>
+  <hovered>
+	<binding>
+		<command>set-tooltip</command>
+		<tooltip-id>heading-bug</tooltip-id>
+		<mapping>heading</mapping>
+		<label>Heading Bug: %3.0f</label>
+		<property>autopilot/settings/heading-bug-deg</property>
+	</binding>
+  </hovered>      
  </animation>   
 
    <!--             Heading Offset             -->
@@ -308,6 +317,15 @@
       <wrap>1</wrap>
     </binding>
   </action>
+  <hovered>
+	<binding>
+		<command>set-tooltip</command>
+		<tooltip-id>offset-deg</tooltip-id>
+		<mapping>heading</mapping>
+		<label>Heading Offset Deg: %3.0f</label>
+		<property>instrumentation/heading-indicator/offset-deg</property>
+	</binding>
+  </hovered>      
  </animation>
 
 </PropertyList>
