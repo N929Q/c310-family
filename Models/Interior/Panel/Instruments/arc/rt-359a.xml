@@ -38,9 +38,9 @@
 		<object-name>arc.xpdr.mode_knob</object-name>
 		<object-name>arc.xpdr.dim_knob</object-name>
 		<emission>
-			<red>0.95</red>
-			<green>1</green>
-			<blue>1</blue>
+			<red>1.0</red>
+			<green>0.8</green>
+			<blue>0.4</blue>
 			<factor>
 				<expression>
 					<sum>
@@ -317,8 +317,8 @@
 				<label>Identify to ATC</label>
 			</binding>
 		</hovered>
-	</animation>-->
-	<!--
+	</animation>
+
 	<animation>
 		<type>translate</type>
 		<object-name>Ident</object-name>
@@ -329,6 +329,6 @@
 			<y> 0 </y>
 			<z> 0 </z>
 		</axis>
-	</animation>-->
+	</animation>	-->
 	
 </PropertyList>

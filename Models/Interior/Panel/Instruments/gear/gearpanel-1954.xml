@@ -281,9 +281,9 @@
         <object-name>panel.gear.antiskid.sw</object-name>
         <object-name>panel.gear.antiskid.sw.socket</object-name>
 		<emission>
-			<red>0.95</red>
-			<green>1</green>
-			<blue>1</blue>
+			<red>1.0</red>
+			<green>0.8</green>
+			<blue>0.4</blue>
 			<factor>
 				<expression>
 					<sum>

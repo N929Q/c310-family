@@ -12,19 +12,19 @@
         <type>material</type>
         <object-name>FDbase</object-name>
 		<emission>
-			<red>0.95</red>
-			<green>1</green>
-			<blue>1</blue>
+			<red>1.0</red>
+			<green>0.8</green>
+			<blue>0.4</blue>
 			<factor>
 				<expression>
 					<sum>
 						<product>
 							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
-							<value>0.38</value>
+							<value>0.22</value>
 						</product>
 						<product>
 							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
-							<value>0.62</value>
+							<value>0.14</value>
 						</product>
 					</sum>
 				</expression>
@@ -67,7 +67,7 @@
             <binding>
                 <command>property-adjust</command>
                 <property>/autopilot/settings/target-pitch-deg</property>
-                <step>-0.05</step>
+                <step>1</step>
                 <min>-15.0</min>
                 <max>15.0</max>
                 <wrap>false</wrap>
@@ -91,7 +91,7 @@
             <binding>
                 <command>property-adjust</command>
                 <property>/autopilot/settings/target-pitch-deg</property>
-                <step>0.05</step>
+                <step>1</step>
                 <min>-15.0</min>
                 <max>15.0</max>
                 <wrap>false</wrap>

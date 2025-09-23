@@ -2,34 +2,6 @@
 <PropertyList>
 	<path>astrotech-lc2.ac</path>
 	
-    <animation>
-        <type>material</type>
-        <object-name>ModeButton</object-name>
-        <object-name>SetResetButton</object-name>
-        <object-name>StSpDtAvButton</object-name>
-        <object-name>AstrotechLC2Display</object-name>
-        <object-name>Label</object-name>
-		<emission>
-			<red>1.0</red>
-			<green>0.8</green>
-			<blue>0.4</blue>
-			<factor>
-				<expression>
-					<sum>
-						<product>
-							<property>sim/model/lights/uv-instrument[0]/brightness-norm</property>
-							<value>0.75</value>
-						</product>
-						<product>
-							<property>sim/model/lights/uv-instrument[1]/brightness-norm</property>
-							<value>0.75</value>
-						</product>
-					</sum>
-				</expression>
-			</factor>
-		</emission>
-    </animation>	
-	
 	<animation>
 		<type>slider</type>
 		<object-name>ModeButton</object-name>

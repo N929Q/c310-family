@@ -8,9 +8,9 @@
 		<object-name>CagedFlag</object-name>
 		<object-name>Needle</object-name>
 		<emission>
-			<red>0.95</red>
-			<green>1</green>
-			<blue>1</blue>
+			<red>1.0</red>
+			<green>0.8</green>
+			<blue>0.4</blue>
 			<factor>
 				<expression>
 					<sum>
@@ -53,7 +53,7 @@
 				</condition>
 				<command>property-adjust</command>
 				<property>instrumentation/directional-gyro/align-deg</property>
-				<factor>0.1</factor>
+				<factor>1.0</factor>
 				<min>0</min>
 				<max>360</max>
 				<wrap>true</wrap>
@@ -70,7 +70,7 @@
 				<command>set-tooltip</command>
 				<tooltip-id>directional-gyro-caging-knob</tooltip-id>
 				<label>DG offset: %s</label>
-				<measure-text>DG offset: 360.0°, caged</measure-text>
+				<measure-text>DG offset: 360.0° Caged</measure-text>
 				<property>instrumentation/directional-gyro/align-deg</property>
 				<mapping>nasal</mapping>
 				<script>
